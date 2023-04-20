@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="privacy_policy_popup_text">Політика конфіденційності (вимагається деякими магазинами):
+\n
+\nЖОДНОЇ ІНФОРМАЦІЇ НЕ ЗБИРАЄТЬСЯ, що може підтвердити будь-хто, адже наш застосунок це вільне програмне забезпечення.</string>
+    <string name="noGiftCards">Натисніть кнопку +, щоб додати картку, або ⋮ для імпорту з меню.</string>
+    <string name="settings_display_barcode_max_brightness">Яскравіший штрих-код</string>
+    <string name="enterBarcodeInstructions">Введіть ID та оберіть тип штрих-коду чи \"Не має штрих-коду\".</string>
+    <string name="selectBarcodeTitle">Оберіть штрих-код</string>
+    <string name="scanCardBarcode">Відсканувати штрих-код</string>
+    <string name="noBarcode">Без штрих-коду</string>
+    <string name="barcodeNoBarcode">Штрих-код відсутній</string>
+    <string name="barcodeType">Тип штрих-коду</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> картка</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> карток</item>
+        <item quantity="many"><xliff:g>%d</xliff:g> картки</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> картки</item>
+    </plurals>
+    <string name="no">НІ</string>
+    <string name="yes">Так</string>
+    <string name="updateBarcodeQuestionText">Ви змінили ID. Чи ви бажаєте оновити штрих-код для використання цього ж значення\?</string>
+    <string name="updateBarcodeQuestionTitle">Оновити значення штрих-коду\?</string>
+    <string name="wrongValueForBarcodeType">Значення не дійсне для обраного типу штрих-коду</string>
+    <string name="unsupportedBarcodeType">Цей тип штрих-коду поки що не відображається. Підтримку може бути додано в подальших версіях застосунку.</string>
+    <string name="setBarcodeId">Встановіть значення штрих-коду</string>
+    <string name="sameAsCardId">Таке ж як ID</string>
+    <string name="barcodeId">Значення штрих-коду</string>
+    <string name="importVoucherVaultMessage">Оберіть Voucher Vault експорт-файл названий <i>vouchervault.json</i> для імпортування.
+\nСтворіть його натиснувши \"Експорт\" у Voucher Vault.</string>
+    <string name="importVoucherVault">Імпорт з Voucher Vault</string>
+    <string name="importLoyaltyCardKeychainMessage">Знайдіть файл названий <i>LoyaltyCardKeychain.csv</i> для імпортування.
+\nСтворіть його у меню імпорту/експорту Loyalty Card Keychain натиснувши \"Експорт\".</string>
+    <string name="importCatimaMessage">Оберіть експорт-файл названий <i>catima.zip</i> для імпортування.
+\nСтворіть його з меню імпорту/експорту у іншій Catima, натиснувши \"Експорт\".</string>
+    <string name="importLoyaltyCardKeychain">Імпорт з Loyalty Card Keychain</string>
+    <string name="importFidmeMessage">Оберіть FidMe експорт-файл названий <i>fidme-export-request-xxxxxx.zip</i> для імпортування і оберіть типи штрих-кодів.
+\nСтворіть його у вашому FidMe профілі обравши \"Захист даних -&gt; Витяг даних\".</string>
+    <string name="importFidme">Імпорт з FidMe</string>
+    <string name="importCatima">Імпорт з Catima</string>
+    <string name="accept">Прийняти</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="app_loyalty_card_keychain">Loyalty Card Keychain</string>
+    <string name="chooseImportType">Імпортувати дані з</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> здається, не є дійсним залишком.</string>
+    <string name="points">Бали</string>
+    <string name="currency">Валюта</string>
+    <string name="balance">Баланс</string>
+    <string name="errorReadingImage">Неможливо прочитати зображення</string>
+    <string name="noBarcodeFound">Жодного штрих-коду не знайдено</string>
+    <string name="moveBarcodeToCenterOfScreen">Відцентрувати штрих-код на екрані</string>
+    <string name="moveBarcodeToTopOfScreen">Посунути штрих-код наверх екрану</string>
+    <string name="chooseExpiryDate">Оберіть дату</string>
+    <string name="never">Ніколи</string>
+    <string name="expiryDate">Дата закінчення терміну дії</string>
+    <string name="editBarcode">Редагувати штрих-код</string>
+    <string name="barcode">Штрих-код</string>
+    <string name="card">Картка</string>
+    <string name="balanceSentence">Баланс: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Термін дії закінчився: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">Термін дії закінчується: <xliff:g>%s</xliff:g></string>
+    <string name="groupsList">Групи: <xliff:g>%s</xliff:g></string>
+    <string name="addFromImage">Оберіть зображення з галереї</string>
+    <string name="addManually">Ввести ID вручну</string>
+    <string name="leaveWithoutSaveConfirmation">Вийти без збереження\?</string>
+    <string name="leaveWithoutSaveTitle">Вихід</string>
+    <string name="moveDown">Посунути донизу</string>
+    <string name="moveUp">Посунути вгору</string>
+    <string name="failedOpeningFileManager">Спочатку встановіть файловий менеджер.</string>
+    <string name="deleteConfirmationGroup">Видалити групу\?</string>
+    <string name="all">Усі</string>
+    <string name="noGroups">Натисніть + щоб додати групи для категоризації.</string>
+    <string name="groups">Групи</string>
+    <string name="enter_group_name">Введіть ім\'я групи</string>
+    <string name="exportSuccessful">Дані експортовано</string>
+    <string name="importSuccessful">Дані імпортовано</string>
+    <string name="intent_import_card_from_url_share_text">Я хочу поділитися з тобою картою</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Не блокувати екран</string>
+    <string name="settings_keep_screen_on">Не вимикати екран</string>
+    <string name="settings_max_font_size_scale">Макс. розмір шрифту</string>
+    <string name="settings_dark_theme">Темна</string>
+    <string name="settings_light_theme">Світла</string>
+    <string name="settings_system_theme">Системна</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_category_title_ui">Інтерфейс користувача</string>
+    <string name="settings">Налаштування</string>
+    <string name="starImage">Улюблена зірка</string>
+    <string name="thumbnailDescription">Ескіз</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Я хочу поділитися деякими картами з тобою</string>
+    <string name="copy_to_clipboard_multiple_toast">ID скопійовано до буферу обміну</string>
+    <string name="copy_to_clipboard_toast">ID скопійовано до буферу обміну</string>
+    <string name="app_resources">Вільні ресурси третіх сторін: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Вільні бібліотеки третіх сторін: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_revision_fmt">Інформація про випуск: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="debug_version_fmt">Версія: <xliff:g id="version">%s</xliff:g></string>
+    <string name="about_title_fmt">Про <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="app_license">Копілефт вільне програмне забезпечення, ліцензоване під GPLv3+</string>
+    <string name="app_copyright_old">Створено на основі Loyalty Card Keychain
+\nавторські права © 2016–2020 Branden Archer</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Авторські права © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="about">Про програму</string>
+    <string name="importOptionApplicationButton">Використовувати інший застосунок</string>
+    <string name="importOptionApplicationExplanation">Використайте інший застосунок чи ваш улюблений файл-менеджер для відкриття файлу.</string>
+    <string name="importOptionApplicationTitle">З іншого застосунку</string>
+    <string name="importOptionFilesystemButton">Обрати файл</string>
+    <string name="importOptionFilesystemExplanation">Оберіть файл у провіднику.</string>
+    <string name="importOptionFilesystemTitle">Імпорт з файлу</string>
+    <string name="exportOptionExplanation">Дані буде записано до локації обраної вами.</string>
+    <string name="exporting">Експортуємо…</string>
+    <string name="importing">Імпортуємо…</string>
+    <string name="exportFailed">Неможливо здійснити експорт</string>
+    <string name="exportFailedTitle">Помилка експорту</string>
+    <string name="exportSuccessfulTitle">Експортовано</string>
+    <string name="importFailed">Неможливо здійснити імпорт</string>
+    <string name="importFailedTitle">Помилка імпорту</string>
+    <string name="importSuccessfulTitle">Імпортовано</string>
+    <string name="importExportHelp">Резервна копія даних дозволяє перемістити їх до іншого пристрою.</string>
+    <string name="exportName">Експорт</string>
+    <string name="importExport">Імпорт/Експорт</string>
+    <string name="failedParsingImportUriError">Неможливо опрацювати імпорт-URI</string>
+    <string name="noCardExistsError">Карту не знайдено</string>
+    <string name="noCardIdError">ID не введено</string>
+    <string name="noStoreError">Ім\'я не введено</string>
+    <string name="card_ids_copied">ID скопійовано</string>
+    <string name="noCardsMessage">Спочатку додайте карту</string>
+    <string name="cardShortcut">Швидкий виклик карти</string>
+    <string name="addCardTitle">Додати карту</string>
+    <string name="editCardTitle">Редагувати карту</string>
+    <string name="sendLabel">Відправити…</string>
+    <string name="share">Поділитися</string>
+    <string name="copy_to_clipboard">Копіювати ID до буферу обміну</string>
+    <string name="ok">ОК</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="delete">Видалити</string>
+    <string name="edit">Редагувати</string>
+    <string name="save">Зберегти</string>
+    <string name="cancel">Скасувати</string>
+    <string name="unstar">Видалити з улюблених</string>
+    <string name="star">Додати до улюблених</string>
+    <string name="cardId">ID картки</string>
+    <string name="note">Замітка</string>
+    <string name="storeName">Ім\'я</string>
+    <string name="noMatchingGiftCards">Збігів не знайдено. Спробуйте змінити параметри пошуку.</string>
+    <string name="action_add">Додати</string>
+    <string name="action_search">Пошук</string>
+    <string name="turn_flashlight_off">Вимкнути спалах</string>
+    <string name="turn_flashlight_on">Увімкнути спалах</string>
+    <string name="failedGeneratingShareURL">Збій створення URL обміну. Будь ласка повідомте про цю помилку.</string>
+    <string name="passwordRequired">Будь ласка введіть пароль</string>
+    <string name="takePhoto">Зробити світлину</string>
+    <string name="removeImage">Видалити зображення</string>
+    <string name="setBackImage">Встановити зображення тильної сторони</string>
+    <string name="setFrontImage">Встановити зображення лицьової сторони</string>
+    <string name="photos">Світлини</string>
+    <string name="backImageDescription">Тильна сторона</string>
+    <string name="frontImageDescription">Лицьова сторона</string>
+    <string name="importStocardMessage">Виберіть експорт <i> ***.zip </i> зі Stocard для імпорту.
+\nОтримайте його, надіславши електронного листа support@stocardapp.com з проханням експортувати ваші дані.</string>
+    <string name="importStocard">Імпорт із Stocard</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one">Обрано: <xliff:g>%d</xliff:g></item>
+        <item quantity="few">Обрані: <xliff:g>%d</xliff:g></item>
+        <item quantity="many">Обрано: <xliff:g>%d</xliff:g></item>
+        <item quantity="other">Обрано: <xliff:g>%d</xliff:g></item>
+    </plurals>
+    <string name="deleteTitle">Видалити картку</string>
+    <string name="deleteConfirmation">Бажаєте видалити карту\?</string>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Видалити <xliff:g>%d</xliff:g> картку</item>
+        <item quantity="few">Видалити <xliff:g>%d</xliff:g> картки</item>
+        <item quantity="many">Видалити <xliff:g>%d</xliff:g> карток</item>
+        <item quantity="other">Видалити <xliff:g>%d</xliff:g> карток</item>
+    </plurals>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Видалити цю <xliff:g>%d</xliff:g> карту назавжди\?</item>
+        <item quantity="few">Видалити ці <xliff:g>%d</xliff:g> карти назавжди\?</item>
+        <item quantity="many">Видалити ці <xliff:g>%d</xliff:g> карт назавжди\?</item>
+        <item quantity="other">Видалити ці <xliff:g>%d</xliff:g> карт назавжди\?</item>
+    </plurals>
+    <string name="settings_blue_theme">Синій</string>
+    <string name="settings_violet_theme">Фіолетовий</string>
+    <string name="settings_magenta_theme">Пурпуровий</string>
+    <string name="settings_pink_theme">Рожевий</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Колір теми</string>
+    <string name="settings_system_locale">Системна</string>
+    <string name="settings_locale">Мова</string>
+    <string name="settings_brown_theme">Коричневий</string>
+    <string name="settings_grey_theme">Сірий</string>
+    <string name="settings_green_theme">Зелений</string>
+    <string name="settings_sky_blue_theme">Небесно-синій</string>
+    <string name="app_contributors">Стало можливим завдяки: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="noGroupCards">Пуста група</string>
+    <string name="barcodeImageDescriptionWithType">Зображення штрих-коду <xliff:g>%s</xliff:g></string>
+    <string name="swipeToSwitchImages">Свайп для зміни зображень, довге натискання для перегляду в галереї</string>
+    <string name="sort_by">Сортувати за</string>
+    <string name="reverse">… у зворотному порядку</string>
+    <string name="sort_by_balance">Баланс</string>
+    <string name="sort_by_expiry">Термін дії</string>
+    <string name="sort_by_most_recently_used">Часто використовувані</string>
+    <string name="sort_by_name">Назва</string>
+    <string name="sort">Сортувати</string>
+    <string name="version_history">Історія версій</string>
+    <string name="help_translate_this_app">Допомогти з перекладом застосунку</string>
+    <string name="license">Ліцензія</string>
+    <string name="source_repository">Початковий код</string>
+    <string name="on_github">на GitHub</string>
+    <string name="and_data_usage">та використання даних</string>
+    <string name="credits">Подяки</string>
+    <string name="rate_this_app">Оцінити застосунок</string>
+    <string name="on_google_play">у Google Play</string>
+    <string name="report_error">Повідомити про помилку</string>
+    <string name="exportPassword">Встановіть пароль для захисту експорту (необов\'язково)</string>
+    <string name="exportPasswordHint">Введіть пароль</string>
+    <string name="group_name_is_empty">Назва групи не може бути пустою</string>
+    <string name="group_updated">Групу оновлено</string>
+    <string name="editGroup">Редагування групи: <xliff:g>%s</xliff:g></string>
+    <string name="group_edit">Змінити групу</string>
+    <string name="group_name_already_in_use">Група з такою назвою вже існує</string>
+    <string name="noGiftCardsGroup">Створите кілька карток, та призначте їх до групи тут.</string>
+    <string name="selectColor">Вибір кольору</string>
+    <string name="setIcon">Вибір іконки</string>
+    <string name="action_show_details">Показати деталі</string>
+    <string name="action_hide_details">Сховати деталі</string>
+    <string name="translate_platform">на Weblate</string>
+    <string name="shortcutSelectCard">Оберіть карту</string>
+    <string name="options">Параметри</string>
+    <string name="showMoreInfo">Відобразити дані</string>
+    <string name="starred">Обране</string>
+    <string name="set_scale">Зміна масштабу</string>
+    <string name="hideMoreInfo">Сховати дані</string>
+    <string name="settings_oled_dark">Повністю чорний фон для темної теми</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> бал</item>
+        <item quantity="few"><xliff:g>%s</xliff:g> бали</item>
+        <item quantity="many"><xliff:g>%s</xliff:g> балів</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> балів</item>
+    </plurals>
+    <string name="include_if_asking_support">Якщо ви хочете отримати техпідтримку, додайте цю інформацію:</string>
+    <string name="unarchive">Розархівувати</string>
+    <string name="settings_card_orientation">Орієнтація штрих-коду</string>
+    <string name="settings_follow_system_orientation">Як у системі</string>
+    <string name="duplicateCard">Дублювати</string>
+    <string name="archive">Архівувати</string>
+    <string name="settings_portrait_orientation">Поличчя</string>
+    <string name="settings_landscape_orientation">Краєвид</string>
+    <string name="settings_lock_on_opening_orientation">Блокування орієнтації при відкритті картки</string>
+    <string name="archived">Картка архівована</string>
+    <string name="unarchived">Картка розархівована</string>
+    <string name="archiveList">Архів</string>
+    <string name="noUnarchivedCardsMessage">Немає не архівованих карток</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> карту (<xliff:g id="archivedCount">%2$d</xliff:g> заархівовано)</item>
+        <item quantity="few"><xliff:g>%1$d</xliff:g> карти (<xliff:g id="archivedCount">%2$d</xliff:g> заархівовано)</item>
+        <item quantity="many"><xliff:g>%1$d</xliff:g> карт (<xliff:g id="archivedCount">%2$d</xliff:g> заархівовано)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> карт (<xliff:g id="archivedCount">%2$d</xliff:g> заархівовано)</item>
+    </plurals>
+    <string name="failedLaunchingPhotoPicker">Підтримуваний застосунок галереї не знайдено</string>
+    <string name="previousCard">Попередня</string>
+    <string name="nextCard">Наступна</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Переглянути архів (<xliff:g>%1$d</xliff:g> картка)</item>
+        <item quantity="few">Переглянути архів (<xliff:g>%1$d</xliff:g> картки)</item>
+        <item quantity="many">Переглянути архів (<xliff:g>%1$d</xliff:g> карток)</item>
+        <item quantity="other">Переглянути архів (<xliff:g>%1$d</xliff:g> карток)</item>
+    </plurals>
+    <string name="failedToOpenUrl">Спочатку встановіть браузер</string>
+    <string name="welcome">Ласкаво просимо до Catima</string>
+    <string name="failedToRetrieveImageFile">Збій доступу до файлу зображення</string>
+    <string name="barcodeLongPressMessage">Галерея може відкривати лише зображення</string>
+    <string name="importCards">Імпорт карток</string>
+    <string name="updateBalanceTitle">Скільки витратили\?</string>
+    <string name="updateBalanceHint">Введіть суму</string>
+    <string name="currentBalanceSentence">Поточний баланс: <xliff:g>%s</xliff:g></string>
+    <string name="newBalanceSentence">Новий баланс: <xliff:g>%s</xliff:g></string>
+    <string name="cameraPermissionDeniedTitle">Не вдалося отримати доступ до камери</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Для сканування штрих-кодів програмі Catima потрібен доступ до вашої камери. Натисніть тут, щоб змінити дозволи.</string>
+    <string name="updateBalance">Оновити баланс</string>
+    <string name="storageReadPermissionRequired">Дозвіл на читання сховища, необхідний для цієї дії…</string>
+    <string name="cameraPermissionRequired">Дозвіл на доступ до камери, необхідний для цієї дії…</string>
+    <string name="validFromDate">Дійсний від</string>
+    <string name="anyDate">Будь-яка дата</string>
+    <string name="chooseValidFromDate">Виберіть термін дії з дати</string>
+    <string name="validFromSentence">Дійсний від: <xliff:g>%s</xliff:g></string>
+</resources>

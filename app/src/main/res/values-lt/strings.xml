@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_add">Pridėti</string>
+    <string name="noGiftCards">Norėdami pridėti kortelę, spustelėkite mygtuką + arba importuokite kortelę iš ⋮ meniu.</string>
+    <string name="storeName">Pavadinimas</string>
+    <string name="note">Užrašas</string>
+    <string name="cardId">Kortelės ID</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="save">Išsaugoti</string>
+    <string name="edit">Redaguoti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="confirm">Patvirtinti</string>
+    <string name="ok">Gerai</string>
+    <string name="copy_to_clipboard">Nukopijuoti ID į iškarpinę</string>
+    <string name="editCardTitle">Redaguoti lojalumo kortelę</string>
+    <string name="addCardTitle">Pridėti lojalumo kortelę</string>
+    <string name="scanCardBarcode">Nuskaityti brūkšninį kodą</string>
+    <string name="noStoreError">Neįvestas pavadinimas</string>
+    <string name="noCardIdError">Neįvestas ID</string>
+    <string name="importExport">Importuoti/Exportuoti</string>
+    <string name="exportName">Exportuoti</string>
+    <string name="importFailed">Nepavyko importuoti</string>
+    <string name="exportFailed">Nepavyko eksportuoti</string>
+    <string name="importing">Importuoja…</string>
+    <string name="exporting">Eksportuoja…</string>
+    <string name="about">Apie</string>
+    <string name="app_license">Copylefted laisvoji programinė įranga, licencijuota GPLv3+</string>
+    <string name="about_title_fmt">Apie <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Versija: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Revizijos info: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="selectBarcodeTitle">Pasirinkite brūkšninį kodą</string>
+    <string name="copy_to_clipboard_toast">ID nukopijuota į iškarpinę</string>
+    <string name="card_ids_copied">Nukopijuoti ID</string>
+    <string name="noCardsMessage">Pirmiausia pridėkite kortelę</string>
+    <string name="sendLabel">Siųsti…</string>
+    <string name="unstar">Pašalinti iš mėgstamiausių</string>
+    <string name="star">Pridėti prie mėgstamiausių</string>
+    <string name="noBarcode">Nėra brūkšninio kodo</string>
+    <string name="barcodeNoBarcode">Brūkšninio kodo nėra</string>
+    <string name="barcodeType">Brūkšninio kodo tipas</string>
+    <string name="noMatchingGiftCards">Rezultatų nėra. Pabandykite pakeisti paiešką.</string>
+    <string name="action_search">Ieškoti</string>
+    <string name="cardShortcut">Kortelės sparčioji nuoroda</string>
+    <string name="importVoucherVaultMessage">Pasirinkite savo <i>vouchervault.json</i> eksportą iš Voucher Vault, kurį norite importuoti.
+\nSukurkite jį pirmiausia paspausdami Eksportuoti Voucher Vault.</string>
+    <string name="importVoucherVault">Importuoti iš Voucher Vault</string>
+    <string name="importLoyaltyCardKeychainMessage">Pasirinkite savo <i> LoyaltyCardKeychain.csv</i> eksportą iš Loyalty Card Keychain, kurį norite importuoti.
+\nSukurkite jį iš Loyalty Card Keychain meniu Importavimas/Eksportavimas, pirmiausia paspausdami Eksportuoti.</string>
+    <string name="importLoyaltyCardKeychain">Importuoti iš Loyalty Card Keychain</string>
+    <string name="app_loyalty_card_keychain">Lojalumo kortelės</string>
+    <string name="parsingBalanceFailed">Panašu, kad <xliff:g> %s </xliff:g> reikšmė nėra tinkama.</string>
+    <string name="moveBarcodeToCenterOfScreen">Centruoti brūkšninį kodą ekrane</string>
+    <string name="moveBarcodeToTopOfScreen">Perkelti brūkšninį kodą į ekrano viršų</string>
+    <string name="settings_display_barcode_max_brightness">Šviesinti brūkšninio kodo rodinį</string>
+    <string name="failedParsingImportUriError">Nepavyko iššifruoti importo URI</string>
+    <string name="turn_flashlight_off">Išjunkti žibintuvėlį</string>
+    <string name="turn_flashlight_on">Įjunkti žibintuvėlį</string>
+    <string name="failedGeneratingShareURL">Nepavyko sugeneruoti bendrinamo URL. Praneškite apie tai.</string>
+    <string name="passwordRequired">Įveskite slaptažodį</string>
+    <string name="no">Ne</string>
+    <string name="yes">Taip</string>
+    <string name="updateBarcodeQuestionText">Pakeitėte ID. Ar norite atnaujinti ir brūkšninį kodą, kad būtų naudojama ta pati reikšmė\?</string>
+    <string name="updateBarcodeQuestionTitle">Atnaujinti brūkšninio kodo reikšmę\?</string>
+    <string name="takePhoto">Nufotografuoti</string>
+    <string name="removeImage">Pašalinti vaizdą</string>
+    <string name="setBackImage">Nustatyti galinį vaizdą</string>
+    <string name="setFrontImage">Nustatyti priekinį vaizdą</string>
+    <string name="photos">Nuotraukos</string>
+    <string name="backImageDescription">Galinis vaizdas</string>
+    <string name="frontImageDescription">Priekinis vaizdas</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Noriu su jumis pasidalyti keliomis kortelėmis</string>
+    <string name="copy_to_clipboard_multiple_toast">ID nukopijuotas į iškarpinę</string>
+    <string name="wrongValueForBarcodeType">Vertė netinkama pasirinktam brūkšninio kodo tipui</string>
+    <string name="unsupportedBarcodeType">Šio brūkšninio kodo tipo dar negalima rodyti. Galbūt jis bus palaikomas vėlesnėje programėlės versijoje.</string>
+    <string name="setBarcodeId">Nustatyti brūkšninio kodo reikšmę</string>
+    <string name="sameAsCardId">Tokia pat kaip ID</string>
+    <string name="barcodeId">Brūkšninio kodo reikšmė</string>
+    <string name="importStocardMessage">Pasirinkite <i>***.zip</i> eksportą iš Stocard, kad galėtumėte importuoti.
+\nGaukite susisiekę el. paštu support@stocardapp.com, prašydami eksportuoti jūsų duomenis.</string>
+    <string name="importStocard">Importuoti iš Stocard</string>
+    <string name="importFidmeMessage">Pasirinkite <i>fidme-export-request-xxxxxx.zip</i> eksportą iš FidMe, kurį norite importuoti, ir po to brūkšninių kodų tipus pasirinkite rankiniu būdu.
+\nSukurkite jį iš savo FidMe profilio, pasirinkę Duomenų apsauga ir pirmiausia paspaudę Išgauti mano duomenis.</string>
+    <string name="importFidme">Importuoti iš FidMe</string>
+    <string name="importCatimaMessage">Norėdami importuoti, pasirinkite savo <i> catima.zip </i> eksportavimą iš Catima.
+\nSukurkite ją iš kitos Catima programos importavimo / eksportavimo meniu, pirmiausia ten paspausdami Eksportuoti.</string>
+    <string name="importCatima">Importuoti iš Catima</string>
+    <string name="accept">Priimti</string>
+    <string name="privacy_policy_popup_text">Privatumo politikos pranešimas (kurio reikalaujama kai kuriose programėlių parduotuvėse):
+\n
+\nJOKIE DUOMENYS NĖRA RENKAMI, o tai gali patvirtinti bet kas, nes mūsų programėlė yra laisvoji programinė įranga.</string>
+    <string name="privacy_policy">Privatumo politika</string>
+    <string name="chooseImportType">Importuoti duomenis iš</string>
+    <string name="points">Taškai</string>
+    <string name="currency">Valiuta</string>
+    <string name="balance">Balansas</string>
+    <string name="errorReadingImage">Nepavyko nuskaityti paveikslėlio</string>
+    <string name="noBarcodeFound">Nerastas joks brūkšninis kodas</string>
+    <string name="chooseExpiryDate">Pasirinkite galiojimo datą</string>
+    <string name="never">Niekada</string>
+    <string name="expiryDate">Galiojimo data</string>
+    <string name="editBarcode">Redaguoti brūkšninį kodą</string>
+    <string name="barcode">Brūkšninis kodas</string>
+    <string name="card">Kortelė</string>
+    <string name="balanceSentence">Balansas: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Galiojimas baigėsi: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">Nustoja galioti: <xliff:g>%s</xliff:g></string>
+    <string name="groupsList">Grupės: <xliff:g> %s </xliff:g></string>
+    <string name="addFromImage">Pasirinkti vaizdą iš galerijos</string>
+    <string name="addManually">Rankiniu būdu įvesti ID</string>
+    <string name="leaveWithoutSaveConfirmation">Išeiti neišsaugojus\?</string>
+    <string name="leaveWithoutSaveTitle">Išeiti</string>
+    <string name="moveDown">Judėti žemyn</string>
+    <string name="moveUp">Judėti aukštyn</string>
+    <string name="failedOpeningFileManager">Pirmiausia įdiekite failų tvarkyklę.</string>
+    <string name="deleteConfirmationGroup">Ištrinti grupę\?</string>
+    <string name="all">Visos</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> kortelę</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> kortelės</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> kortelių</item>
+    </plurals>
+    <string name="noGroups">Spustelėkite mygtuką +, kad pridėtumėte grupes kategorizavimui.</string>
+    <string name="groups">Grupės</string>
+    <string name="enter_group_name">Įvesti grupės pavadinimą</string>
+    <string name="exportSuccessful">Duomenys eksportuoti</string>
+    <string name="importSuccessful">Duomenys importuoti</string>
+    <string name="intent_import_card_from_url_share_text">Noriu pasidalyti su jumis kortele</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Neleisti užrakinti ekrano</string>
+    <string name="settings_keep_screen_on">Laikyti ekraną įjungtą</string>
+    <string name="settings_max_font_size_scale">Didžiausias šrifto dydis</string>
+    <string name="settings_dark_theme">Tamsi</string>
+    <string name="settings_light_theme">Šviesi</string>
+    <string name="settings_system_theme">Sistemos</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_category_title_ui">Vartotojo sąsaja</string>
+    <string name="settings">Nustatymai</string>
+    <string name="starImage">Mėgstamiausia žvaigždė</string>
+    <string name="thumbnailDescription">Miniatiūra</string>
+    <string name="enterBarcodeInstructions">Įveskite ID ir toliau pasirinkite brūkšninio kodo tipą arba \"Nėra brūkšninio kodo\".</string>
+    <string name="app_resources">Laisvosios trečiųjų šalių ištekliai: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Laisvosios trečiųjų šalių bibliotekos: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_copyright_old">Paremta Loyalty Card Keychain
+\nautorinės teisės © 2016–2020 Branden Archer</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Autorinės teisės © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="importOptionApplicationButton">Naudoti kitą programą</string>
+    <string name="importOptionApplicationExplanation">Norėdami atidaryti failą, naudokite bet kurią programą arba mėgstamą failų tvarkyklę.</string>
+    <string name="importOptionApplicationTitle">Naudoti kitą programą</string>
+    <string name="importOptionFilesystemButton">Iš failų sistemos</string>
+    <string name="importOptionFilesystemExplanation">Pasirinkite konkretų failą iš failų sistemos.</string>
+    <string name="importOptionFilesystemTitle">Importuoti iš failų sistemos</string>
+    <string name="exportOptionExplanation">Duomenys bus įrašyti į jūsų pasirinktą vietą.</string>
+    <string name="exportFailedTitle">Eksportuoti nepavyko</string>
+    <string name="exportSuccessfulTitle">Eksportuota</string>
+    <string name="importFailedTitle">Importuoti nepavyko</string>
+    <string name="importSuccessfulTitle">Importuota</string>
+    <string name="importExportHelp">Duomenų atsarginių kopijų darymas leidžia perkelti juos į kitą įrenginį.</string>
+    <string name="noCardExistsError">Nepavyko rasti šios kortelės</string>
+    <string name="share">Dalintis</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one">Pasirinkta: <xliff:g>%d</xliff:g> kortelė</item>
+        <item quantity="few">Pasirinktos: <xliff:g>%d</xliff:g> kortelės</item>
+        <item quantity="other">Pasirinkta: <xliff:g>%d</xliff:g> kortelių</item>
+    </plurals>
+    <string name="deleteTitle">Panaikinti lojalumo kortelę</string>
+    <string name="deleteConfirmation">Ištrinti šią kortelę\?</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Ištrinti šią <xliff:g>%d</xliff:g> kortelę visam laikui\?</item>
+        <item quantity="few">Ištrinti šias <xliff:g>%d</xliff:g> korteles visam laikui\?</item>
+        <item quantity="other">Ištrinti šias <xliff:g>%d</xliff:g> kortelių visam laikui\?</item>
+    </plurals>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Ištrinti <xliff:g>%d</xliff:g> kortelę</item>
+        <item quantity="few">Ištrinti <xliff:g>%d</xliff:g> korteles</item>
+        <item quantity="other">Ištrinti <xliff:g>%d</xliff:g> kortelių</item>
+    </plurals>
+    <string name="settings_system_locale">Sistemos</string>
+    <string name="settings_locale">Kalba</string>
+    <string name="settings_brown_theme">Ruda</string>
+    <string name="settings_grey_theme">Pilka</string>
+    <string name="settings_green_theme">Žalia</string>
+    <string name="settings_sky_blue_theme">Dangaus mėlynumo</string>
+    <string name="settings_blue_theme">Mėlyna</string>
+    <string name="settings_violet_theme">Violetinė</string>
+    <string name="settings_magenta_theme">Rausvai raudona</string>
+    <string name="settings_pink_theme">Rožinė</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Temos spalva</string>
+    <string name="app_contributors">Tapo įmanoma su pagalba: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="noGroupCards">Grupėje yra tuščia</string>
+    <string name="barcodeImageDescriptionWithType"><xliff:g>%s</xliff:g> brūkšninio kodo vaizdas</string>
+    <string name="swipeToSwitchImages">Braukite, kad perjungtumėte vaizdus, palaikykite, kad atvertumėte vaizdą galerijos programėlėje</string>
+    <string name="sort_by">Rikiuoti pagal</string>
+    <string name="reverse">…atvirkštine tvarka</string>
+    <string name="sort_by_balance">Balansas</string>
+    <string name="sort_by_expiry">Galiojimo pabaiga</string>
+    <string name="sort_by_most_recently_used">Vėliausiai naudota</string>
+    <string name="sort_by_name">Pavadinimas</string>
+    <string name="sort">Rikiuoti</string>
+    <string name="credits">Padėkos</string>
+    <string name="source_repository">Šaltinio repozitorija</string>
+    <string name="and_data_usage">ir duomenų naudojimas</string>
+    <string name="rate_this_app">Įvertinkite šią programėlę</string>
+    <string name="version_history">Versijų istorija</string>
+    <string name="license">Licencija</string>
+    <string name="on_github">GitHub</string>
+    <string name="on_google_play">Google Play</string>
+    <string name="help_translate_this_app">Padėkite išversti šią programėlę</string>
+    <string name="report_error">Pranešti apie klaidą</string>
+    <string name="exportPasswordHint">Įveskite slaptažodį</string>
+    <string name="exportPassword">Nustatykite slaptažodį, kad apsaugotumėte eksportavimą (neprivaloma)</string>
+    <string name="group_name_already_in_use">Toks grupės pavadinimas jau naudojamas</string>
+    <string name="group_name_is_empty">Grupės pavadinimas negali būti tuščias</string>
+    <string name="editGroup">Redaguojama grupė: <xliff:g>%s</xliff:g></string>
+    <string name="group_updated">Grupė atnaujinta</string>
+    <string name="group_edit">Redaguoti grupę</string>
+    <string name="noGiftCardsGroup">Sukurkite keletą kortelių ir priskirkite jas grupei čia.</string>
+    <string name="setIcon">Nustatyti piktogramą</string>
+    <string name="selectColor">Pasirinkti spalvą</string>
+    <string name="action_hide_details">Paslėpti informaciją</string>
+    <string name="action_show_details">Rodyti išsamią informaciją</string>
+    <string name="settings_card_orientation">Brūkšninio kodo orientacija</string>
+    <string name="archiveList">Archyvas</string>
+    <string name="noUnarchivedCardsMessage">Nėra išarchyvuotų kortelių</string>
+    <string name="failedLaunchingPhotoPicker">Nepavyko rasti palaikomos galerijos programėlės</string>
+    <string name="previousCard">Ankstesnė</string>
+    <string name="nextCard">Kita</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Peržiūrėti archyvą (<xliff:g>%1$d</xliff:g> kortelė)</item>
+        <item quantity="few">Peržiūrėti archyvą (<xliff:g>%1$d</xliff:g> kortelės)</item>
+        <item quantity="other">Peržiūrėti archyvą (<xliff:g>%1$d</xliff:g> kortelių)</item>
+    </plurals>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> kortelė ( archyvuota)<xliff:g id="archivedCount">%2$d</xliff:g></item>
+        <item quantity="few"><xliff:g>%1$d</xliff:g> kortelės ( archyvuotos)<xliff:g id="archivedCount">%2$d</xliff:g></item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> kortelių ( archyvuotų)<xliff:g id="archivedCount">%2$d</xliff:g></item>
+    </plurals>
+    <string name="set_scale">Nustatyti mastelį</string>
+    <string name="hideMoreInfo">Slėpti informaciją</string>
+    <string name="updateBalance">Atnaujinti balansą</string>
+    <string name="failedToRetrieveImageFile">Nepavyko gauti vaizdo failo</string>
+    <string name="barcodeLongPressMessage">Galerijos programėlėje galima atidaryti tik vaizdus</string>
+    <string name="translate_platform">Weblate svetainėje</string>
+    <string name="shortcutSelectCard">Pasirinkti kortelę</string>
+    <string name="options">Parinktys</string>
+    <string name="starred">Pažymėta žvaigždute</string>
+    <string name="include_if_asking_support">Jei norite prašyti pagalbos, įtraukite šią informaciją:</string>
+    <string name="archive">Archyvuoti</string>
+    <string name="duplicateCard">Dubliuoti</string>
+    <string name="unarchive">Išarchyvuoti</string>
+    <string name="archived">Kortelė archyvuota</string>
+    <string name="unarchived">Kortelė išarchyvuota</string>
+    <string name="updateBalanceTitle">Kiek išleidote\?</string>
+    <string name="updateBalanceHint">Įveskite sumą</string>
+    <string name="currentBalanceSentence">Dabartinis likutis: <xliff:g>%s</xliff:g></string>
+    <string name="newBalanceSentence">Naujas balansas: <xliff:g>%s</xliff:g></string>
+    <string name="failedToOpenUrl">Pirmiausia įdiekite žiniatinklio naršyklę</string>
+    <string name="welcome">Sveiki užėję į Catima</string>
+    <string name="showMoreInfo">Rodyti informaciją</string>
+    <string name="settings_oled_dark">Visiškai juodas fonas tamsiajai temai</string>
+    <string name="settings_follow_system_orientation">Sekti sistemą</string>
+    <string name="settings_portrait_orientation">Portretas</string>
+    <string name="settings_landscape_orientation">Gulsčias</string>
+    <string name="settings_lock_on_opening_orientation">Užfiksuoti padėtį, kuri naudojama atidarant kortelę</string>
+    <string name="cameraPermissionDeniedTitle">Nepavyko pasiekti kameros</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Skanuoti brūkšniniams kodams Catima reikės gauti leidimo naudotis jūsų kamera. Spustelkite čia norėdami pakeisti leidimų nustatymus.</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> taškas</item>
+        <item quantity="few"><xliff:g>%s</xliff:g> taškai</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> taškų</item>
+    </plurals>
+    <string name="importCards">Importuoti korteles</string>
+    <string name="storageReadPermissionRequired">Šio veiksmo atlikimui reikalinga prieiga prie saugyklos…</string>
+    <string name="cameraPermissionRequired">Šio veiksmo atlikimui reikalinga prieiga prie kameros…</string>
+</resources>

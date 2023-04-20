@@ -1,0 +1,4 @@
+- Překlad do nizozemštiny
+- Umožnění editace pole se jménem po přidání věrnostní karty
+- Přidání nepovinného pole pro poznámku
+- Vyřešení všech problémů identifikovaných nástrojem FindBugs a vyžadování vyřešení všech problémů FindBugs před přijetím požadavku na natažení

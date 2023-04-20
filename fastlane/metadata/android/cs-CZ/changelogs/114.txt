@@ -1,0 +1,3 @@
+- Přidána černobílá ikona pro Android 13
+- Vylepšení obrazovky prvního spuštění
+- Opravy importu z Fidme

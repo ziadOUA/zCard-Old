@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_add">Добавяне</string>
+    <string name="action_search">Търсене</string>
+    <string name="leaveWithoutSaveTitle">Изход</string>
+    <string name="confirm">Потвърждаване</string>
+    <string name="delete">Премахване</string>
+    <string name="edit">Редактиране</string>
+    <string name="save">Запазване</string>
+    <string name="cancel">Отказ</string>
+    <string name="unstar">Премахва от любими</string>
+    <string name="star">Добавя към любими</string>
+    <string name="noBarcode">Липсва щрихкод</string>
+    <string name="barcodeNoBarcode">Липсва щрихкод</string>
+    <string name="barcodeType">Вид на щрихкод</string>
+    <string name="cardId">Идентификатор на карта</string>
+    <string name="note">Бележка</string>
+    <string name="storeName">Наименование</string>
+    <string name="noMatchingGiftCards">Няма резултати. Променете критериите за търсене.</string>
+    <string name="noGiftCards">Докоснете бутона +, за да добавите карта или внесете от менюто ⋮.</string>
+    <string name="all">Всички</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> карта</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> карти</item>
+    </plurals>
+    <string name="failedOpeningFileManager">Инсталирайте приложение за управление на файлове.</string>
+    <string name="app_license">Свободен софтуер с авторски права, лицензиран под GPLv3+</string>
+    <string name="frontImageDescription">Снимка на предната страна</string>
+    <string name="backImageDescription">Снимка на задната страна</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> не изглежда истинска наличност.</string>
+    <string name="no">Не</string>
+    <string name="yes">Да</string>
+    <string name="setBackImage">Снимка на задната страна</string>
+    <string name="setFrontImage">Снимка на предната страна</string>
+    <string name="photos">Снимки</string>
+    <string name="importOptionApplicationExplanation">Изберете файл на друго приложение.</string>
+    <string name="noCardExistsError">Картата не е намерена</string>
+    <string name="updateBarcodeQuestionText">Идентификаторът е променен. Желаете ли с неговата стойност да бъде променен и щрихкодът\?</string>
+    <string name="updateBarcodeQuestionTitle">Обновяване на щрихкода\?</string>
+    <string name="noCardIdError">Не е въведен идентификатор</string>
+    <string name="noCardsMessage">Добавете карта</string>
+    <string name="cardShortcut">Пряк път до карта</string>
+    <string name="addCardTitle">Добавяне на карта</string>
+    <string name="removeImage">Премахване на изображение</string>
+    <string name="takePhoto">Снимане</string>
+    <string name="copy_to_clipboard_multiple_toast">Идентификаторите са копирани в междинната памет</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Искам да споделя тези карти с вас</string>
+    <string name="wrongValueForBarcodeType">Стойността е невалидна за избрания вид щрихкод</string>
+    <string name="setBarcodeId">Задаване на стойност</string>
+    <string name="sameAsCardId">Същата като идентификатора</string>
+    <string name="barcodeId">Стойност на щрихкода</string>
+    <string name="importLoyaltyCardKeychain">Внасяне от Loyalty Card Keychain</string>
+    <string name="importFidmeMessage">Изберете файла <i>fidme-export-request-xxxxxx.zip</i>, предварително изнесен от FidMe и ръчно изберете вида на щрихкодовете.
+\nСъздайте такъв файл от Data Protection в менюто на профила във FidMe и изберете „Extract my data“.</string>
+    <string name="importFidme">Внасяне от FidMe</string>
+    <string name="exportOptionExplanation">Данните ще бъдат запазени на място по ваш избор.</string>
+    <string name="accept">Приемане</string>
+    <string name="privacy_policy_popup_text">Политика за личните данни (необходима от някои магазини за приложения):
+\n
+\nНЕ СЕ СЪБИРАТ ИЗОБЩО НИКАКВИ ДАННИ, което може да бъде потвърдено, защото приложението е със свободен код.</string>
+    <string name="privacy_policy">Политика за личните данни</string>
+    <string name="app_loyalty_card_keychain">Loyalty Card Keychain</string>
+    <string name="turn_flashlight_off">Изключва светкавицата</string>
+    <string name="turn_flashlight_on">Включва светкавицата</string>
+    <string name="passwordRequired">Въведете паролата</string>
+    <string name="points">Точки</string>
+    <string name="currency">Валута</string>
+    <string name="balance">Наличност</string>
+    <string name="errorReadingImage">Изображението е нечетимо</string>
+    <string name="noBarcodeFound">Не е намерен щрихкод</string>
+    <string name="moveBarcodeToCenterOfScreen">Премества щрихкода в центъра на екрана</string>
+    <string name="moveBarcodeToTopOfScreen">Премества щрихкода най-горе на екрана</string>
+    <string name="never">Не изтича</string>
+    <string name="chooseExpiryDate">Определена дата</string>
+    <string name="expiryDate">Валидна до</string>
+    <string name="editBarcode">Редактиране на щрихкод</string>
+    <string name="barcode">Щрихкод</string>
+    <string name="card">Карта</string>
+    <string name="groupsList">Списъци: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">Валидна до: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Изтекла: <xliff:g>%s</xliff:g></string>
+    <string name="balanceSentence">Наличност: <xliff:g>%s</xliff:g></string>
+    <string name="noGroups">Докоснете бутона +, за да добавите списък.</string>
+    <string name="noStoreError">Не е въведено наименование</string>
+    <string name="groups">Списъци</string>
+    <string name="enter_group_name">Въведете име на списъка</string>
+    <string name="intent_import_card_from_url_share_text">Искам да споделя тази карта с вас</string>
+    <string name="settings_display_barcode_max_brightness">Увеличаване на яркостта при видим щрихкод</string>
+    <string name="settings_keep_screen_on">Поддържане на екрана включен</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Предотвратяване на заключване на екрана</string>
+    <string name="settings_max_font_size_scale">Максимален размер на шрифта</string>
+    <string name="settings_dark_theme">Тъмна</string>
+    <string name="settings_light_theme">Светла</string>
+    <string name="settings_system_theme">Системна</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_category_title_ui">Потребителски интерфейс</string>
+    <string name="settings">Настройки</string>
+    <string name="starImage">Звезда за любимо</string>
+    <string name="thumbnailDescription">Миниатюра</string>
+    <string name="copy_to_clipboard_toast">Идентификаторът е копиран в междинната памет</string>
+    <string name="enterBarcodeInstructions">Въведете идентификатор и или изберете вида на щрихкода, или докоснете бутона „Липсва щрихкод“.</string>
+    <string name="selectBarcodeTitle">Избиране на щрихкод</string>
+    <string name="importOptionApplicationButton">Избиране чрез приложение</string>
+    <string name="importing">Внасяне…</string>
+    <string name="exporting">Изнасяне…</string>
+    <string name="exportFailed">Данните не могат да бъдат изнесени</string>
+    <string name="exportFailedTitle">Грешка при изнасяне</string>
+    <string name="importFailed">Данните не могат да бъдат внесени</string>
+    <string name="importFailedTitle">Грешка при внасяне</string>
+    <string name="exportSuccessfulTitle">Резултат от изнасяне</string>
+    <string name="importSuccessfulTitle">Резултат от внасяне</string>
+    <string name="importExportHelp">Резервните копия на данните ви дават възможност да ги премествате на друго устройство.</string>
+    <string name="exportName">Изнасяне</string>
+    <string name="importExport">Внасяне/изнасяне</string>
+    <string name="sendLabel">Изпращане…</string>
+    <string name="scanCardBarcode">Снемане на щрихкод</string>
+    <string name="editCardTitle">Редактиране на карта</string>
+    <string name="share">Споделя</string>
+    <string name="copy_to_clipboard">Копира идентификатора в междинната памет</string>
+    <string name="ok">Добре</string>
+    <string name="importSuccessful">Данните са внесени</string>
+    <string name="chooseImportType">Внасяне на данни на</string>
+    <string name="importCatimaMessage">Изберете файла <i>catima.zip</i>, предварително изнесен от Catima.
+\nСъздайте такъв файл от меню Внасяне/изнасяне от друго устройство с Catima като изберете Изнасяне.</string>
+    <string name="importOptionApplicationTitle">Чрез друго приложение</string>
+    <string name="importOptionFilesystemButton">Избиране от файлова система</string>
+    <string name="importOptionFilesystemExplanation">Изберете определен файл от файловата система.</string>
+    <string name="app_resources">Свободни ресурси: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Свободни библиотеки: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_revision_fmt">Компилация: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="debug_version_fmt">Издание: <xliff:g id="version">%s</xliff:g></string>
+    <string name="about_title_fmt">Относно <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Всички права запазени © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="app_copyright_old">На основата на Loyalty Card Keychain
+\nвсички права запазени © 2016–2020 Branden Archer</string>
+    <string name="about">Относно</string>
+    <string name="importOptionFilesystemTitle">Внасяне от файловата система</string>
+    <string name="importCatima">Внасяне от Catima</string>
+    <string name="exportSuccessful">Данните са изнесени</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> избрана</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> избрани</item>
+    </plurals>
+    <string name="deleteConfirmationGroup">Изтриване на група\?</string>
+    <string name="moveDown">Преместване надолу</string>
+    <string name="moveUp">Преместване нагоре</string>
+    <string name="addFromImage">Избор от галерията</string>
+    <string name="addManually">Ръчно въвеждане</string>
+    <string name="leaveWithoutSaveConfirmation">Оставяте промените незапазени\?</string>
+    <string name="unsupportedBarcodeType">Щрихкод от този вид не може да бъде показан. Може да бъде поддържан в следващо издание.</string>
+    <string name="importStocard">Внасяне от Stocard</string>
+    <string name="importVoucherVault">Внасяне от Voucher Vault</string>
+    <string name="importVoucherVaultMessage">Изберете файла <i>vouchervault.json</i>, предварително изнесен от Voucher Vault.
+\nСъздайте такъв файл от меню „Export“ във Voucher Vault.</string>
+    <string name="importStocardMessage">Изберете файла <i>***.zip</i>, предварително изнесен от Stocard.
+\nПолучете го като изпратите писмо на support@stocardapp.com с искане за изнасяне вашите данни.</string>
+    <string name="importLoyaltyCardKeychainMessage">Изберете файла <i>LoyaltyCardKeychain.csv</i>, предварително изнесен от Loyalty Card Keychain.
+\nСъздайте такъв файл от меню Внасяне/изнасяне от друго устройство с Loyalty Card Keychain като изберете Изнасяне.</string>
+    <string name="failedParsingImportUriError">Препратката не може да бъде анализирана за внасяне</string>
+    <string name="failedGeneratingShareURL">Не може да бъде генериран адрес за споделяне. Изпратете доклад за дефект.</string>
+    <string name="deleteTitle">Премахване на карта</string>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Изтриване на <xliff:g>%d</xliff:g> карта</item>
+        <item quantity="other">Изтриване на <xliff:g>%d</xliff:g> карти</item>
+    </plurals>
+    <string name="deleteConfirmation">Потвърждавате ли премахване на картата\?</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Желаете ли <xliff:g>%d</xliff:g> карта да бъде премахната\?</item>
+        <item quantity="other">Желаете ли тези <xliff:g>%d</xliff:g> карти да бъдат премахнати\?</item>
+    </plurals>
+    <string name="app_contributors">Осъществено от: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="settings_brown_theme">Кафяво</string>
+    <string name="settings_grey_theme">Сиво</string>
+    <string name="settings_green_theme">Зелено</string>
+    <string name="settings_sky_blue_theme">Небесносиньо</string>
+    <string name="settings_blue_theme">Синьо</string>
+    <string name="settings_violet_theme">Виолетово</string>
+    <string name="settings_magenta_theme">Цикламено</string>
+    <string name="settings_pink_theme">Розово</string>
+    <string name="settings_catima_theme">zCard</string>
+    <string name="settings_theme_color">Цвят на темата</string>
+    <string name="settings_system_locale">Система</string>
+    <string name="settings_locale">Език</string>
+    <string name="noGroupCards">Групата е празна</string>
+    <string name="barcodeImageDescriptionWithType">Изображение на щрихкод от вид <xliff:g>%s</xliff:g></string>
+    <string name="swipeToSwitchImages">За да размените изображенията - плъзнете, а за да ги отворите в галерията - задръжте</string>
+    <string name="sort_by">Сортиране по</string>
+    <string name="reverse">…в обратен ред</string>
+    <string name="sort_by_balance">Наличност</string>
+    <string name="sort_by_expiry">Валидност</string>
+    <string name="sort_by_most_recently_used">Последно използване</string>
+    <string name="sort_by_name">Наименование</string>
+    <string name="sort">Сортиране</string>
+    <string name="credits">Заслуги</string>
+    <string name="license">Лиценз</string>
+    <string name="source_repository">Хранилище на изходния код</string>
+    <string name="on_github">в GitHub</string>
+    <string name="rate_this_app">Оценете приложението</string>
+    <string name="report_error">Докладване на грешка</string>
+    <string name="version_history">История на изданията</string>
+    <string name="on_google_play">в Google Play</string>
+    <string name="and_data_usage">и използване на данни</string>
+    <string name="help_translate_this_app">Помогнете за превода на приложението</string>
+    <string name="exportPasswordHint">Въведете парола</string>
+    <string name="exportPassword">Задаване на парола за защита на изнесеното (по избор)</string>
+    <string name="setIcon">Задаване на пиктограма</string>
+    <string name="editGroup">Променяне на списъка: <xliff:g>%s</xliff:g></string>
+    <string name="group_name_already_in_use">Има списък с това име</string>
+    <string name="group_updated">Промените са запазени</string>
+    <string name="selectColor">Избиране на цвят</string>
+    <string name="group_name_is_empty">Името на списъка не може да е празно</string>
+    <string name="group_edit">Редактиране на списък</string>
+    <string name="action_show_details">Повече детайли</string>
+    <string name="action_hide_details">По-малко детайли</string>
+    <string name="noGiftCardsGroup">Създайте карти и ги зачислите към списък от тук.</string>
+    <string name="translate_platform">в Weblate</string>
+    <string name="shortcutSelectCard">Избор на карта</string>
+    <string name="starred">Със звезда</string>
+    <string name="set_scale">Мащаб</string>
+    <string name="showMoreInfo">Показване на информация</string>
+    <string name="hideMoreInfo">Скриване на информация</string>
+    <string name="options">Настройки</string>
+    <string name="card_ids_copied">Идентификаторите са копирани</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> точка</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> точки</item>
+    </plurals>
+    <string name="settings_oled_dark">Чисто черен фон за тъмната тема</string>
+    <string name="include_if_asking_support">Ако искате да потърсите поддръжка, включете следната информация:</string>
+    <string name="settings_card_orientation">Положение на щрихкода</string>
+    <string name="settings_follow_system_orientation">Според системата</string>
+    <string name="settings_portrait_orientation">Портретно</string>
+    <string name="settings_landscape_orientation">Пейзажно</string>
+    <string name="settings_lock_on_opening_orientation">Използване на положението, използвано при отваряне на картата</string>
+    <string name="duplicateCard">Дублиране</string>
+    <string name="archive">Архивиране</string>
+    <string name="unarchive">Изваждане от архива</string>
+    <string name="archived">Картата е архивирана</string>
+    <string name="unarchived">Карта е извадена от архива</string>
+    <string name="archiveList">Архив</string>
+    <string name="noUnarchivedCardsMessage">Няма карти извън архива</string>
+    <string name="failedLaunchingPhotoPicker">Не е намерено поддържано приложение за галерия</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> карта (<xliff:g id="archivedCount">%2$d</xliff:g> архивирана)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> карти (<xliff:g id="archivedCount">%2$d</xliff:g> архивирани)</item>
+    </plurals>
+    <string name="previousCard">Предишна</string>
+    <string name="nextCard">Следваща</string>
+    <string name="failedToOpenUrl">Първо инсталирайте уеб браузър</string>
+    <string name="welcome">Добре дошли при Катима</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Преглед на архива (<xliff:g>%1$d</xliff:g> карта)</item>
+        <item quantity="other">Преглед на архива (<xliff:g>%1$d</xliff:g> карти)</item>
+    </plurals>
+    <string name="barcodeLongPressMessage">В приложението галерия могат да бъдат отваряни само изображения</string>
+    <string name="failedToRetrieveImageFile">Не е възможно извличане на изображение</string>
+    <string name="noCameraPermissionDirectToSystemSetting">За да сканирате щрихкодове с zCard е необходим достъп до камерата. За да промените разрешението докоснете тук.</string>
+    <string name="updateBalanceTitle">Каква е промяната\?</string>
+    <string name="updateBalanceHint">Въведете стойност</string>
+    <string name="newBalanceSentence">Нов баланс: <xliff:g>%s</xliff:g></string>
+    <string name="cameraPermissionDeniedTitle">Камерата е недостъпна</string>
+    <string name="currentBalanceSentence">Текущ баланс: <xliff:g>%s</xliff:g></string>
+    <string name="updateBalance">Обновяване на баланса</string>
+    <string name="importCards">Внасяне на карти</string>
+    <string name="storageReadPermissionRequired">За това действие е необходимо разрешение за четене на хранилището…</string>
+    <string name="cameraPermissionRequired">За това действие е необходимо разрешение за достъп до камерата…</string>
+    <string name="validFromDate">Валидна от</string>
+    <string name="anyDate">Без значение от датата</string>
+    <string name="validFromSentence">Валидна от: <xliff:g>%s</xliff:g></string>
+    <string name="chooseValidFromDate">Определена дата</string>
+</resources>

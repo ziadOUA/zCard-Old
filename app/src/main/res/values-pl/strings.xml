@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_search">Szukaj</string>
+    <string name="action_add">Dodaj</string>
+    <string name="noGiftCards">Kliknij przycisk + plus, aby dodać kartę lub zaimportuj z ⋮ menu.</string>
+    <string name="noMatchingGiftCards">Brak wyników. Spróbuj zmienić treść zapytania.</string>
+    <string name="storeName">Nazwa</string>
+    <string name="note">Notatka</string>
+    <string name="cardId">Identyfikator karty</string>
+    <string name="barcodeNoBarcode">Bez kodu kreskowego</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="edit">Edytuj</string>
+    <string name="delete">Usuń</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="ok">OK</string>
+    <string name="copy_to_clipboard">Skopiuj identyfikator do schowka</string>
+    <string name="share">Udostępnij</string>
+    <string name="sendLabel">Wyślij…</string>
+    <string name="editCardTitle">Edytuj kartę lojalnościową</string>
+    <string name="addCardTitle">Dodaj kartę lojalnościową</string>
+    <string name="scanCardBarcode">Zeskanuj kod kreskowy</string>
+    <string name="cardShortcut">Skrót karty</string>
+    <string name="noCardsMessage">Najpierw dodaj kartę</string>
+    <string name="noStoreError">Nie wprowadzono nazwy</string>
+    <string name="noCardIdError">Nie wprowadzono identyfikatora</string>
+    <string name="noCardExistsError">Nie można znaleźć tej karty lojalnościowej</string>
+    <string name="failedParsingImportUriError">Nie można przeanalizować identyfikatora importu URI</string>
+    <string name="importExport">Importuj/Eksportuj</string>
+    <string name="exportName">Eksportuj</string>
+    <string name="importExportHelp">Kopie zapasowe umożliwiają przeniesienie kart na inne urządzenie.</string>
+    <string name="importSuccessfulTitle">Zaimportowano</string>
+    <string name="importFailedTitle">Importowanie nie powiodło się</string>
+    <string name="importFailed">Nie udało się zaimportować</string>
+    <string name="exportSuccessfulTitle">Wyeksportowano</string>
+    <string name="exportFailedTitle">Eksport nie powiódł się</string>
+    <string name="exportFailed">Nie udało się wyeksportować</string>
+    <string name="importing">Importowanie…</string>
+    <string name="exporting">Eksportowanie…</string>
+    <string name="importOptionFilesystemTitle">Importuj z systemu plików</string>
+    <string name="importOptionFilesystemExplanation">Wybierz określony plik z systemu plików.</string>
+    <string name="importOptionFilesystemButton">Z systemu plików</string>
+    <string name="importOptionApplicationTitle">Użyj innej aplikacji</string>
+    <string name="importOptionApplicationExplanation">Użyj dowolnej aplikacji lub ulubionego menedżera plików, aby otworzyć plik.</string>
+    <string name="importOptionApplicationButton">Użyj innej aplikacji</string>
+    <string name="about">O aplikacji</string>
+    <string name="app_license">Wolne oprogramowanie typu copyleft, na licencji GPLv3+</string>
+    <string name="about_title_fmt">O <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Wersja: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Informacje o wydaniu: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="selectBarcodeTitle">Wybierz kod kreskowy</string>
+    <string name="enterBarcodeInstructions">Wprowadź ID, a następnie wybierz typ kodu kreskowego, którego chcesz użyć lub wybierz „Bez kodu kreskowego”.</string>
+    <string name="copy_to_clipboard_toast">Skopiowano ID do schowka</string>
+    <string name="thumbnailDescription">Miniaturka</string>
+    <string name="settings">Ustawienia</string>
+    <string name="settings_category_title_ui">Interfejs użytkownika</string>
+    <string name="settings_theme">Motyw</string>
+    <string name="settings_system_theme">Systemowy</string>
+    <string name="settings_light_theme">Jasny</string>
+    <string name="settings_dark_theme">Ciemny</string>
+    <string name="settings_display_barcode_max_brightness">Rozjaśnij widok kodu kreskowego</string>
+    <string name="intent_import_card_from_url_share_text">Chcę udostępnić Ci kartę lojalnościową</string>
+    <string name="deleteConfirmationGroup">Usunąć grupę\?</string>
+    <string name="all">Wszystko</string>
+    <string name="noGroups">Kliknij przycisk + plus, aby dodać grupy do kategoryzacji.</string>
+    <string name="groups">Grupy</string>
+    <string name="enter_group_name">Wpisz nazwę grupy</string>
+    <string name="exportSuccessful">Dane zostały wyeksportowane</string>
+    <string name="importSuccessful">Zaimportowano dane</string>
+    <string name="starImage">Gwiazdka ulubionych</string>
+    <string name="app_copyright_old">Na podstawie Loyalty Card Keychain
+\nWszelkie prawa zastrzeżone © 2016–2020 Branden Archer</string>
+    <string name="exportOptionExplanation">Dane zostaną zapisane w wybranym przez Ciebie miejscu.</string>
+    <string name="unstar">Usuń z ulubionych</string>
+    <string name="star">Dodaj do ulubionych</string>
+    <string name="noBarcode">Brak kodu kreskowego</string>
+    <string name="barcodeType">Typ kodu kreskowego</string>
+    <string name="deleteTitle">Usuń kartę</string>
+    <string name="deleteConfirmation">Usunąć tę kartę na stałe\?</string>
+    <string name="app_contributors">Możliwe dzięki: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="settings_brown_theme">Brązowy</string>
+    <string name="settings_grey_theme">Szary</string>
+    <string name="settings_green_theme">Zielony</string>
+    <string name="settings_sky_blue_theme">Błękitny</string>
+    <string name="settings_blue_theme">Niebieski</string>
+    <string name="settings_violet_theme">Fioletowy</string>
+    <string name="settings_magenta_theme">Magenta</string>
+    <string name="settings_pink_theme">Różowy</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Kolor akcentowy motywu</string>
+    <string name="settings_system_locale">System</string>
+    <string name="settings_locale">Język</string>
+    <string name="turn_flashlight_off">Wyłącz latarkę</string>
+    <string name="turn_flashlight_on">Włącz latarkę</string>
+    <string name="failedGeneratingShareURL">Nie można wygenerować adresu URL do udostępnienia. Proszę to zgłosić.</string>
+    <string name="passwordRequired">Proszę wpisać hasło</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+    <string name="updateBarcodeQuestionText">Zmieniłeś ID. Czy chcesz zaktualizować kod kreskowy, aby używał tej samej wartości\?</string>
+    <string name="updateBarcodeQuestionTitle">Zaktualizować wartość kodu kreskowego\?</string>
+    <string name="takePhoto">Zrób zdjęcie</string>
+    <string name="removeImage">Usuń zdjęcie</string>
+    <string name="setBackImage">Ustaw tylne zdjęcie</string>
+    <string name="setFrontImage">Ustaw zdjęcie przednie</string>
+    <string name="photos">Zdjęcia</string>
+    <string name="backImageDescription">Zdjęcie tylne</string>
+    <string name="frontImageDescription">Zdjęcie przednie</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Chcę Ci udostępnić karty</string>
+    <string name="copy_to_clipboard_multiple_toast">Skopiowano ID do schowka</string>
+    <string name="wrongValueForBarcodeType">Wartość nie jest prawidłowa dla wybranego typu kodu kreskowego</string>
+    <string name="unsupportedBarcodeType">Nie można jeszcze wyświetlić tego typu kodu kreskowego. Być może będzie on obsługiwany w nowszej wersji aplikacji.</string>
+    <string name="setBarcodeId">Ustaw wartość kodu kreskowego</string>
+    <string name="sameAsCardId">Taki sam jak ID</string>
+    <string name="barcodeId">Wartość kodu kreskowego</string>
+    <string name="importVoucherVaultMessage">Wybierz swój <i>vouchervault.json</i> z Voucher Vault, aby zaimportować.
+\nUtwórz go wpierw klikając Eksportuj w Voucher Vault.</string>
+    <string name="importVoucherVault">Importuj z Voucher Vault</string>
+    <string name="importStocardMessage">Wybierz swój <i>***.zip</i> z Stocard, aby zaimportować.
+\nUzyskaj go, wysyłając email na adres support@stocardapp.com, z prośbą o eksport Twoich danych.</string>
+    <string name="importStocard">Importuj z Stocard</string>
+    <string name="importLoyaltyCardKeychainMessage">Wybierz swój <i>LoyaltyCardKeychain.csv</i> z Loyalty Card Keychain, aby zaimportować.
+\nUtwórz go z menu Importuj/Eksportuj w Loyalty Card Keychain, wpierw klikając tam Eksportuj.</string>
+    <string name="importLoyaltyCardKeychain">Importuj z Loyalty Card Keychain</string>
+    <string name="importFidmeMessage">Wybierz swój <i>fidme-export-request-xxxxxx.zip</i> z FidMe, aby zaimportować, po czym wybierz typy kodów kreskowych.
+\nStwórz go ze swojego profilu FidMe, wybierając wpierw Ochrona Danych, a następnie naciskając Wyodrębnij moje dane.</string>
+    <string name="importFidme">Importuj z FidMe</string>
+    <string name="importCatimaMessage">Wybierz swój <i>catima.zip</i> z Catima, aby zaimportować.
+\nUtwórz go z menu Importuj/Eksportuj innej aplikacji Catima, wpierw klikając tam Eksportuj.</string>
+    <string name="importCatima">Importuj z Catima</string>
+    <string name="accept">Zaakceptuj</string>
+    <string name="privacy_policy_popup_text">Informacja o polityce prywatności (wymagana przez niektóre sklepy z aplikacjami):
+\n
+\nŻADNE DANE NIE SĄ ZBIERANE, co może potwierdzić każdy, gdyż nasza aplikacja jest wolnym oprogramowaniem.</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="app_loyalty_card_keychain">Brelok dla twoich kart lojalnościowych</string>
+    <string name="chooseImportType">Importuj dane z</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> nie wydaje się być prawidłową wartością.</string>
+    <string name="points">Punkty</string>
+    <string name="currency">Waluta</string>
+    <string name="balance">Saldo</string>
+    <string name="errorReadingImage">Nie udało się odczytać zdjęcia</string>
+    <string name="noBarcodeFound">Nie znaleziono kodu kreskowego</string>
+    <string name="moveBarcodeToCenterOfScreen">Wyśrodkuj kod kreskowy na ekranie</string>
+    <string name="moveBarcodeToTopOfScreen">Przenieś kod kreskowy na górę ekranu</string>
+    <string name="chooseExpiryDate">Wybierz datę wygaśnięcia</string>
+    <string name="never">Nigdy</string>
+    <string name="expiryDate">Data wygaśnięcia</string>
+    <string name="editBarcode">Edytuj kod kreskowy</string>
+    <string name="barcode">Kod kreskowy</string>
+    <string name="card">Karta</string>
+    <string name="balanceSentence">Saldo: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Wygasło: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">Wygasa: <xliff:g>%s</xliff:g></string>
+    <string name="groupsList">Grupy: <xliff:g>%s</xliff:g></string>
+    <string name="addFromImage">Wybierz zdjęcie z galerii</string>
+    <string name="addManually">Wpisz ręcznie ID</string>
+    <string name="leaveWithoutSaveConfirmation">Wyjść bez zapisywania\?</string>
+    <string name="leaveWithoutSaveTitle">Wyjdź</string>
+    <string name="moveDown">Przesuń w dół</string>
+    <string name="moveUp">Przesuń w górę</string>
+    <string name="failedOpeningFileManager">Najpierw zainstaluj menadżera plików.</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> karta</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> karty</item>
+        <item quantity="many"><xliff:g>%d</xliff:g> kart</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> kart</item>
+    </plurals>
+    <string name="noGroupCards">Ta grupa jest pusta</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Zapobiegaj wyłączeniu ekranu</string>
+    <string name="settings_keep_screen_on">Nie wygaszaj ekranu</string>
+    <string name="settings_max_font_size_scale">Maks. rozmiar czcionki</string>
+    <string name="app_resources">Otwarte zewnętrzne zasoby: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Otwarte zewnętrzne biblioteki: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Wszelkie prawa zastrzeżone © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="card_ids_copied">Skopiowano identyfikator(y)</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Usunąć tą <xliff:g>%d</xliff:g> kartę permamentnie\?</item>
+        <item quantity="few">Usunąć te <xliff:g>%d</xliff:g> karty permamentnie\?</item>
+        <item quantity="many">Usunąć tych <xliff:g>%d</xliff:g> kart permamentnie\?</item>
+        <item quantity="other">Usunąć tych <xliff:g>%d</xliff:g> kart permamentnie\?</item>
+    </plurals>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Usuń <xliff:g>%d</xliff:g> kartę</item>
+        <item quantity="few">Usuń <xliff:g>%d</xliff:g> karty</item>
+        <item quantity="many">Usuń <xliff:g>%d</xliff:g> kart</item>
+        <item quantity="other">Usuń <xliff:g>%d</xliff:g> kart</item>
+    </plurals>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> zaznaczona</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> zaznaczone</item>
+        <item quantity="many"><xliff:g>%d</xliff:g> zaznaczonych</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> zaznaczonych</item>
+    </plurals>
+    <string name="shortcutSelectCard">Wybierz kartę</string>
+    <string name="action_show_details">Pokaż szczegóły</string>
+    <string name="action_hide_details">Ukryj szczegóły</string>
+    <string name="sort_by_name">Nazwa</string>
+    <string name="sort_by_most_recently_used">Ostatnio użyte</string>
+    <string name="sort_by_expiry">Data wygaśnięcia</string>
+    <string name="sort_by_balance">Balans</string>
+    <string name="sort_by">Sortuj według</string>
+    <string name="credits">Podziękowania</string>
+    <string name="help_translate_this_app">Pomóż przetłumaczyć tą aplikację</string>
+    <string name="source_repository">Repozytorium Źródłowe</string>
+    <string name="report_error">Zgłoś Błąd</string>
+    <string name="setIcon">Ustaw ikonę</string>
+    <string name="on_github">na GitHub\'ie</string>
+    <string name="swipeToSwitchImages">Przeciągnij aby zmienić obraz, przytrzymaj aby otworzyć obraz w galerii</string>
+    <string name="selectColor">Wybierz kolor</string>
+    <string name="version_history">Historia Wersji</string>
+    <string name="and_data_usage">i wykorzystanie danych</string>
+    <string name="rate_this_app">Oceń tą aplikację</string>
+    <string name="license">Licencja</string>
+    <string name="on_google_play">w Google Play</string>
+    <string name="noGiftCardsGroup">Stwórz karty i przypisz je do grup w tym miejscu.</string>
+    <string name="reverse">...w odwrotnej kolejności</string>
+    <string name="translate_platform">na Weblate</string>
+    <string name="sort">Sortuj</string>
+    <string name="barcodeImageDescriptionWithType">Obraz kodu kreskowego typu <xliff:g>%s</xliff:g></string>
+    <string name="group_edit">Edytuj Grupę</string>
+    <string name="group_name_already_in_use">Ta nazwa jest już w użytku</string>
+    <string name="group_name_is_empty">Nazwa grupy nie może być pusta</string>
+    <string name="group_updated">Zaktualizowano grupę</string>
+    <string name="editGroup">Edytowanie grupy: <xliff:g>%s</xliff:g></string>
+    <string name="exportPassword">Ustaw hasło, aby zabezpieczyć twoje wyeksportowane dane (opcjonalne)</string>
+    <string name="exportPasswordHint">Wpisz hasło</string>
+    <string name="options">Opcje</string>
+    <string name="showMoreInfo">Pokaż informacje</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> punkt</item>
+        <item quantity="few"><xliff:g>%s</xliff:g> punkty</item>
+        <item quantity="many"><xliff:g>%s</xliff:g> punkty</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> punkty</item>
+    </plurals>
+    <string name="include_if_asking_support">Jeśli chcesz poprosić o pomoc, podaj następujące informacje:</string>
+    <string name="settings_oled_dark">Całkowicie czarne tło dla ciemnego motywu</string>
+    <string name="hideMoreInfo">Ukryj informacje</string>
+    <string name="settings_card_orientation">Orientacja kodu kreskowego</string>
+    <string name="settings_follow_system_orientation">Śledź orientację systemową</string>
+    <string name="set_scale">Ustaw skalę</string>
+    <string name="duplicateCard">Duplikuj</string>
+    <string name="starred">Oznaczone gwiazdką</string>
+    <string name="settings_landscape_orientation">Poziomowy</string>
+    <string name="settings_lock_on_opening_orientation">Blokuj do ustawionej orientacji przy otwieraniu karty</string>
+    <string name="settings_portrait_orientation">Portretowy</string>
+    <string name="archive">Archiwizować</string>
+    <string name="unarchive">Odarchiwizować</string>
+    <string name="archived">Karta archiwizowana</string>
+    <string name="unarchived">Karta odarchiwizowana</string>
+    <string name="archiveList">Archiwum</string>
+    <string name="noUnarchivedCardsMessage">Nie istnieją żadne niezarchiwizowane karty</string>
+    <string name="failedLaunchingPhotoPicker">Nie można odnaleźć aplikacji galerii</string>
+    <string name="previousCard">Poprzedni</string>
+    <string name="nextCard">Następny</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> karta (<xliff:g id="archivedCount">%2$d</xliff:g> zarchiwizowana)</item>
+        <item quantity="few"><xliff:g>%1$d</xliff:g> karty (<xliff:g id="archivedCount">%2$d</xliff:g> zarchwizowane)</item>
+        <item quantity="many"><xliff:g>%1$d</xliff:g> kart (<xliff:g id="archivedCount">%2$d</xliff:g> zarchwizowanych)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> kart (<xliff:g id="archivedCount">%2$d</xliff:g> zarchwizowanych)</item>
+    </plurals>
+    <string name="failedToRetrieveImageFile">Nie udało się pobrać pliku obrazu</string>
+    <string name="barcodeLongPressMessage">W galerii możesz otworzyć tylko obrazy</string>
+    <string name="failedToOpenUrl">Najpierw zainstaluj przeglądarkę</string>
+    <string name="welcome">Witaj w Catima</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Wyświetl zarchiwizowaną (<xliff:g>%1$d</xliff:g> kartę)</item>
+        <item quantity="few">Wyświetl zarchiwizowane (<xliff:g>%1$d</xliff:g> karty)</item>
+        <item quantity="many">Wyświetl zarchiwizowane (<xliff:g>%1$d</xliff:g> karty)</item>
+        <item quantity="other">Wyświetl zarchiwizowane (<xliff:g>%1$d</xliff:g> karty)</item>
+    </plurals>
+    <string name="currentBalanceSentence">Saldo: <xliff:g>%s</xliff:g></string>
+    <string name="noCameraPermissionDirectToSystemSetting">By zeskanować kody kreskowe, Catima musi mieć dostęp do twojej kamery. Dotknij tutaj by zmienić swoje ustawienia dostępu.</string>
+    <string name="updateBalanceTitle">Ile wydałeś\?</string>
+    <string name="updateBalanceHint">Wpisz sumę</string>
+    <string name="updateBalance">Zaktualizuj balans</string>
+    <string name="cameraPermissionDeniedTitle">Odmówiono dostępu do kamery</string>
+    <string name="newBalanceSentence">Nowe saldo: <xliff:g>%s</xliff:g></string>
+    <string name="importCards">Importuj karty</string>
+    <string name="storageReadPermissionRequired">Pozwolenie na odczytanie pamięci masowej potrzebne do wykonania tej czynności…</string>
+    <string name="cameraPermissionRequired">Zezwolenie na dostęp do kamery potrzebne do wykonania tej czynności…</string>
+    <string name="validFromDate">Obowiązuje od</string>
+    <string name="chooseValidFromDate">Wybierz datę rozpoczęcia ważności</string>
+    <string name="anyDate">Dowolna data</string>
+    <string name="validFromSentence">Ważny od: <xliff:g>%s</xliff:g></string>
+</resources>

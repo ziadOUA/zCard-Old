@@ -1,0 +1,3 @@
+- Aggiunta icona monocolore per Android 13
+- Migliorata la schermata del primo avvio
+- Sistemato l'importazione da Fidme

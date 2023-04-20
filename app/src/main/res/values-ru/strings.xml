@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_search">Поиск</string>
+    <string name="action_add">Добавить</string>
+    <string name="noGiftCards">Нажмите кнопку \"+\" для добавления карты или используйте меню \"⋮\" для импортирования.</string>
+    <string name="noMatchingGiftCards">Ничего не найдено. Попробуйте изменить поисковый запрос.</string>
+    <string name="storeName">Название</string>
+    <string name="note">Примечание</string>
+    <string name="cardId">Номер карты</string>
+    <string name="barcodeType">Тип штрих-кода</string>
+    <string name="barcodeNoBarcode">Нет штрих-кода</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="ok">ОК</string>
+    <string name="copy_to_clipboard">Копировать номер карты</string>
+    <string name="share">Переслать</string>
+    <string name="sendLabel">Отправить…</string>
+    <string name="editCardTitle">Изменить карту</string>
+    <string name="addCardTitle">Добавить карту</string>
+    <string name="scanCardBarcode">Отсканируйте штрих-код</string>
+    <string name="cardShortcut">Ярлык карты</string>
+    <string name="noCardsMessage">Сначала добавьте карту</string>
+    <string name="noStoreError">Название не указано</string>
+    <string name="noCardIdError">Номер не указан</string>
+    <string name="noCardExistsError">Карта не найдена</string>
+    <string name="failedParsingImportUriError">Невозможно разобрать импортируемый URI</string>
+    <string name="importExport">Импорт/Экспорт</string>
+    <string name="exportName">Экспорт</string>
+    <string name="importExportHelp">Резервное копирование данных позволяет перенести их на другое устройство.</string>
+    <string name="importSuccessfulTitle">Импортировано</string>
+    <string name="importFailedTitle">Импорт не выполнен</string>
+    <string name="importFailed">Невозможно выполнить импорт</string>
+    <string name="exportSuccessfulTitle">Экспортировано</string>
+    <string name="exportFailedTitle">Экспорт не выполнен</string>
+    <string name="exportFailed">Невозможно выполнить экспорт</string>
+    <string name="importing">Импорт…</string>
+    <string name="exporting">Экспорт…</string>
+    <string name="exportOptionExplanation">Данные будут записаны в выбранное место.</string>
+    <string name="importOptionFilesystemTitle">Импорт из файловой системы</string>
+    <string name="importOptionFilesystemExplanation">Выберете файл на файловой системе.</string>
+    <string name="importOptionFilesystemButton">Выбрать файл</string>
+    <string name="importOptionApplicationTitle">Использование другого приложения</string>
+    <string name="importOptionApplicationExplanation">Используйте любое приложение или ваш любимый файловый менеджер, чтобы открыть файл.</string>
+    <string name="importOptionApplicationButton">Использовать другое приложение</string>
+    <string name="about">О приложении</string>
+    <string name="app_license">Авторское лево свободного программного обеспечения, лицензия GPLv3+</string>
+    <string name="about_title_fmt">О приложении <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Версия: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Информация о версиях: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="selectBarcodeTitle">Выбор штрих-кода</string>
+    <string name="enterBarcodeInstructions">Введите номер и выберите тип штрих-кода (или выберите \"Нет штрих-кода\").</string>
+    <string name="copy_to_clipboard_toast">Номер скопирован в буфер обмена</string>
+    <string name="thumbnailDescription">Логотип</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_category_title_ui">Внешний вид</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_system_theme">Системная</string>
+    <string name="settings_light_theme">Светлая</string>
+    <string name="settings_dark_theme">Тёмная</string>
+    <string name="settings_display_barcode_max_brightness">Максимальная яркость при отображении карты</string>
+    <string name="intent_import_card_from_url_share_text">Я хочу поделиться с вами картой</string>
+    <string name="exportSuccessful">Данные успешно экспортированы</string>
+    <string name="all">Все</string>
+    <string name="noGroups">Нажмите кнопку \"+\", чтобы добавить группы для распределения записей.</string>
+    <string name="groups">Группы</string>
+    <string name="enter_group_name">Введите название группы</string>
+    <string name="importSuccessful">Данные успешно импортированы</string>
+    <string name="starImage">Звезда избранного</string>
+    <string name="app_copyright_old">На основе Loyalty Card Keychain
+\nавторские права © 2016–2020 Branden Archer</string>
+    <string name="unstar">Удалить из избранного</string>
+    <string name="star">Добавить в избранное</string>
+    <string name="noBarcode">Нет штрих-кода</string>
+    <string name="deleteConfirmationGroup">Удалить группу\?</string>
+    <string name="leaveWithoutSaveConfirmation">Выйти без сохранения\?</string>
+    <string name="leaveWithoutSaveTitle">Выход</string>
+    <string name="failedOpeningFileManager">Требуется файловый менеджер.</string>
+    <string name="balanceSentence">Баланс: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Срок действия истёк: <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">Срок действия истекает: <xliff:g>%s</xliff:g></string>
+    <string name="points">Баллы</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> не похож на правильный баланс.</string>
+    <string name="addManually">Ручной ввод номера</string>
+    <string name="privacy_policy_popup_text">Уведомление о политике конфиденциальности (требуется некоторыми магазинами приложений):
+\n
+\nНИКАКИЕ ДАННЫЕ НЕ СОБИРАЮТСЯ ВООБЩЕ, что может подтвердить любой, так как наше приложение является свободным программным обеспечением.</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="app_loyalty_card_keychain">Loyalty Card Keychain</string>
+    <string name="chooseImportType">Откуда импортировать данные</string>
+    <string name="balance">Баланс</string>
+    <string name="moveBarcodeToTopOfScreen">Переместить штрих-код в верхнюю часть экрана</string>
+    <string name="moveBarcodeToCenterOfScreen">Центрировать штрих-код на экране</string>
+    <string name="currency">Валюта</string>
+    <string name="chooseExpiryDate">Выбор срока действия</string>
+    <string name="never">Никогда</string>
+    <string name="expiryDate">Срок действия</string>
+    <string name="editBarcode">Изменить штрих-код</string>
+    <string name="barcode">Штрих-код</string>
+    <string name="card">Карта</string>
+    <string name="groupsList">Группы: <xliff:g>%s</xliff:g></string>
+    <string name="moveDown">Переместить ниже</string>
+    <string name="moveUp">Переместить выше</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Не давать блокировать экран</string>
+    <string name="settings_keep_screen_on">Не отключать экран</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> карта</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> карты</item>
+        <item quantity="many"><xliff:g>%d</xliff:g> карт</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> карт</item>
+    </plurals>
+    <string name="accept">Принять</string>
+    <string name="importVoucherVaultMessage">Выберите для импортирования файл <i>vouchervault.json</i>.
+\nФайл можно создать в приложении Voucher Vault, нажав кнопку \"Экспорт\".</string>
+    <string name="importVoucherVault">Импорт из Voucher Vault</string>
+    <string name="importFidmeMessage">Выберите для импортирования файл <i>fidme-export-request-xxxxxx.zip</i>, а затем вручную укажите типы штрих-кодов.
+\nФайл можно создать в приложении FidMe, перейдя в свой профиль, выбрав функцию \"Защита данных\", и затем нажав кнопку \"Извлечь мои данные\".</string>
+    <string name="importLoyaltyCardKeychainMessage">Выберите для импортирования файл <i>LoyaltyCardKeychain.csv</i>.
+\nФайл можно создать в приложении Loyalty Card Keychain, перейдя в меню \"Импорт/Экспорт\" и нажав кнопку \"Экспорт\".</string>
+    <string name="importLoyaltyCardKeychain">Импорт из Loyalty Card Keychain</string>
+    <string name="importCatimaMessage">Выберите для импортирования файл <i>Catima.zip</i>.
+\nФайл можно создать в другой копии Catima, перейдя в меню \"Импорт/Экспорт\" и нажав кнопку \"Экспорт\".</string>
+    <string name="importFidme">Импорт из FidMe</string>
+    <string name="importCatima">Импорт из Catima</string>
+    <string name="errorReadingImage">Невозможно считать изображение</string>
+    <string name="noBarcodeFound">Штрих-код не найден</string>
+    <string name="addFromImage">Выбрать изображение из галереи</string>
+    <string name="setBarcodeId">Указать значение</string>
+    <string name="sameAsCardId">Как номер</string>
+    <string name="barcodeId">Значение штрих-кода</string>
+    <string name="settings_max_font_size_scale">Максимальный размер шрифта</string>
+    <string name="unsupportedBarcodeType">В настоящее время данный тип штрих-кодов не отображается. Его поддержка может быть добавлена в следующих версиях приложения.</string>
+    <string name="wrongValueForBarcodeType">Недопустимое значение для выбранного типа штрих-кода</string>
+    <string name="app_resources">Свободные сторонние ресурсы: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Свободные сторонние библиотеки: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Авторские права © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Поделиться картами</string>
+    <string name="card_ids_copied">Скопированные номера</string>
+    <string name="copy_to_clipboard_multiple_toast">Номера скопированы в буфер обмена</string>
+    <string name="updateBarcodeQuestionText">Вы изменили номер. Обновить также значение штрих-кода, чтобы использовалось одинаковое значение\?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="updateBarcodeQuestionTitle">Обновить значение штрих-кода\?</string>
+    <string name="setBackImage">Изображение задней стороны</string>
+    <string name="setFrontImage">Изображение лицевой стороны</string>
+    <string name="takePhoto">Сфотографировать</string>
+    <string name="removeImage">Удалить изображение</string>
+    <string name="backImageDescription">Задняя сторона</string>
+    <string name="frontImageDescription">Лицевая сторона</string>
+    <string name="photos">Фото</string>
+    <string name="importStocardMessage">Выберите для импортирования файл <i>***.zip</i>.
+\nЭтот файл можно получить по электронной почте от support@stocardapp.com, предварительно запросив экспорт ваших данных.</string>
+    <string name="passwordRequired">Введите пароль</string>
+    <string name="importStocard">Импорт из Stocard</string>
+    <string name="failedGeneratingShareURL">Невозможно создать URL для обмена. Пожалуйста, сообщите об этом.</string>
+    <string name="turn_flashlight_off">Отключить вспышку</string>
+    <string name="turn_flashlight_on">Включить вспышку</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> выбрана</item>
+        <item quantity="few"><xliff:g>%d</xliff:g> выбраны</item>
+        <item quantity="many"><xliff:g>%d</xliff:g> выбрано</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> выбрано</item>
+    </plurals>
+    <string name="deleteTitle">Удаление карты</string>
+    <string name="deleteConfirmation">Удалить карту\?</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Удалить эту <xliff:g>%d</xliff:g> карту безвозвратно\?</item>
+        <item quantity="few">Удалить эти <xliff:g>%d</xliff:g> карты безвозвратно\?</item>
+        <item quantity="many">Удалить эти <xliff:g>%d</xliff:g> карт безвозвратно\?</item>
+        <item quantity="other">Удалить эти <xliff:g>%d</xliff:g> карт безвозвратно\?</item>
+    </plurals>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Удаление <xliff:g>%d</xliff:g> карты</item>
+        <item quantity="few">Удаление <xliff:g>%d</xliff:g> карт</item>
+        <item quantity="many">Удаление <xliff:g>%d</xliff:g> карт</item>
+        <item quantity="other">Удаление <xliff:g>%d</xliff:g> карт</item>
+    </plurals>
+    <string name="settings_system_locale">Системный</string>
+    <string name="settings_locale">Язык</string>
+    <string name="settings_sky_blue_theme">Голубой</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_brown_theme">Коричневый</string>
+    <string name="settings_grey_theme">Серый</string>
+    <string name="settings_green_theme">Зелёный</string>
+    <string name="settings_blue_theme">Синий</string>
+    <string name="settings_violet_theme">Фиолетовый</string>
+    <string name="settings_magenta_theme">Пурпурный</string>
+    <string name="settings_pink_theme">Розовый</string>
+    <string name="settings_theme_color">Цвет темы</string>
+    <string name="app_contributors">Создано при поддержке: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="noGroupCards">Группа пуста</string>
+    <string name="barcodeImageDescriptionWithType">Изображение штрих-кода <xliff:g>%s</xliff:g></string>
+    <string name="swipeToSwitchImages">Смахивание переключает изображения, долгое нажатие открывает в приложении галереи</string>
+    <string name="sort_by_expiry">Срок действия</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="reverse">…в обратном порядке</string>
+    <string name="sort_by_balance">Баланс</string>
+    <string name="sort_by_most_recently_used">Частота использования</string>
+    <string name="sort_by_name">Название</string>
+    <string name="sort">Сортировка</string>
+    <string name="credits">Благодарности</string>
+    <string name="version_history">История версий</string>
+    <string name="on_github">на GitHub</string>
+    <string name="rate_this_app">Оценить приложение</string>
+    <string name="and_data_usage">и использование данных</string>
+    <string name="report_error">Отчёт об ошибке</string>
+    <string name="on_google_play">в Google Play</string>
+    <string name="source_repository">Исходный код</string>
+    <string name="license">Лицензия</string>
+    <string name="help_translate_this_app">Помощь в переводе приложения</string>
+    <string name="exportPassword">Защитить файл экспорта паролем (необязательно)</string>
+    <string name="exportPasswordHint">Введите пароль</string>
+    <string name="group_name_is_empty">Название группы не может быть пустым</string>
+    <string name="group_updated">Группа обновлена</string>
+    <string name="editGroup">Редактирование группы: <xliff:g>%s</xliff:g></string>
+    <string name="group_edit">Изменить группу</string>
+    <string name="group_name_already_in_use">Такое название группы уже существует</string>
+    <string name="noGiftCardsGroup">Создайте несколько карт, а затем распределите их по группам здесь.</string>
+    <string name="setIcon">Выбор значка</string>
+    <string name="selectColor">Выбрать цвет</string>
+    <string name="action_hide_details">Скрыть детали</string>
+    <string name="action_show_details">Показать детали</string>
+    <string name="translate_platform">на Weblate</string>
+    <string name="shortcutSelectCard">Выбор карты</string>
+    <string name="options">Параметры</string>
+    <string name="set_scale">Выбор масштаба</string>
+    <string name="hideMoreInfo">Скрыть данные</string>
+    <string name="showMoreInfo">Показать данные</string>
+    <string name="starred">Избранное</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> балл</item>
+        <item quantity="few"><xliff:g>%s</xliff:g> балла</item>
+        <item quantity="many"><xliff:g>%s</xliff:g> баллов</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> баллов</item>
+    </plurals>
+    <string name="settings_oled_dark">Чёрный фон для тёмной темы</string>
+    <string name="include_if_asking_support">Если вы хотите запросить поддержку, укажите следующую информацию:</string>
+    <string name="settings_portrait_orientation">Портретная</string>
+    <string name="settings_landscape_orientation">Альбомная</string>
+    <string name="settings_lock_on_opening_orientation">Фиксировать ориентацию при открытии карты</string>
+    <string name="archive">Архивировать</string>
+    <string name="unarchive">Разархивировать</string>
+    <string name="archiveList">Архив</string>
+    <string name="noUnarchivedCardsMessage">Нет карт вне архива</string>
+    <string name="settings_follow_system_orientation">Как в системе</string>
+    <string name="duplicateCard">Дублировать</string>
+    <string name="settings_card_orientation">Ориентация штрих-кода</string>
+    <string name="archived">Карта архивирована</string>
+    <string name="unarchived">Карта разархивирована</string>
+    <string name="failedLaunchingPhotoPicker">Не найдено поддерживаемое приложение галереи</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> карта (<xliff:g id="archivedCount">%2$d</xliff:g> архивирована)</item>
+        <item quantity="few"><xliff:g>%1$d</xliff:g> карты (<xliff:g id="archivedCount">%2$d</xliff:g> архивированы)</item>
+        <item quantity="many"><xliff:g>%1$d</xliff:g> карт (<xliff:g id="archivedCount">%2$d</xliff:g> архивировано)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> карт (<xliff:g id="archivedCount">%2$d</xliff:g> архивировано)</item>
+    </plurals>
+    <string name="nextCard">Следующая</string>
+    <string name="previousCard">Предыдущая</string>
+    <string name="welcome">Добро пожаловать в Catima</string>
+    <string name="failedToOpenUrl">Сначала необходимо установить браузер</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Просмотр архива (<xliff:g>%1$d</xliff:g> карта)</item>
+        <item quantity="few">Просмотр архива (<xliff:g>%1$d</xliff:g> карты)</item>
+        <item quantity="many">Просмотр архива (<xliff:g>%1$d</xliff:g> карт)</item>
+        <item quantity="other">Просмотр архива (<xliff:g>%1$d</xliff:g> карт)</item>
+    </plurals>
+    <string name="failedToRetrieveImageFile">Невозможно получить файл изображения</string>
+    <string name="barcodeLongPressMessage">В приложении галереи можно открывать только изображения</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Для сканирования штрих-кодов Catima требуется доступ к камере устройства. Нажмите здесь, чтобы изменить настройки разрешений.</string>
+    <string name="updateBalance">Обновить баланс</string>
+    <string name="newBalanceSentence">Новый баланс: <xliff:g>%s</xliff:g></string>
+    <string name="currentBalanceSentence">Текущий баланс: <xliff:g>%s</xliff:g></string>
+    <string name="cameraPermissionDeniedTitle">Камера недоступна</string>
+    <string name="updateBalanceHint">Введите сумму</string>
+    <string name="updateBalanceTitle">Какое изменение\?</string>
+    <string name="importCards">Импорт карт</string>
+    <string name="storageReadPermissionRequired">Для этого действия необходимо разрешение на чтение хранилища…</string>
+    <string name="cameraPermissionRequired">Для этого действия необходимо разрешение на доступ к камере…</string>
+    <string name="validFromDate">Действует с</string>
+    <string name="anyDate">Любая дата</string>
+    <string name="chooseValidFromDate">Выбор даты действия</string>
+    <string name="validFromSentence">Действует с: <xliff:g>%s</xliff:g></string>
+</resources>

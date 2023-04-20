@@ -1,0 +1,3 @@
+- Automatické zaměření textového pole při vytváření nebo úpravě skupiny
+- Oprava rozmazaných ikon (všude použito SVG)
+- Vždy otevřít fotoaparát, ale přidáno tlačítko ručního skenování do zobrazení fotoaparátu

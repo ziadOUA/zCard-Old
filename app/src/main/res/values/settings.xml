@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_values">
+        <item>@string/settings_key_system_theme</item>
+        <item>@string/settings_key_light_theme</item>
+        <item>@string/settings_key_dark_theme</item>
+    </string-array>
+
+    <string-array name="theme_value_strings">
+        <item>@string/settings_system_theme</item>
+        <item>@string/settings_light_theme</item>
+        <item>@string/settings_dark_theme</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>@string/settings_key_system_theme</item>
+        <item>@string/settings_key_catima_theme</item>
+        <item>@string/settings_key_pink_theme</item>
+        <item>@string/settings_key_magenta_theme</item>
+        <item>@string/settings_key_violet_theme</item>
+        <item>@string/settings_key_blue_theme</item>
+        <item>@string/settings_key_sky_blue_theme</item>
+        <item>@string/settings_key_green_theme</item>
+        <item>@string/settings_key_brown_theme</item>
+    </string-array>
+
+    <string-array name="color_value_strings">
+        <item>@string/settings_system_theme</item>
+        <item>@string/settings_catima_theme</item>
+        <item>@string/settings_pink_theme</item>
+        <item>@string/settings_magenta_theme</item>
+        <item>@string/settings_violet_theme</item>
+        <item>@string/settings_blue_theme</item>
+        <item>@string/settings_sky_blue_theme</item>
+        <item>@string/settings_green_theme</item>
+        <item>@string/settings_brown_theme</item>
+    </string-array>
+
+    <string-array name="color_values_no_dynamic">
+        <item>@string/settings_key_system_theme</item>
+        <item>@string/settings_key_pink_theme</item>
+        <item>@string/settings_key_magenta_theme</item>
+        <item>@string/settings_key_violet_theme</item>
+        <item>@string/settings_key_blue_theme</item>
+        <item>@string/settings_key_sky_blue_theme</item>
+        <item>@string/settings_key_green_theme</item>
+        <item>@string/settings_key_brown_theme</item>
+    </string-array>
+
+    <string-array name="color_value_strings_no_dynamic">
+        <item>@string/settings_catima_theme</item>
+        <item>@string/settings_pink_theme</item>
+        <item>@string/settings_magenta_theme</item>
+        <item>@string/settings_violet_theme</item>
+        <item>@string/settings_blue_theme</item>
+        <item>@string/settings_sky_blue_theme</item>
+        <item>@string/settings_green_theme</item>
+        <item>@string/settings_brown_theme</item>
+    </string-array>
+
+    <string-array name="locale_values">
+        <item />
+        <item>ar</item>
+        <item>bg</item>
+        <item>bn</item>
+        <item>bn-rIN</item>
+        <item>bs</item>
+        <item>ca</item>
+        <item>cs</item>
+        <item>cy</item>
+        <item>da</item>
+        <item>de</item>
+        <item>el-rGR</item>
+        <item>en</item>
+        <item>eo</item>
+        <item>es</item>
+        <item>es-rAR</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>he-rIL</item>
+        <item>hi</item>
+        <item>hr</item>
+        <item>hu</item>
+        <item>in-rID</item>
+        <item>is</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>lt</item>
+        <item>lv</item>
+        <item>nb-rNO</item>
+        <item>nl</item>
+        <item>oc</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro-rRO</item>
+        <item>ru</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>sv</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>zh-TW</item>
+        <item>zh-rCN</item>
+    </string-array>
+
+    <string-array name="card_orientation_values">
+        <item>@string/settings_key_follow_system_orientation</item>
+        <item>@string/settings_key_lock_on_opening_orientation</item>
+        <item>@string/settings_key_portrait_orientation</item>
+        <item>@string/settings_key_landscape_orientation</item>
+    </string-array>
+
+    <string-array name="card_orientation_values_strings">
+        <item>@string/settings_follow_system_orientation</item>
+        <item>@string/settings_lock_on_opening_orientation</item>
+        <item>@string/settings_portrait_orientation</item>
+        <item>@string/settings_landscape_orientation</item>
+    </string-array>
+
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+
+    <!-- Default values -->
+    <integer name="settings_max_font_size_scale_pct">100</integer>
+
+    <!-- Constraints -->
+    <integer name="settings_max_font_size_scale_pct_min">50</integer>
+    <integer name="settings_max_font_size_scale_pct_max">200</integer>
+</resources>

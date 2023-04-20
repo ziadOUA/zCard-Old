@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="settings_display_barcode_max_brightness">Gör streckkodsvyn ljusare</string>
+    <string name="settings_max_font_size_scale">Max. teckenstorlek</string>
+    <string name="settings_keep_screen_on">Håll skärmen påslagen</string>
+    <string name="enterBarcodeInstructions">Ange ID:t och välj antingen streckkodstyp nedan, eller \"Det finns ingen streckkod\".</string>
+    <string name="importFidmeMessage">Välj den exporterade <i>fidme-export-request-xxxxxx.zip</i> från FidMe som du vill importera och välj streckkodstyper manuellt efteråt.
+\nSkapa den från din FidMe-profil först genom att välja \"Data Protection\" och sen trycka på \"Extract my data\".</string>
+    <string name="importOptionApplicationExplanation">Använd vilken app som helst eller den filhanterare du föredrar för att öppna en fil.</string>
+    <string name="importOptionApplicationButton">Använd en annan app</string>
+    <string name="intent_import_card_from_url_share_text">Jag vill dela ett kort med dig</string>
+    <string name="noGroups">Klicka på plus(+)-knappen för att lägga till kategorigrupper.</string>
+    <string name="groupsList">Grupper: <xliff:g>%s</xliff:g></string>
+    <string name="errorReadingImage">Kunde inte läsa bilden</string>
+    <string name="currency">Valuta</string>
+    <string name="failedGeneratingShareURL">Kunde inte skapa en delningsbar URL. Var snäll och rapportera detta.</string>
+    <string name="card_ids_copied">Kopierade ID:n</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> valt</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> valda</item>
+    </plurals>
+    <string name="app_loyalty_card_keychain">Nyckelring för bonuskort</string>
+    <string name="importLoyaltyCardKeychainMessage">Välj den exporterade <i>LoyaltyCardKeychain.csv</i> från Loyalty Card Keychain som du vill importera.
+\nSkapa den från Import/Export-menyn i Loyalty Card Keychain först genom att trycka på Exportera.</string>
+    <string name="importVoucherVaultMessage">Välj den exporterade <i>vouchervault.json</i> från Voucher Vault som du vill importera.
+\nSkapa den först genom att trycka på Exportera i Voucher Vault.</string>
+    <string name="importStocardMessage">Välj den exporterade <i>***.zip</i> från Stocard som du vill importera.
+\nSkaffa den först genom att skicka e-post till support@stocardapp.com och be om att få dina data exporterade.</string>
+    <string name="enter_group_name">Ange gruppnamn</string>
+    <string name="groups">Grupper</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> kort</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> korten</item>
+    </plurals>
+    <string name="all">Alla</string>
+    <string name="deleteConfirmationGroup">Ta bort grupp\?</string>
+    <string name="failedOpeningFileManager">Installera en filhanterare först.</string>
+    <string name="moveUp">Flytta uppåt</string>
+    <string name="moveDown">Flytta nedåt</string>
+    <string name="leaveWithoutSaveTitle">Avsluta</string>
+    <string name="leaveWithoutSaveConfirmation">Avsluta utan att spara\?</string>
+    <string name="addManually">Ange ID manuellt</string>
+    <string name="addFromImage">Välj bild från galleriet</string>
+    <string name="card">Kort</string>
+    <string name="barcode">Streckkod</string>
+    <string name="editBarcode">Redigera streckkod</string>
+    <string name="never">Aldrig</string>
+    <string name="moveBarcodeToTopOfScreen">Flytta streckkoden högst upp på skärmen</string>
+    <string name="moveBarcodeToCenterOfScreen">Centrera streckkoden på skärmen</string>
+    <string name="noBarcodeFound">Hittade ingen streckkod</string>
+    <string name="points">Poäng</string>
+    <string name="chooseImportType">Importera data från</string>
+    <string name="accept">Acceptera</string>
+    <string name="importCatima">Importera från Catima</string>
+    <string name="importFidme">Importera från FidMe</string>
+    <string name="importLoyaltyCardKeychain">Importera från Loyalty Card Keychain</string>
+    <string name="importStocard">Importera from Stocard</string>
+    <string name="importVoucherVault">Importera från Voucher Vault</string>
+    <string name="barcodeId">Streckkodsvärde</string>
+    <string name="passwordRequired">Var snäll och ange lösenordet</string>
+    <string name="no">Nej</string>
+    <string name="yes">Ja</string>
+    <string name="updateBarcodeQuestionText">Du ändrade ID:t. Vill du uppdatera streckkoden så att den också använder samma värde\?</string>
+    <string name="updateBarcodeQuestionTitle">Uppdatera streckkodsvärde\?</string>
+    <string name="takePhoto">Ta ett foto</string>
+    <string name="removeImage">Ta bort bild</string>
+    <string name="setBackImage">Ange baksidesbild</string>
+    <string name="setFrontImage">Ange framsidesbild</string>
+    <string name="photos">Foton</string>
+    <string name="backImageDescription">Baksidesbild</string>
+    <string name="frontImageDescription">Framsidesbild</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Jag vill dela några kort med dig</string>
+    <string name="copy_to_clipboard_multiple_toast">ID:n kopierades till Urklipp</string>
+    <string name="wrongValueForBarcodeType">Värdet är inte giltigt för den valda streckkodstypen</string>
+    <string name="unsupportedBarcodeType">Denna streckkodstyp kan ännu inte visas. Den kan komma att stödjas i en senare version av appen.</string>
+    <string name="setBarcodeId">Ange streckkodsvärde</string>
+    <string name="sameAsCardId">Samma som ID:t</string>
+    <string name="turn_flashlight_on">Sätt på ficklampa</string>
+    <string name="turn_flashlight_off">Stäng av ficklampa</string>
+    <string name="settings_dark_theme">Mörkt</string>
+    <string name="settings_light_theme">Ljust</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_category_title_ui">Användargränssnitt</string>
+    <string name="settings">Inställningar</string>
+    <string name="thumbnailDescription">Miniatyrbild</string>
+    <string name="copy_to_clipboard_toast">ID:t kopierat till Urklipp</string>
+    <string name="selectBarcodeTitle">Välj streckkod</string>
+    <string name="debug_version_fmt">Version: <xliff:g id="version">%s</xliff:g></string>
+    <string name="about_title_fmt">Om <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="app_copyright_old">Baserad på Loyalty Card Keychain
+\ncopyright © 2016–2020 Branden Archer</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Copyright © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="about">Om</string>
+    <string name="importOptionApplicationTitle">Använd en annan app</string>
+    <string name="importOptionFilesystemButton">Från filsystemet</string>
+    <string name="importOptionFilesystemExplanation">Välj en specifik fil från filsystemet.</string>
+    <string name="importOptionFilesystemTitle">Importera från filsystem</string>
+    <string name="exporting">Exporterar…</string>
+    <string name="importing">Importerar…</string>
+    <string name="exportFailed">Kunde inte genomföra export</string>
+    <string name="importFailed">Kunde inte genomföra import</string>
+    <string name="importSuccessfulTitle">Importen lyckades</string>
+    <string name="importFailedTitle">Importen misslyckades</string>
+    <string name="importExportHelp">Säkerhetskopiering av din data möjliggör förflyttning av den till en annan enhet.</string>
+    <string name="importExport">Importera/Exportera</string>
+    <string name="noCardExistsError">Kunde inte hitta det kortet</string>
+    <string name="noCardIdError">Inget ID har angivits</string>
+    <string name="noStoreError">Inget namn har angivits</string>
+    <string name="noCardsMessage">Lägg till ett kort först</string>
+    <string name="cardShortcut">Kort-genväg</string>
+    <string name="addCardTitle">Lägg till kort</string>
+    <string name="editCardTitle">Redigera kort</string>
+    <string name="sendLabel">Skicka…</string>
+    <string name="share">Dela</string>
+    <string name="copy_to_clipboard">Kopiera ID till Urklipp</string>
+    <string name="ok">OK</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Ta bort detta <xliff:g>%d</xliff:g> kort permanent\?</item>
+        <item quantity="other">Ta bort dessa <xliff:g>%d</xliff:g> kort permanent\?</item>
+    </plurals>
+    <string name="deleteConfirmation">Ta bort detta kort permanent\?</string>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Radera <xliff:g>%d</xliff:g> kort</item>
+        <item quantity="other">Radera <xliff:g>%d</xliff:g> kort</item>
+    </plurals>
+    <string name="deleteTitle">Ta bort kort</string>
+    <string name="confirm">Bekräfta</string>
+    <string name="delete">Ta bort</string>
+    <string name="edit">Redigera</string>
+    <string name="save">Spara</string>
+    <string name="cancel">Avbryt</string>
+    <string name="unstar">Ta bort från favoriter</string>
+    <string name="star">Lägg till i favoriter</string>
+    <string name="noBarcode">Ingen streckkod</string>
+    <string name="barcodeNoBarcode">Det finns ingen streckkod</string>
+    <string name="barcodeType">Streckkodstyp</string>
+    <string name="cardId">Kort-ID</string>
+    <string name="storeName">Namn</string>
+    <string name="noMatchingGiftCards">Inget resultat. Försök justera din sökning.</string>
+    <string name="noGiftCards">Klicka på plus(+)-knappen för att lägga till ett kort, eller importera från ⋮-menyn.</string>
+    <string name="action_add">Lägg till</string>
+    <string name="action_search">Sök</string>
+    <string name="exportOptionExplanation">Datan kommer att sparas till en plats som du väljer.</string>
+    <string name="exportName">Exportera</string>
+    <string name="exportFailedTitle">Exporten misslyckades</string>
+    <string name="exportSuccessfulTitle">Exporten lyckades</string>
+    <string name="scanCardBarcode">Skanna streckkod</string>
+    <string name="settings_system_theme">Systemtemat</string>
+    <string name="app_revision_fmt">Ändringsinfo: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="privacy_policy_popup_text">Notis rörande integritetspolicy (krävs av vissa appbutiker):
+\n
+\nINGEN DATA ALLS SAMLAS IN, vilket vem som helst kan bekräfta eftersom vår app är fri programvara.</string>
+    <string name="privacy_policy">Integritetspolicy</string>
+    <string name="expiryStateSentenceExpired">Förföll: <xliff:g>%s</xliff:g></string>
+    <string name="chooseExpiryDate">Välj förfallodatum</string>
+    <string name="expiryDate">Förfallodatum</string>
+    <string name="starImage">Favoritstjärna</string>
+    <string name="app_license">Copyleftad fri programvara, under GPLv3+-licens</string>
+    <string name="app_resources">Fria tredjepartsresurser: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Fria tredjepartsbibliotek: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> verkar inte vara ett giltigt saldo.</string>
+    <string name="balance">Saldo</string>
+    <string name="balanceSentence">Saldo: <xliff:g>%s</xliff:g></string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Förhindra skärmlåsning</string>
+    <string name="importCatimaMessage">Välj den exporterade <i>catima.zip</i> från Catima som du vill importera.
+\nSkapa den från Import/Export-menyn i en annan Catima-app genom att trycka på Exportera där först.</string>
+    <string name="expiryStateSentence">Giltigt till: <xliff:g>%s</xliff:g></string>
+    <string name="exportSuccessful">Data exporterad</string>
+    <string name="importSuccessful">Data importerad</string>
+    <string name="failedParsingImportUriError">Kunde inte tolka import-URI:n</string>
+    <string name="note">Anteckning</string>
+    <string name="settings_system_locale">System</string>
+    <string name="settings_locale">Språk</string>
+    <string name="app_contributors">Möjliggjordes av: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="settings_brown_theme">Brunt</string>
+    <string name="settings_grey_theme">Grått</string>
+    <string name="settings_green_theme">Grönt</string>
+    <string name="settings_sky_blue_theme">Himmelblått</string>
+    <string name="settings_blue_theme">Blått</string>
+    <string name="settings_violet_theme">Violett</string>
+    <string name="settings_magenta_theme">Magenta</string>
+    <string name="settings_pink_theme">Rosa</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Temafärg</string>
+    <string name="noGroupCards">Denna grupp är tom</string>
+    <string name="barcodeImageDescriptionWithType">Bild <xliff:g>%s</xliff:g> streckkod</string>
+    <string name="swipeToSwitchImages">Svep eller ändra bilder, håll för att öppna i bild i galleri app</string>
+    <string name="reverse">...i omvänd ordning</string>
+    <string name="sort_by">Sortera efter</string>
+    <string name="sort_by_balance">Saldo</string>
+    <string name="sort_by_expiry">Förfallodag</string>
+    <string name="sort_by_most_recently_used">Senast använda</string>
+    <string name="sort_by_name">Namn</string>
+    <string name="sort">Sortera</string>
+    <string name="license">Licens</string>
+    <string name="and_data_usage">och dataanvändning</string>
+    <string name="rate_this_app">Betygsätt den här appen</string>
+    <string name="on_google_play">på Google Play</string>
+    <string name="report_error">Rapportera ett fel</string>
+    <string name="version_history">Versionshistorik</string>
+    <string name="help_translate_this_app">Hjälp till med översättningen av appen</string>
+    <string name="on_github">på GitHub</string>
+    <string name="exportPassword">Sätt ett lösenord för att skydda din exporterade data (valfritt)</string>
+    <string name="exportPasswordHint">Ange lösenord</string>
+    <string name="group_updated">Gruppen har uppdaterats</string>
+    <string name="group_edit">Redigera grupp</string>
+    <string name="group_name_already_in_use">Gruppnamnet är redan upptaget</string>
+    <string name="group_name_is_empty">Gruppnamn måste anges</string>
+    <string name="editGroup">Redigerar grupp: <xliff:g>%s</xliff:g></string>
+    <string name="selectColor">Välj färg</string>
+    <string name="setIcon">Välj ikon</string>
+    <string name="action_show_details">Visa detaljer</string>
+    <string name="action_hide_details">Dölj detaljer</string>
+    <string name="credits">Bidragsgivare</string>
+    <string name="source_repository">Källkodslager</string>
+    <string name="noGiftCardsGroup">Skapa några kort och placera dem sedan i den här gruppen.</string>
+    <string name="translate_platform">på Weblate</string>
+    <string name="shortcutSelectCard">Välj ett kort</string>
+    <string name="showMoreInfo">Visa info</string>
+    <string name="starred">Stjärnmärkt</string>
+    <string name="hideMoreInfo">Dölj info</string>
+    <string name="options">Alternativ</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> poäng</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> poäng</item>
+    </plurals>
+    <string name="set_scale">Justera skala</string>
+    <string name="include_if_asking_support">Om du vill be om hjälp, inkludera då följande information:</string>
+    <string name="settings_oled_dark">Helsvart bakgrund för mörkt tema</string>
+    <string name="failedLaunchingPhotoPicker">Kunde inte hitta kompatibelt bildprogram</string>
+    <string name="settings_card_orientation">Streckkodsriktning</string>
+    <string name="settings_portrait_orientation">Porträtt</string>
+    <string name="settings_landscape_orientation">Landskap</string>
+    <string name="settings_lock_on_opening_orientation">Lås aktuell riktning när kort öppnas</string>
+    <string name="unarchive">Ta tillbaks från arkiv</string>
+    <string name="archived">Kort arkiverat</string>
+    <string name="archiveList">Arkivet</string>
+    <string name="settings_follow_system_orientation">Spårsystem</string>
+    <string name="duplicateCard">Kopiera</string>
+    <string name="unarchived">Kort återläst från arkiv</string>
+    <string name="nextCard">Nästa</string>
+    <string name="archive">Arkivera</string>
+    <string name="previousCard">Föregående</string>
+    <string name="noUnarchivedCardsMessage">Inga ej arkiverade kort finns</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> kort (<xliff:g id="archivedCount">%2$d</xliff:g> arkiverat)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> kort (<xliff:g id="archivedCount">%2$d</xliff:g> arkiverade)</item>
+    </plurals>
+    <string name="failedToOpenUrl">Installera en webbläsare först</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Visa arkiv (<xliff:g>%1$d</xliff:g> card)</item>
+        <item quantity="other">Visa arkiv (<xliff:g>%1$d</xliff:g> cards)</item>
+    </plurals>
+    <string name="welcome">Välkommen till Catima</string>
+    <string name="importCards">Importera kort</string>
+    <string name="cameraPermissionDeniedTitle">Kunde inte komma åt kamera</string>
+    <string name="noCameraPermissionDirectToSystemSetting">För att skanna streckkoder kommer Catima att behöva åtkomst till din kamera. Tryck här för att ändra dina tillståndsinställningar.</string>
+    <string name="anyDate">Valfritt datum</string>
+    <string name="chooseValidFromDate">Välj giltigt från datum</string>
+    <string name="validFromSentence">Giltigt från: <xliff:g>%s</xliff:g></string>
+    <string name="storageReadPermissionRequired">Tillstånd att läsa lagring behövs för denna åtgärd…</string>
+    <string name="currentBalanceSentence">Nuvarande balans: <xliff:g>%s</xliff:g></string>
+    <string name="validFromDate">Giltig från</string>
+    <string name="cameraPermissionRequired">Tillstånd att komma åt kameran krävs för denna åtgärd…</string>
+    <string name="updateBalance">Uppdatera balans</string>
+    <string name="failedToRetrieveImageFile">Misslyckades att hämta bildfil</string>
+    <string name="barcodeLongPressMessage">Endast bilder kan öppnas i galleri app</string>
+    <string name="updateBalanceTitle">Hur mycket spenderade du\?</string>
+    <string name="updateBalanceHint">Ange summa</string>
+    <string name="newBalanceSentence">Ny balans: <xliff:g>%s</xliff:g></string>
+</resources>

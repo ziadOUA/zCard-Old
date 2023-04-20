@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/settings_category_title_ui"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="@string/settings_key_system_theme"
+            android:entries="@array/theme_value_strings"
+            android:entryValues="@array/theme_values"
+            android:key="@string/settings_key_theme"
+            android:title="@string/settings_theme"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false" />
+
+        <ListPreference
+            android:key="@string/setting_key_theme_color"
+            android:title="@string/settings_theme_color"
+            android:defaultValue="@string/settings_key_system_theme"
+            android:entries="@array/color_value_strings"
+            android:entryValues="@array/color_values"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/settings_key_oled_dark"
+            android:title="@string/settings_oled_dark"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false"
+            app:widgetLayout="@drawable/material_switch"/>
+
+        <ListPreference
+            android:defaultValue=""
+            android:entries="@array/locale_values"
+            android:entryValues="@array/locale_values"
+            android:key="@string/settings_key_locale"
+            android:title="@string/settings_locale"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false" />
+
+        <nl.invissvenska.numberpickerpreference.NumberDialogPreference
+            android:key="@string/settings_key_max_font_size_scale"
+            android:title="@string/settings_max_font_size_scale"
+            app:defaultValue="@integer/settings_max_font_size_scale_pct"
+            app:iconSpaceReserved="false"
+            app:numberPickerPreference_maxValue="@integer/settings_max_font_size_scale_pct_max"
+            app:numberPickerPreference_minValue="@integer/settings_max_font_size_scale_pct_min"
+            app:numberPickerPreference_stepValue="10"
+            app:numberPickerPreference_unitText="%"
+            app:singleLineTitle="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/settings_key_display_barcode_max_brightness"
+            android:title="@string/settings_display_barcode_max_brightness"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false"
+            app:widgetLayout="@drawable/material_switch"/>
+
+        <ListPreference
+            android:defaultValue="@string/settings_key_follow_system_orientation"
+            android:entries="@array/card_orientation_values_strings"
+            android:entryValues="@array/card_orientation_values"
+            android:key="@string/settings_key_card_orientation"
+            android:title="@string/settings_card_orientation"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/settings_key_keep_screen_on"
+            android:title="@string/settings_keep_screen_on"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false"
+            app:widgetLayout="@drawable/material_switch"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/settings_key_disable_lockscreen_while_viewing_card"
+            android:title="@string/settings_disable_lockscreen_while_viewing_card"
+            app:iconSpaceReserved="false"
+            app:singleLineTitle="false"
+            app:widgetLayout="@drawable/material_switch"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

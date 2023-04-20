@@ -1,0 +1,4 @@
+- Behoben: Mehrfaches Drücken der Speichern-Schaltfläche erzeugt nun nicht mehr mehrere Einträge
+- Verkleinerung des Karten-Headers bei ausgeblendeten Details, um noch mehr Karten unterzubringen
+- Bearbeitungsbildschirm umstrukturiert
+- Kontrast der Sternsymbole in der Hauptansicht verbessert

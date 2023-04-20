@@ -1,0 +1,1 @@
+- Prevenuto il crash indotto dalla rotazione dello schermo durante l'introduzione guidata.

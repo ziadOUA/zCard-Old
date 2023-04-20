@@ -1,0 +1,2 @@
+- Přidání podpory pro přidávání zástupců věrnostních karet ze spouštěče/domácí obrazovky. (pull #161 (https://github.com/brarcher/loyalty-card-locker/pull/161))
+- Odstranění podpory pro přidávání zástupců věrnostních karet z aplikace jako takové. Tím se odstraní potřeba oprávnění k přidávání zástupců. (pull #163 (https://github.com/brarcher/loyalty-card-locker/pull/163))

@@ -1,0 +1,4 @@
+- Temayı elle değiştirirken kart görünümündeki noktaların yanlış renge sahip olması düzeltildi
+- Döndürme/tema değişikliğinde kart görünümündeki çökme düzeltildi
+- Kart listesinin yanıp sönmesi düzeltildi
+- Metnin yıldız simgesinin üzerine binmesi düzeltildi

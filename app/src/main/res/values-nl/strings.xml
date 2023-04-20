@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_search">Zoeken</string>
+    <string name="action_add">Toevoegen</string>
+    <string name="noGiftCards">Druk op de plusknop (‘+’) om een kaart toe te voegen of importeer kaarten via het ⋮-menu.</string>
+    <string name="noMatchingGiftCards">Geen zoekresultaten - probeer een andere zoekopdracht.</string>
+    <string name="storeName">Naam</string>
+    <string name="note">Aantekening</string>
+    <string name="cardId">Kaartnummer</string>
+    <string name="barcodeType">Soort barcode</string>
+    <string name="barcodeNoBarcode">Er is geen barcode</string>
+    <string name="cancel">Annuleren</string>
+    <string name="save">Opslaan</string>
+    <string name="edit">Bewerken</string>
+    <string name="delete">Verwijderen</string>
+    <string name="confirm">Bevestigen</string>
+    <string name="ok">Oké</string>
+    <string name="copy_to_clipboard">Kaartnummer kopiëren naar klembord</string>
+    <string name="share">Delen</string>
+    <string name="sendLabel">Versturen…</string>
+    <string name="editCardTitle">Kaart bewerken</string>
+    <string name="addCardTitle">Kaart toevoegen</string>
+    <string name="scanCardBarcode">Barcode scannen</string>
+    <string name="cardShortcut">Kaartsnelkoppeling</string>
+    <string name="noCardsMessage">Voeg eerst een kaart toe</string>
+    <string name="noStoreError">Geen naam ingevoerd</string>
+    <string name="noCardIdError">Geen id ingevoerd</string>
+    <string name="noCardExistsError">De kaart is niet aangetroffen</string>
+    <string name="failedParsingImportUriError">Kan de import-uri niet verwerken</string>
+    <string name="importExport">Importeren/Exporteren</string>
+    <string name="exportName">Exporteren</string>
+    <string name="importExportHelp">Door je gegevens te back-uppen, kun je ze overzetten naar een ander apparaat.</string>
+    <string name="importSuccessfulTitle">Importeren voltooid</string>
+    <string name="importFailedTitle">Importeren mislukt</string>
+    <string name="importFailed">Het importeren is mislukt</string>
+    <string name="exportSuccessfulTitle">Exporteren voltooid</string>
+    <string name="exportFailedTitle">Exporteren mislukt</string>
+    <string name="exportFailed">Het exporteren is mislukt</string>
+    <string name="importing">Bezig met importeren…</string>
+    <string name="exporting">Bezig met exporteren…</string>
+    <string name="exportOptionExplanation">De gegevens worden weggeschreven op een locatie naar keuze.</string>
+    <string name="importOptionFilesystemTitle">Importeren uit bestandssysteem</string>
+    <string name="importOptionFilesystemExplanation">Kies een specifiek bestand van het bestandssysteem.</string>
+    <string name="importOptionFilesystemButton">Van bestandssysteem</string>
+    <string name="importOptionApplicationTitle">Andere app gebruiken</string>
+    <string name="importOptionApplicationExplanation">Open een bestand middels een app of je favoriete bestandsbeheerder.</string>
+    <string name="importOptionApplicationButton">Andere app gebruiken</string>
+    <string name="about">Over</string>
+    <string name="app_license">Vrije software, uitgebracht onder de GPLv3+-licentie</string>
+    <string name="about_title_fmt">Over <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Versie: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Versie-informatie: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="selectBarcodeTitle">Barcode toevoegen</string>
+    <string name="enterBarcodeInstructions">Voer de kaart-id in en kies daarna het soort barcode of druk op “Deze kaart heeft geen barcode”.</string>
+    <string name="copy_to_clipboard_toast">De kaart-id is gekopieerd naar het klembord</string>
+    <string name="thumbnailDescription">Miniatuurvoorbeeld</string>
+    <string name="settings">Instellingen</string>
+    <string name="settings_category_title_ui">Vormgeving</string>
+    <string name="settings_theme">Thema</string>
+    <string name="settings_system_theme">Systeem</string>
+    <string name="settings_light_theme">Licht</string>
+    <string name="settings_dark_theme">Donker</string>
+    <string name="settings_display_barcode_max_brightness">Scherm helderder maken bij tonen van barcode</string>
+    <string name="intent_import_card_from_url_share_text">Ik wil een klantenkaart met je delen</string>
+    <string name="all">Alles</string>
+    <string name="importSuccessful">De gegevens zijn geïmporteerd</string>
+    <string name="deleteConfirmationGroup">Groep verwijderen\?</string>
+    <string name="noGroups">Druk op de plusknop (‘+’) om een groep toe te voegen.</string>
+    <string name="exportSuccessful">De gegevens zijn geëxporteerd</string>
+    <string name="groups">Groepen</string>
+    <string name="enter_group_name">Voer een groepsnaam in</string>
+    <string name="starImage">Favoriete ster</string>
+    <string name="app_copyright_old">Gebaseerd op Klantenkaartkluis,
+\ncopyright ©2016–2020 Branden Archer</string>
+    <string name="unstar">Verwijderen uit favorieten</string>
+    <string name="star">Toevoegen aan favorieten</string>
+    <string name="addManually">ID handmatig invoeren</string>
+    <string name="leaveWithoutSaveConfirmation">Weet je zeker dat je niet wilt opslaan\?</string>
+    <string name="leaveWithoutSaveTitle">Afsluiten</string>
+    <string name="moveDown">Omlaag verplaatsen</string>
+    <string name="moveUp">Omhoog verplaatsen</string>
+    <string name="failedOpeningFileManager">Installeer een bestandsbeheerder.</string>
+    <string name="noBarcode">Geen barcode</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> kaart</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> kaarten</item>
+    </plurals>
+    <string name="groupsList">Groepen: <xliff:g>%s</xliff:g></string>
+    <string name="editBarcode">Barcode aanpassen</string>
+    <string name="barcode">Barcode</string>
+    <string name="card">Kaart</string>
+    <string name="chooseExpiryDate">Kies een vervaldatum</string>
+    <string name="never">Nooit</string>
+    <string name="expiryDate">Vervaldatum</string>
+    <string name="expiryStateSentence">Vervalt op <xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">Verlopen: <xliff:g>%s</xliff:g></string>
+    <string name="moveBarcodeToCenterOfScreen">Barcode verplaatsen naar midden van scherm</string>
+    <string name="moveBarcodeToTopOfScreen">Barcode verplaatsen naar bovenkant van scherm</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> lijkt geen geldig saldo te zijn.</string>
+    <string name="points">Aantal punten</string>
+    <string name="currency">Valuta</string>
+    <string name="balance">Saldo</string>
+    <string name="balanceSentence">Saldo: <xliff:g>%s</xliff:g></string>
+    <string name="chooseImportType">Gegevens importeren uit</string>
+    <string name="app_loyalty_card_keychain">Klantenkaartkluis</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Schermvergrendeling uitschakelen</string>
+    <string name="settings_keep_screen_on">Scherm niet uitschakelen</string>
+    <string name="privacy_policy_popup_text">Privacybeleid (vereist door sommige appwinkels):
+\n
+\nER WORDEN GEEN GEGEVENS VERZAMELD. Bovendien is onze app open source, zodat een ieder met eigen ogen kan zien wat de app wel of niet doet.</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="accept">Accepteren</string>
+    <string name="importVoucherVaultMessage">Kies het te importeren <i>vouchervault.json</i>-exportbestand.
+\nGa naar het exportmenu van Voucher Vault om een exportbestand samen te stellen.</string>
+    <string name="importVoucherVault">Importeren uit Voucher Vault</string>
+    <string name="importLoyaltyCardKeychainMessage">Kies het te importeren genaamd <i>LoyaltyCardKeychain.csv</i>-exportbestand.
+\nGa naar het import-/exportmenu van Klantenkaartkluis om een exportbestand samen te stellen.</string>
+    <string name="importLoyaltyCardKeychain">Importeren uit Klantenkaartkluis</string>
+    <string name="importFidmeMessage">Kies het te importeren <i>fidme-export-request-xxxxxx.zip</i>-exportbestand en kies nadien de juiste barcodes.
+\nGa naar je FidMe-profiel en druk op ‘Gegevensbescherming’ om een exportbestand samen te stellen.</string>
+    <string name="importCatimaMessage">Kies het te importeren <i>Catima.zip</i>-exportbestand.
+\nGa naar het import-/exportmenu van Catima op een ander apparaat om een exportbestand samen te stellen.</string>
+    <string name="importFidme">Importeren uit FidMe</string>
+    <string name="importCatima">Importeren uit Catima</string>
+    <string name="errorReadingImage">De afbeelding kan niet worden uitgelezen</string>
+    <string name="noBarcodeFound">Geen barcode aangetroffen</string>
+    <string name="addFromImage">Afbeelding kiezen uit galerij</string>
+    <string name="setBarcodeId">Barcodewaarde instellen</string>
+    <string name="sameAsCardId">Gelijk aan kaart-id</string>
+    <string name="barcodeId">Barcodewaarde</string>
+    <string name="settings_max_font_size_scale">Max. tekstgrootte</string>
+    <string name="unsupportedBarcodeType">Dit type barcode kan nog niet worden getoond - we hopen hiervoor in een nieuwere versie ondersteuning toe te voegen.</string>
+    <string name="wrongValueForBarcodeType">Deze waarde komt niet overeen met het gekozen barcodetype</string>
+    <string name="app_resources">Vrije externe bronnen: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Vrije externe bibliotheken: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Auteursrecht © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Ik wil kaarten met je delen</string>
+    <string name="copy_to_clipboard_multiple_toast">De kaart-id\'s zijn gekopieerd naar het klembord</string>
+    <string name="card_ids_copied">De kaart-id‘s zijn gekopieerd</string>
+    <string name="no">Nee</string>
+    <string name="yes">Ja</string>
+    <string name="updateBarcodeQuestionText">Je hebt de kaart-id aangepast. Wil je dezelfde waarde toekennen aan de barcode\?</string>
+    <string name="updateBarcodeQuestionTitle">Barcodewaarde bijwerken\?</string>
+    <string name="takePhoto">Foto maken</string>
+    <string name="removeImage">Afbeelding verwijderen</string>
+    <string name="setFrontImage">Voorzijde kiezen</string>
+    <string name="setBackImage">Achterzijde kiezen</string>
+    <string name="photos">Afbeeldingen</string>
+    <string name="backImageDescription">Achterzijde van kaart</string>
+    <string name="frontImageDescription">Voorzijde van kaart</string>
+    <string name="passwordRequired">Voer het wachtwoord in</string>
+    <string name="importStocardMessage">Kies het te importeren Stocard-exportbestand genaamd <i>***.zip</i>.
+\nStuur een e-mail naar support@stocardapp.com waarin je vraagt om een exportbestand.</string>
+    <string name="importStocard">Importeren uit Stocard</string>
+    <string name="failedGeneratingShareURL">De te delen link kan niet worden gegenereerd. Meld deze fout.</string>
+    <string name="turn_flashlight_off">Zaklamp uitzetten</string>
+    <string name="turn_flashlight_on">Zaklamp aanzetten</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> geselecteerd</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> geselecteerd</item>
+    </plurals>
+    <string name="deleteTitle">Kaart verwijderen</string>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one"><xliff:g>%d</xliff:g> kaart verwijderen</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> kaarten verwijderen</item>
+    </plurals>
+    <string name="deleteConfirmation">Kaart verwijderen\?</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Weet je zeker dat je deze <xliff:g>%d</xliff:g> kaart wilt verwijderen\?</item>
+        <item quantity="other">Weet je zeker dat je deze <xliff:g>%d</xliff:g> kaarten wilt verwijderen\?</item>
+    </plurals>
+    <string name="settings_system_locale">Systeemtaal</string>
+    <string name="settings_locale">Taal</string>
+    <string name="settings_brown_theme">Bruin</string>
+    <string name="settings_grey_theme">Grijs</string>
+    <string name="settings_green_theme">Groen</string>
+    <string name="settings_sky_blue_theme">Hemelsblauw</string>
+    <string name="settings_blue_theme">Blauw</string>
+    <string name="settings_violet_theme">Violet</string>
+    <string name="settings_magenta_theme">Magenta</string>
+    <string name="settings_pink_theme">Roze</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Themakleur</string>
+    <string name="app_contributors">Mede mogelijk gemaakt door: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="noGroupCards">Deze groep bevat geen kaarten</string>
+    <string name="barcodeImageDescriptionWithType">Afbeelding van barcode <xliff:g>%s</xliff:g></string>
+    <string name="swipeToSwitchImages">Veeg om te bladeren; houd lang ingedrukt om te openen in de galerij-app</string>
+    <string name="sort_by">Sorteren op</string>
+    <string name="reverse">…in omgekeerde volgorde</string>
+    <string name="sort_by_balance">Op saldo</string>
+    <string name="sort_by_expiry">Op vervaldatum</string>
+    <string name="sort_by_most_recently_used">Op onlangs gebruikt</string>
+    <string name="sort_by_name">Op naam</string>
+    <string name="sort">Sorteren</string>
+    <string name="report_error">Fout melden</string>
+    <string name="on_google_play">in Google Play</string>
+    <string name="rate_this_app">Beoordeel deze app</string>
+    <string name="and_data_usage">en gegevensgebruik</string>
+    <string name="on_github">op GitHub</string>
+    <string name="source_repository">Broncode</string>
+    <string name="license">Licentie</string>
+    <string name="help_translate_this_app">Help deze app te vertalen</string>
+    <string name="credits">Met dank aan</string>
+    <string name="version_history">Versiegeschiedenis</string>
+    <string name="exportPasswordHint">Voer een wachtwoord in</string>
+    <string name="exportPassword">Stel een wachtwoord in om je exportbestand te beveiligen (optioneel)</string>
+    <string name="group_name_already_in_use">Er is al een groep met deze naam</string>
+    <string name="group_updated">De groep is bijgewerkt</string>
+    <string name="group_name_is_empty">Voer een groepsnaam in</string>
+    <string name="editGroup">Groep bewerken: <xliff:g>%s</xliff:g></string>
+    <string name="noGiftCardsGroup">Voeg kaarten toe om ze hier te kunnen groeperen.</string>
+    <string name="group_edit">Groep bewerken</string>
+    <string name="setIcon">Kies een pictogram</string>
+    <string name="selectColor">Kies een kleur</string>
+    <string name="action_show_details">Details tonen</string>
+    <string name="action_hide_details">Details verbergen</string>
+    <string name="translate_platform">op Weblate</string>
+    <string name="shortcutSelectCard">Kies een kaart</string>
+    <string name="options">Opties</string>
+    <string name="showMoreInfo">Informatie tonen</string>
+    <string name="starred">Favoriet</string>
+    <string name="hideMoreInfo">Informatie verbergen</string>
+    <string name="set_scale">Schaal instellen</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> punt</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> punten</item>
+    </plurals>
+    <string name="settings_oled_dark">Zwarte achtergrond gebruiken bij donker thema</string>
+    <string name="include_if_asking_support">Als je ondersteuning wilt, voorzie je verzoek dan van de volgende informatie:</string>
+    <string name="settings_card_orientation">Barcode-oriëntatie</string>
+    <string name="settings_follow_system_orientation">Systeeminstellingen volgen</string>
+    <string name="settings_portrait_orientation">Verticaal</string>
+    <string name="settings_lock_on_opening_orientation">Oriëntatie vergrendelen na openen van kaart</string>
+    <string name="duplicateCard">Klonen</string>
+    <string name="archive">Archiveren</string>
+    <string name="unarchive">Dearchiveren</string>
+    <string name="archived">De kaart is gearchiveerd</string>
+    <string name="unarchived">De kaart is gedearchiveerd</string>
+    <string name="archiveList">Archief</string>
+    <string name="settings_landscape_orientation">Horizontaal</string>
+    <string name="noUnarchivedCardsMessage">Er zijn geen gedearchiveerde kaarten</string>
+    <string name="failedLaunchingPhotoPicker">Er is geen ondersteunde galerij-app aangetroffen</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> kaart (<xliff:g id="archivedCount">%2$d</xliff:g> gearchiveerd)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> kaarten (<xliff:g id="archivedCount">%2$d</xliff:g> gearchiveerd)</item>
+    </plurals>
+    <string name="previousCard">Vorige</string>
+    <string name="nextCard">Volgende</string>
+    <string name="welcome">Welkom bij zCard</string>
+    <string name="failedToOpenUrl">Installeer een webbrowser</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Archief bekijken (<xliff:g>%1$d</xliff:g> kaart)</item>
+        <item quantity="other">Archief bekijken (<xliff:g>%1$d</xliff:g> kaarten)</item>
+    </plurals>
+    <string name="failedToRetrieveImageFile">De afbeelding kan niet worden opgehaald</string>
+    <string name="barcodeLongPressMessage">Alleen afbeeldingen kunnen worden geopend in de galerij-app</string>
+    <string name="cameraPermissionDeniedTitle">Geen cameratoegang</string>
+    <string name="updateBalanceTitle">Hoeveel heb je uitgegeven\?</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Catima heeft toegang tot je camera nodig om barcodes te kunnen scannen. Druk hier om toegang te verlenen.</string>
+    <string name="currentBalanceSentence">Huidig saldo: <xliff:g>%s</xliff:g></string>
+    <string name="updateBalance">Saldo bijwerken</string>
+    <string name="updateBalanceHint">Voer een bedrag in</string>
+    <string name="newBalanceSentence">Nieuw saldo: <xliff:g>%s</xliff:g></string>
+    <string name="importCards">Kaarten importeren</string>
+    <string name="storageReadPermissionRequired">Toestemming om de opslag uit te lezen benodigd voor deze actie…</string>
+    <string name="cameraPermissionRequired">Toestemming om de camera te openen benodigd voor deze actie…</string>
+    <string name="anyDate">Iedere datum</string>
+    <string name="validFromDate">Geldig vanaf</string>
+    <string name="validFromSentence">Geldig vanaf: <xliff:g>%s</xliff:g></string>
+    <string name="chooseValidFromDate">Kies een geldige vanaf-datum</string>
+</resources>

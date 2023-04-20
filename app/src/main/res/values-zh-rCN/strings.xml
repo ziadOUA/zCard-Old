@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_revision_fmt">更新日志: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="groupsList">组：<xliff:g>%s</xliff:g></string>
+    <plurals name="groupCardCount">
+        <item quantity="other"><xliff:g>%d</xliff:g> 卡片</item>
+    </plurals>
+    <string name="app_libraries">第三方自由程序库: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="debug_version_fmt">版本: <xliff:g id="version">%s</xliff:g></string>
+    <string name="about_title_fmt">关于 <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="barcode">条形码</string>
+    <string name="card">卡片</string>
+    <string name="addManually">手动输入卡号</string>
+    <string name="settings_system_theme">系统设置</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">版权所有 © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="importOptionApplicationButton">使用其他应用</string>
+    <string name="importOptionFilesystemButton">从文件系统</string>
+    <string name="unstar">从收藏中删除</string>
+    <string name="intent_import_card_from_url_share_multiple_text">我想和你分享一些卡片</string>
+    <string name="copy_to_clipboard_multiple_toast">卡号已复制到剪贴板</string>
+    <string name="wrongValueForBarcodeType">该值对所选条形码类型无效</string>
+    <string name="unsupportedBarcodeType">此条形码类型尚无法显示。较新版本的应用程序可能提供支持。</string>
+    <string name="setBarcodeId">设置条形码值</string>
+    <string name="sameAsCardId">与卡号相同</string>
+    <string name="barcodeId">条形码值</string>
+    <string name="importVoucherVaultMessage">选择 Voucher Vault 导出文件 <i>vouchervault.json</i> 进行导入。
+\n先在 Voucher Vault 中按下“导出”来创建此文件。</string>
+    <string name="importVoucherVault">从 Voucher Vault 导入</string>
+    <string name="importLoyaltyCardKeychainMessage">选择 Loyalty Card Keychain 导出文件 <i>LoyaltyCardKeychain.csv</i>来导入。
+\n先在 Loyalty Card Keychain 的 “导入/导出” 菜单中按“导出”。</string>
+    <string name="importLoyaltyCardKeychain">从 Loyalty Card Keychain 导入</string>
+    <string name="importFidmeMessage">选择 Fidme 导出文件 <i>fidme-export-request-xxxxxx.zip</i>进行导入，之后再手动选择条码类型。
+\n创建 Fidme 配置的导出文件，方法是选择“数据保护”，然后按“提取我的数据”。</string>
+    <string name="importFidme">从 FidMe 导入</string>
+    <string name="importCatimaMessage">选择 Catima 导出文件 <i>Catima.zip</i>来导入。
+\n先按另一个 Catima 应用程序导入/导出菜单中“导出”创建文件。</string>
+    <string name="importCatima">从 Catima 导入</string>
+    <string name="accept">接受</string>
+    <string name="privacy_policy_popup_text">隐私政策通知（一些应用程序商店要求）。
+\n
+\n本应用没有收集任何数据，任何人都可以查阅源码来确认，因为本软件是自由软件。</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="app_loyalty_card_keychain">会员卡卡包</string>
+    <string name="chooseImportType">数据导入源</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g>似乎不是有效的余额。</string>
+    <string name="points">积分</string>
+    <string name="currency">货币</string>
+    <string name="balance">余额</string>
+    <string name="errorReadingImage">无法读取图像</string>
+    <string name="noBarcodeFound">未找到条形码</string>
+    <string name="moveBarcodeToCenterOfScreen">将条形码居中显示</string>
+    <string name="moveBarcodeToTopOfScreen">将条形码移到屏幕的顶部</string>
+    <string name="chooseExpiryDate">选择到期日</string>
+    <string name="never">从不</string>
+    <string name="expiryDate">过期时间</string>
+    <string name="editBarcode">编辑条形码</string>
+    <string name="balanceSentence">余额：<xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentenceExpired">过期：<xliff:g>%s</xliff:g></string>
+    <string name="expiryStateSentence">过期: <xliff:g>%s</xliff:g></string>
+    <string name="addFromImage">从相册中选择图片</string>
+    <string name="leaveWithoutSaveConfirmation">不保存就离开吗？</string>
+    <string name="leaveWithoutSaveTitle">退出</string>
+    <string name="moveDown">向下移</string>
+    <string name="moveUp">向上移</string>
+    <string name="failedOpeningFileManager">请先安装文件管理器。</string>
+    <string name="deleteConfirmationGroup">删除群组？</string>
+    <string name="all">全部</string>
+    <string name="noGroups">单击 “+ ” 按钮添加分组进行分类。</string>
+    <string name="enter_group_name">输入组名</string>
+    <string name="groups">组</string>
+    <string name="exportSuccessful">已导出数据</string>
+    <string name="importSuccessful">已导入数据</string>
+    <string name="intent_import_card_from_url_share_text">我想和你分享一张卡</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">防止锁屏</string>
+    <string name="settings_keep_screen_on">保持屏幕常亮</string>
+    <string name="settings_display_barcode_max_brightness">提高条码界面亮度</string>
+    <string name="settings_max_font_size_scale">最大字体大小</string>
+    <string name="settings_dark_theme">暗色</string>
+    <string name="settings_light_theme">浅色</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_category_title_ui">用户界面</string>
+    <string name="settings">设置</string>
+    <string name="thumbnailDescription">缩略图</string>
+    <string name="copy_to_clipboard_toast">已复制卡号到剪贴板</string>
+    <string name="enterBarcodeInstructions">输入卡号，并从下面选择其条码类型，或选择\"无条码\"。</string>
+    <string name="selectBarcodeTitle">选择条码</string>
+    <string name="app_resources">第三方自由资源：<xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_license">本软件为自由软件，使用 GPLv3+ 许可证</string>
+    <string name="app_copyright_old">基于 Loyalty Card Keychain
+\n版权所有 © 2016–2020 Branden Archer</string>
+    <string name="about">关于</string>
+    <string name="importOptionApplicationExplanation">使用任何应用程序或您喜欢的文件管理器打开文件。</string>
+    <string name="importOptionApplicationTitle">使用其他应用</string>
+    <string name="importOptionFilesystemExplanation">请从文件系统选择文件.</string>
+    <string name="importOptionFilesystemTitle">从文件系统导入</string>
+    <string name="exportOptionExplanation">导出的数据将储存至你选择的位置.</string>
+    <string name="cameraPermissionDeniedTitle">无法访问相机</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Catima需要访问您的相机来扫描条形码. 轻触这里以更改您的权限设置。</string>
+    <string name="exporting">导出中…</string>
+    <string name="importing">导入中…</string>
+    <string name="exportFailed">无法导出卡片</string>
+    <string name="exportFailedTitle">导出失败</string>
+    <string name="exportSuccessfulTitle">导出成功</string>
+    <string name="importFailed">无法导入卡片</string>
+    <string name="importFailedTitle">导入失败</string>
+    <string name="importSuccessfulTitle">导入成功</string>
+    <string name="importExportHelp">备份数据允许你将其移动到另一个设备上。</string>
+    <string name="exportName">导出</string>
+    <string name="importExport">导入/导出</string>
+    <string name="failedParsingImportUriError">无法解析导入的URI</string>
+    <string name="noCardExistsError">找不到卡片</string>
+    <string name="noCardIdError">未输入卡号</string>
+    <string name="noStoreError">未输入卡片名称</string>
+    <string name="card_ids_copied">已复制卡号</string>
+    <string name="noCardsMessage">请先添加一张卡片</string>
+    <string name="cardShortcut">卡片快捷键</string>
+    <string name="editCardTitle">编辑卡片</string>
+    <string name="addCardTitle">添加卡片</string>
+    <string name="scanCardBarcode">扫描条码</string>
+    <string name="sendLabel">发送…</string>
+    <string name="share">分享</string>
+    <string name="copy_to_clipboard">复制卡号到剪贴板</string>
+    <string name="ok">确定</string>
+    <string name="confirm">确认</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="star">添加到收藏</string>
+    <string name="noBarcode">无条形码</string>
+    <string name="barcodeNoBarcode">无条形码</string>
+    <string name="barcodeType">条形码类型</string>
+    <string name="cardId">卡号</string>
+    <string name="note">备注</string>
+    <string name="storeName">名称</string>
+    <string name="noMatchingGiftCards">没有结果。尝试改变你的搜索。</string>
+    <string name="noGiftCards">点击 \"+\"加号按钮来添加卡片，或者从⋮ 菜单导入。</string>
+    <string name="action_add">添加</string>
+    <string name="action_search">搜索</string>
+    <string name="deleteConfirmation">删除此卡？</string>
+    <string name="deleteTitle">移除卡片</string>
+    <string name="starImage">最喜欢的星星</string>
+    <string name="importStocardMessage">选择 Stocard 导出文件 <i>****.zip</i>来导入。
+\n发电子邮件给 support@stocardapp.com 请求获得数据导出文件。</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="other">确定永久删除 <xliff:g>%d</xliff:g> 这些卡片？</item>
+    </plurals>
+    <plurals name="selectedCardCount">
+        <item quantity="other">选中了 <xliff:g>%d</xliff:g> 张卡</item>
+    </plurals>
+    <plurals name="deleteCardsTitle">
+        <item quantity="other">删除 <xliff:g>%d</xliff:g> 张卡片</item>
+    </plurals>
+    <string name="turn_flashlight_off">关上手电筒</string>
+    <string name="turn_flashlight_on">开启手电筒</string>
+    <string name="failedGeneratingShareURL">无法生成可分享的URL。请向开发者报告。</string>
+    <string name="passwordRequired">请输入密码</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="updateBarcodeQuestionText">您改变了卡片的ID。是否需要同时更新条形码，以使用相同的值？</string>
+    <string name="updateBarcodeQuestionTitle">是否要更新条形码的值？</string>
+    <string name="takePhoto">拍照</string>
+    <string name="removeImage">移除图像</string>
+    <string name="setBackImage">设置背面图像</string>
+    <string name="setFrontImage">设置正面图像</string>
+    <string name="photos">照片</string>
+    <string name="backImageDescription">背面图像</string>
+    <string name="frontImageDescription">正面图像</string>
+    <string name="importStocard">从Stocard导入</string>
+    <string name="noGiftCardsGroup">创建一些卡片，然后分配给这里的小组。</string>
+    <string name="barcodeImageDescriptionWithType"><xliff:g>%s</xliff:g>型条码图像</string>
+    <string name="group_edit">编辑组</string>
+    <plurals name="balancePoints">
+        <item quantity="other"><xliff:g>%s</xliff:g> 点</item>
+    </plurals>
+    <string name="settings_locale">语言</string>
+    <string name="setIcon">设置图标</string>
+    <string name="settings_pink_theme">粉色</string>
+    <string name="settings_oled_dark">纯黑色背景的深色主题</string>
+    <string name="hideMoreInfo">隐藏信息</string>
+    <string name="translate_platform">在Weblate上</string>
+    <string name="settings_sky_blue_theme">天蓝</string>
+    <string name="showMoreInfo">显示信息</string>
+    <string name="options">选项</string>
+    <string name="source_repository">源码库</string>
+    <string name="include_if_asking_support">请求帮助时，请填写下列信息：</string>
+    <string name="exportPasswordHint">输入密码</string>
+    <string name="settings_grey_theme">灰色</string>
+    <string name="sort">排序</string>
+    <string name="version_history">历史版本</string>
+    <string name="rate_this_app">给这个应用评分</string>
+    <string name="on_google_play">在Google Play上</string>
+    <string name="report_error">报告错误</string>
+    <string name="shortcutSelectCard">选择一张卡片</string>
+    <string name="group_name_already_in_use">组名已在使用中</string>
+    <string name="group_name_is_empty">组名不可为空</string>
+    <string name="settings_brown_theme">棕色</string>
+    <string name="settings_green_theme">绿色</string>
+    <string name="sort_by_most_recently_used">最近使用</string>
+    <string name="sort_by_name">名称</string>
+    <string name="help_translate_this_app">帮助翻译此应用</string>
+    <string name="sort_by_balance">余额</string>
+    <string name="swipeToSwitchImages">滑动切换图片，按住打开图库应用中的图片</string>
+    <string name="reverse">倒序</string>
+    <string name="sort_by">排序方式</string>
+    <string name="selectColor">选择颜色</string>
+    <string name="settings_theme_color">主题色</string>
+    <string name="settings_blue_theme">蓝色</string>
+    <string name="sort_by_expiry">到期日</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="noGroupCards">该组是空的</string>
+    <string name="on_github">在GitHub上</string>
+    <string name="group_updated">群组已更新</string>
+    <string name="editGroup">编辑组：<xliff:g>%s</xliff:g></string>
+    <string name="settings_system_locale">系统</string>
+    <string name="exportPassword">设置密码来保护导出的内容（可选）</string>
+    <string name="settings_magenta_theme">紫红</string>
+    <string name="settings_violet_theme">紫色</string>
+    <string name="action_show_details">显示详情</string>
+    <string name="action_hide_details">隐藏详情</string>
+    <string name="set_scale">设置大小</string>
+    <string name="app_contributors">因他们而存在: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="and_data_usage">和数据使用方法</string>
+    <string name="failedLaunchingPhotoPicker">找不到支持的图库应用</string>
+    <string name="previousCard">前一张</string>
+    <string name="nextCard">下一张</string>
+    <string name="settings_card_orientation">条形码朝向</string>
+    <string name="settings_landscape_orientation">横向</string>
+    <string name="settings_follow_system_orientation">跟随系统</string>
+    <string name="settings_lock_on_opening_orientation">使用上次打开卡片时的朝向</string>
+    <string name="settings_portrait_orientation">竖向</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="other"><xliff:g>%1$d</xliff:g> 张卡 (<xliff:g id="archivedCount">%2$d</xliff:g> 张已归档)</item>
+    </plurals>
+    <string name="license">许可证</string>
+    <string name="credits">鸣谢</string>
+    <string name="starred">已收藏</string>
+    <string name="duplicateCard">创建副本</string>
+    <string name="archive">归档</string>
+    <string name="unarchive">移出归档</string>
+    <string name="archived">卡片已归档</string>
+    <string name="unarchived">卡片未归档</string>
+    <string name="archiveList">已归档卡</string>
+    <string name="noUnarchivedCardsMessage">没有未归档卡</string>
+    <string name="failedToOpenUrl">先安装一个浏览器</string>
+    <string name="welcome">欢迎使用 zCard</string>
+    <string name="updateBalanceHint">输入金额</string>
+    <string name="importCards">导入卡</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="other">查看存档（<xliff:g>%1$d</xliff:g> 张卡片）</item>
+    </plurals>
+    <string name="updateBalance">更新余额</string>
+    <string name="updateBalanceTitle">你花了多少钱？</string>
+    <string name="currentBalanceSentence">当前余额：<xliff:g>%s</xliff:g></string>
+    <string name="failedToRetrieveImageFile">无法检索图像文件</string>
+    <string name="newBalanceSentence">新余额：<xliff:g>%s</xliff:g></string>
+    <string name="barcodeLongPressMessage">只能在图库应用程序中打开图像</string>
+    <string name="storageReadPermissionRequired">此操作所需的读取存储空间的权限…</string>
+    <string name="validFromDate">有效期自</string>
+    <string name="anyDate">任何日期</string>
+    <string name="chooseValidFromDate">选择有效日期</string>
+    <string name="validFromSentence">有效期自: <xliff:g>%s</xliff:g></string>
+    <string name="cameraPermissionRequired">此操作所需的访问相机的权限…</string>
+</resources>

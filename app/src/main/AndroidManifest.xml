@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="23" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name=".LoyaltyCardLockerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageGroupsActivity"
+            android:label="@string/groups"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageGroupActivity"
+            android:label="@string/group_edit"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".LoyaltyCardViewActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".LoyaltyCardEditActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Main card sharing URIs -->
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data
+                    android:host="@string/intent_import_card_from_url_host_catima_app"
+                    android:pathPrefix="@string/intent_import_card_from_url_path_prefix_catima_app" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Old card sharing URIs -->
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data
+                    android:host="@string/intent_import_card_from_url_host_thelastproject"
+                    android:pathPrefix="@string/intent_import_card_from_url_path_prefix_thelastproject" />
+                <data
+                    android:host="@string/intent_import_card_from_url_host_brarcher"
+                    android:pathPrefix="@string/intent_import_card_from_url_path_prefix_brarcher" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScanActivity"
+            android:label="@string/scanCardBarcode"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarcodeSelectorActivity"
+            android:label="@string/selectBarcodeTitle"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".preferences.SettingsActivity"
+            android:label="@string/settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImportExportActivity"
+            android:label="@string/importExport"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- ZIP Intent Filter -->
+            <intent-filter
+                android:label="@string/importCards">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/zip" />
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+            </intent-filter>
+
+            <!-- JSON Intent Filter -->
+            <intent-filter
+                android:label="@string/importCards">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/json" />
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+            </intent-filter>
+
+            <!-- CSV Intent Filter -->
+            <intent-filter
+                android:label="@string/importCards">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content"/>
+                <data android:host="*" />
+                <data android:mimeType="text/comma-separated-values" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardShortcutConfigure"
+            android:exported="true"
+            android:label="@string/cardShortcut"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UCropWrapper"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <service android:name=".CardsOnPowerScreenService" android:label="@string/app_name"
+            android:permission="android.permission.BIND_CONTROLS" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.controls.ControlsProviderService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

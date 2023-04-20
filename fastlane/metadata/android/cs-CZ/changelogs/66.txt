@@ -1,0 +1,4 @@
+- Podpora importu exportů Fidme (https://play.google.com/store/apps/details?id=fr.snapp.fidme)
+- Umožnění importovat kartu z obrázku uloženého v uživatelovo galerii v systému Android
+- Oprava odříznutí víceřádkové poznámky
+- Změnit text „Děkuji“ v dialogu o ochraně osobních údajů na „Přijímám“, protože Huawei je příliš pedantský

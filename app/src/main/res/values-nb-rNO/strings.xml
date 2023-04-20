@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="action_add">Legg til</string>
+    <string name="noGiftCards">Klikk på «+» (pluss)-knappen for å legge til eller importer kort fra «⋮»-menyen</string>
+    <string name="storeName">Navn</string>
+    <string name="note">Merknad</string>
+    <string name="cardId">Kort-ID</string>
+    <string name="barcodeType">Strekkodetype</string>
+    <string name="cancel">Avbryt</string>
+    <string name="save">Lagre</string>
+    <string name="edit">Rediger</string>
+    <string name="delete">Slett</string>
+    <string name="confirm">Bekreft</string>
+    <string name="ok">OK</string>
+    <string name="copy_to_clipboard">Kopier ID til utklippstavle</string>
+    <string name="sendLabel">Send…</string>
+    <string name="editCardTitle">Rediger kundekort</string>
+    <string name="addCardTitle">Legg til kundekort</string>
+    <string name="scanCardBarcode">Skann strekkoden</string>
+    <string name="cardShortcut">Kort-snarvei</string>
+    <string name="noCardsMessage">Legg til et kort først</string>
+    <string name="noStoreError">Navn ikke angitt</string>
+    <string name="noCardIdError">Ingen ID innskrevet</string>
+    <string name="noCardExistsError">Fant ikke det kortet</string>
+    <string name="importExport">Importer/eksporter</string>
+    <string name="exportName">Eksporter</string>
+    <string name="importExportHelp">Sikkerhetskopiering av data lar deg flytte dem til en annen enhet.</string>
+    <string name="importSuccessfulTitle">Importert</string>
+    <string name="importFailedTitle">Kunne ikke importere</string>
+    <string name="importFailed">Kunne ikke utføre import</string>
+    <string name="exportSuccessfulTitle">Eksportert</string>
+    <string name="exportFailedTitle">Kunne ikke eksportere</string>
+    <string name="exportFailed">Kunne ikke utføre eksport</string>
+    <string name="importing">Importerer…</string>
+    <string name="exporting">Exporterer…</string>
+    <string name="exportOptionExplanation">Data skrives dit du ønsker det.</string>
+    <string name="importOptionFilesystemTitle">Importer fra filsystem</string>
+    <string name="importOptionFilesystemExplanation">Velg spesifikk fil fra filsystemet.</string>
+    <string name="importOptionFilesystemButton">Fra filsystem</string>
+    <string name="importOptionApplicationTitle">Bruk en annen app</string>
+    <string name="importOptionApplicationExplanation">Bruk en hvilken som helst app, eller din favoritt-filutforsker for å åpne en fil.</string>
+    <string name="importOptionApplicationButton">Bruk en annen app</string>
+    <string name="about">Om</string>
+    <string name="app_license">Gemenhetslig fri programvare, lisensiert GPLv3+</string>
+    <string name="about_title_fmt">Om <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Versjon: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Utgivelsesinfo: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="selectBarcodeTitle">Velg strekkode</string>
+    <string name="enterBarcodeInstructions">Skriv inn kortets ID, og enten velg strekkodetypen nedenfor, eller «Det er ingen strekkode».</string>
+    <string name="copy_to_clipboard_toast">ID kopiert til utklippstavle</string>
+    <string name="thumbnailDescription">Miniatyrbilde</string>
+    <string name="settings">Innstillinger</string>
+    <string name="settings_category_title_ui">Brukergrensesnitt</string>
+    <string name="settings_display_barcode_max_brightness">Lysere strekkodevisning</string>
+    <string name="exportSuccessful">Data eksportert</string>
+    <string name="importSuccessful">Data importert</string>
+    <string name="intent_import_card_from_url_share_text">Jeg ønsker å dele et kort med deg</string>
+    <string name="settings_dark_theme">Mørk</string>
+    <string name="settings_light_theme">Lys</string>
+    <string name="settings_system_theme">System</string>
+    <string name="settings_theme">Drakt</string>
+    <string name="app_copyright_old">Basert på Kundekortknippe
+\nopphavsrett 2016–2020 Branden Archer</string>
+    <string name="failedParsingImportUriError">Kunne ikke tolke importerings-URI</string>
+    <string name="share">Del</string>
+    <string name="barcodeNoBarcode">Det er ingen strekkode</string>
+    <string name="noMatchingGiftCards">Resultatløst. Prøv å endre søket.</string>
+    <string name="action_search">Søk</string>
+    <string name="starImage">Favorittstjerne</string>
+    <string name="unstar">Fjern fra favoritter</string>
+    <string name="star">Legg til i favoritter</string>
+    <string name="noGroups">Klikk på «+»- (pluss)-tegnet for å legge til grupper for kategorisering.</string>
+    <string name="deleteConfirmationGroup">Slett gruppe?</string>
+    <string name="all">Alle</string>
+    <string name="groups">Grupper</string>
+    <string name="enter_group_name">Skriv inn gruppenavn</string>
+    <string name="noBarcode">Ingen strekkode</string>
+    <string name="failedOpeningFileManager">Installer en filbehandler først.</string>
+    <string name="leaveWithoutSaveConfirmation">Forlat uten å lagre?</string>
+    <string name="leaveWithoutSaveTitle">Avslutt</string>
+    <string name="addManually">Skriv inn ID manuelt</string>
+    <string name="moveDown">Flytt nedover</string>
+    <string name="moveUp">Flytt oppover</string>
+    <plurals name="groupCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> kort</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> kort</item>
+    </plurals>
+    <string name="groupsList">Grupper: <xliff:g>%s</xliff:g></string>
+    <string name="editBarcode">Rediger strekkode</string>
+    <string name="barcode">Strekkode</string>
+    <string name="card">Kort</string>
+    <string name="expiryStateSentence">Utløper: <xliff:g>%s</xliff:g></string>
+    <string name="chooseExpiryDate">Velg utløpsdato</string>
+    <string name="never">Aldri</string>
+    <string name="expiryDate">Utløpsdato</string>
+    <string name="expiryStateSentenceExpired">Utløpt: <xliff:g>%s</xliff:g></string>
+    <string name="moveBarcodeToCenterOfScreen">Sentrer strekkoden på skjermen</string>
+    <string name="moveBarcodeToTopOfScreen">Flytt strekkoden til toppen av skjermen</string>
+    <string name="parsingBalanceFailed"><xliff:g>%s</xliff:g> ser ikke ut til å være en gyldig saldo.</string>
+    <string name="points">Poeng</string>
+    <string name="currency">Valuta</string>
+    <string name="balance">Saldo</string>
+    <string name="balanceSentence">Saldo: <xliff:g>%s</xliff:g></string>
+    <string name="chooseImportType">Importer data fra</string>
+    <string name="app_loyalty_card_keychain">Kundekortknippe</string>
+    <string name="settings_disable_lockscreen_while_viewing_card">Forhindre skjermlås</string>
+    <string name="settings_keep_screen_on">Behold skjerm påslått</string>
+    <string name="privacy_policy_popup_text">Personvernspraksis-notis (påkrevd av noen programbutikker):
+\n
+\nINGEN DATA SAMLES INN I DET HELE TATT, noe alle kan bekreftes siden programmet vårt er fri programvare.</string>
+    <string name="accept">Godta</string>
+    <string name="privacy_policy">Personvernspraksis</string>
+    <string name="importFidme">Importer fra FidMe</string>
+    <string name="importCatima">Importer fra Catima</string>
+    <string name="errorReadingImage">Kunne ikke lese bildet</string>
+    <string name="noBarcodeFound">Fant ingen strekkode</string>
+    <string name="addFromImage">Velg bilde fra galleri</string>
+    <string name="unsupportedBarcodeType">Denne strekkodetypen kan ikke vises for øyeblikket. Støtte kan bli lagt til i en senere versjon av programmet.</string>
+    <string name="setBarcodeId">Sett strekkodeverdi</string>
+    <string name="sameAsCardId">Samme som ID</string>
+    <string name="barcodeId">Strekkodeverdi</string>
+    <string name="importVoucherVaultMessage">Velg din <i>vouchervault.json</i>-eksport fra Voucher Vault å importere.
+\nOpprett den ved å trykke «Eksport» i Voucher Vault først.</string>
+    <string name="importVoucherVault">Importer fra Voucher Vault</string>
+    <string name="importLoyaltyCardKeychainMessage">Velg din <i>LoyaltyCardKeychain.csv</i>-eksport fra Kundekortknippe å importere.
+\nOpprett den i «Import/Eksport»-menyen i Kundekortknippe ved å trykke «Eksporter» der først.</string>
+    <string name="importLoyaltyCardKeychain">Importer fra Kundekortknippe</string>
+    <string name="importFidmeMessage">Velg din <i>fidme.export-request-xxxxx.zip</i>-eksport fra FidMe å importere, for så å velge strekkodetypene manuelt etterpå-
+\nOpprett den i din FidMe-profil ved å velge «Databeskyttelse», for så å trykke «Pakk ut dataen min» først.</string>
+    <string name="settings_max_font_size_scale">Maks. skriftstørrelse</string>
+    <string name="wrongValueForBarcodeType">Verdien er ikke gyldig for valgt strekkodetype</string>
+    <string name="intent_import_card_from_url_share_multiple_text">Jeg vil dele noen kort med deg</string>
+    <string name="copy_to_clipboard_multiple_toast">ID-er ble kopiert til utklippstavle</string>
+    <string name="app_resources">Frie tredjepartsressurser: <xliff:g id="app_resources_list">%s</xliff:g></string>
+    <string name="app_libraries">Frie tredjepartsbibliotek: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="card_ids_copied">Kopierte ID(er)</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Opphavsrett © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="updateBarcodeQuestionText">Du har endret ID-en. Ønsker du å også oppdatere strekkoden til samme verdi\?</string>
+    <string name="no">Nei</string>
+    <string name="yes">Ja</string>
+    <string name="updateBarcodeQuestionTitle">Oppdater strekkodeverdi?</string>
+    <string name="takePhoto">Ta et bilde</string>
+    <string name="removeImage">Fjern bilde</string>
+    <string name="setBackImage">Sett bakside</string>
+    <string name="setFrontImage">Sett forside</string>
+    <string name="photos">Bilder</string>
+    <string name="backImageDescription">Baksidebilde</string>
+    <string name="frontImageDescription">Forsidebilde</string>
+    <string name="importStocardMessage">Velg din <i>***.zip</i>-eksport fra Stocard å importere.
+\nSkaff den ved å sende e-post til support@stocardapp.com der du etterspør eksport av dataen din.</string>
+    <string name="passwordRequired">Skriv inn passordet</string>
+    <string name="importStocard">Importer fra Stocard</string>
+    <string name="failedGeneratingShareURL">Klarte ikke å lage delbar nettadresse. Rapporter denne feilen.</string>
+    <plurals name="selectedCardCount">
+        <item quantity="one"><xliff:g>%d</xliff:g> valgt</item>
+        <item quantity="other"><xliff:g>%d</xliff:g> valgt</item>
+    </plurals>
+    <string name="deleteConfirmation">Slett dette kortet for godt?</string>
+    <plurals name="deleteCardsConfirmation">
+        <item quantity="one">Slett dette <xliff:g>%d</xliff:g> kortet for godt\?</item>
+        <item quantity="other">Slett disse <xliff:g>%d</xliff:g> kortene for godt\?</item>
+    </plurals>
+    <string name="turn_flashlight_on">Skru på lommelykten</string>
+    <string name="turn_flashlight_off">Skru av lommelykten</string>
+    <string name="deleteTitle">Slett kort</string>
+    <plurals name="deleteCardsTitle">
+        <item quantity="one">Slett <xliff:g>%d</xliff:g> kort</item>
+        <item quantity="other">Slett <xliff:g>%d</xliff:g> kort</item>
+    </plurals>
+    <string name="settings_system_locale">System</string>
+    <string name="settings_locale">Språk</string>
+    <string name="settings_violet_theme">Fiolett</string>
+    <string name="settings_magenta_theme">Magentarød</string>
+    <string name="app_contributors">Muliggjort av: <xliff:g id="app_contributors">%s</xliff:g></string>
+    <string name="settings_brown_theme">Brun</string>
+    <string name="settings_grey_theme">Grå</string>
+    <string name="settings_green_theme">Grønn</string>
+    <string name="settings_sky_blue_theme">Himmelblå</string>
+    <string name="settings_blue_theme">Blå</string>
+    <string name="settings_pink_theme">Rosa</string>
+    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_theme_color">Draktfarge</string>
+    <string name="noGroupCards">Denne gruppen er tom</string>
+    <string name="barcodeImageDescriptionWithType">Bilde av <xliff:g>%s</xliff:g>-strekkode</string>
+    <string name="swipeToSwitchImages">Dra for å bytte bilder, hold for å åpne et bilde i galleriet.</string>
+    <string name="sort_by">Sortering</string>
+    <string name="reverse">…i omvendt rekkefølge</string>
+    <string name="sort_by_balance">Saldo</string>
+    <string name="sort_by_expiry">Utløp</string>
+    <string name="sort_by_most_recently_used">Nyligst brukt</string>
+    <string name="sort_by_name">Navn</string>
+    <string name="sort">Sorter</string>
+    <string name="help_translate_this_app">Bistå oversettelsen av programmet</string>
+    <string name="license">Lisens</string>
+    <string name="version_history">Versjonshistorikk</string>
+    <string name="importCatimaMessage">Velg din <i>catima.zip</i>-eksport fra Catima å importere.
+\nOpprett den fra «Importer/Eksporter»-menyen i en annen Catima-app ved å trykke på «Eksporter» der først</string>
+    <string name="source_repository">Kildekode</string>
+    <string name="on_github">på GitHub</string>
+    <string name="and_data_usage">og bruk av data</string>
+    <string name="rate_this_app">Vurder dette programmet</string>
+    <string name="on_google_play">på Google Play</string>
+    <string name="report_error">Rapporter feil</string>
+    <string name="credits">Bidragsytere</string>
+    <string name="exportPassword">Sett et passord for å beskytte eksporten din (valgfritt)</string>
+    <string name="exportPasswordHint">Skriv inn passord</string>
+    <string name="group_edit">Rediger gruppe</string>
+    <string name="group_name_already_in_use">Gruppenavn allerede i bruk</string>
+    <string name="group_updated">Gruppe oppdatert</string>
+    <string name="group_name_is_empty">Gruppenavn kan ikke være tomt</string>
+    <string name="editGroup">Redigerer gruppe: <xliff:g>%s</xliff:g></string>
+    <string name="noGiftCardsGroup">Lag noen kort, og legg dem til i en gruppe her.</string>
+    <string name="action_show_details">Vis detaljer</string>
+    <string name="action_hide_details">Skjul detaljer</string>
+    <string name="selectColor">Velg farge</string>
+    <string name="setIcon">Sett ikon</string>
+    <string name="shortcutSelectCard">velg et kort</string>
+    <string name="translate_platform">på Weblate</string>
+    <string name="options">Alternativer</string>
+    <string name="starred">Stjernemerket</string>
+    <string name="set_scale">Sett skalering</string>
+    <string name="showMoreInfo">Vis info</string>
+    <string name="hideMoreInfo">Skjul info</string>
+    <plurals name="balancePoints">
+        <item quantity="one"><xliff:g>%s</xliff:g> poeng</item>
+        <item quantity="other"><xliff:g>%s</xliff:g> poeng</item>
+    </plurals>
+    <string name="settings_oled_dark">Svart bakgrunn for mørk drakt</string>
+    <string name="include_if_asking_support">Inkluder følgende info hvis du vil ha hjelp:</string>
+    <string name="settings_card_orientation">Strekkoderetning</string>
+    <string name="settings_landscape_orientation">Liggende</string>
+    <string name="settings_lock_on_opening_orientation">Lås til sideretning brukt ved åpning av kort</string>
+    <string name="duplicateCard">Dupliser</string>
+    <string name="archive">Arkiver</string>
+    <string name="unarchive">Opphev arkivering</string>
+    <string name="archived">Kort arkivert</string>
+    <string name="unarchived">Kort flyttet tilbake fra arkiv</string>
+    <string name="noUnarchivedCardsMessage">Ingen kort flyttet tilbake fra arkiv finnes</string>
+    <string name="archiveList">Arkiv</string>
+    <string name="settings_follow_system_orientation">Følg systemet</string>
+    <string name="settings_portrait_orientation">Stående</string>
+    <string name="failedLaunchingPhotoPicker">Fant ikke noe støttet galleriprogram</string>
+    <string name="previousCard">Forrige</string>
+    <string name="nextCard">Neste</string>
+    <plurals name="groupCardCountWithArchived">
+        <item quantity="one"><xliff:g>%1$d</xliff:g> kort (<xliff:g id="archivedCount">%2$d</xliff:g> arkivert)</item>
+        <item quantity="other"><xliff:g>%1$d</xliff:g> kort (<xliff:g id="archivedCount">%2$d</xliff:g> arkivert)</item>
+    </plurals>
+    <string name="failedToOpenUrl">Installer en nettleser først</string>
+    <string name="welcome">Velkommen til Catima</string>
+    <plurals name="viewArchivedCardsWithCount">
+        <item quantity="one">Vis arkiv (<xliff:g>%1$d</xliff:g> kort)</item>
+        <item quantity="other">Vis arkiv (<xliff:g>%1$d</xliff:g> kort)</item>
+    </plurals>
+    <string name="failedToRetrieveImageFile">Kunne ikke hente bildefil</string>
+    <string name="barcodeLongPressMessage">Kun bilder kan åpnes i galleriprogrammet</string>
+    <string name="cameraPermissionDeniedTitle">Fikk ikke tilgang til kameraet</string>
+    <string name="noCameraPermissionDirectToSystemSetting">Catima trenger kameratilgang for å skanne strekkoder. Trykk her for å endre tilgangsinnstillingene.</string>
+    <string name="importCards">Importer kort</string>
+    <string name="currentBalanceSentence">Nåværende saldo: <xliff:g>%s</xliff:g></string>
+    <string name="updateBalanceTitle">Hvor mye brukte du\?</string>
+    <string name="updateBalanceHint">Skriv inn beløp</string>
+    <string name="newBalanceSentence">Ny saldo: <xliff:g>%s</xliff:g></string>
+    <string name="updateBalance">Oppdater saldo</string>
+    <string name="validFromDate">Gyldig fra</string>
+    <string name="anyDate">Når som helst</string>
+    <string name="chooseValidFromDate">Velg en gyldig dato</string>
+    <string name="storageReadPermissionRequired">Lagringslesetilgang kreves for denne handlingen …</string>
+    <string name="validFromSentence">Gyldig fra: <xliff:g>%s</xliff:g></string>
+    <string name="cameraPermissionRequired">Kameratilgang kreves for denne handlingen …</string>
+</resources>
