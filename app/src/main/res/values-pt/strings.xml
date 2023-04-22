@@ -170,7 +170,7 @@
     <string name="settings_locale">Idioma</string>
     <string name="settings_system_locale">Sistema</string>
     <string name="settings_theme_color">Cor do tema</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_pink_theme">Rosa</string>
     <string name="settings_magenta_theme">Magenta</string>
     <string name="settings_violet_theme">Violeta</string>

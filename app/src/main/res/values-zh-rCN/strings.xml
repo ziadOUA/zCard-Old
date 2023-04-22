@@ -207,7 +207,7 @@
     <string name="settings_theme_color">主题色</string>
     <string name="settings_blue_theme">蓝色</string>
     <string name="sort_by_expiry">到期日</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="noGroupCards">该组是空的</string>
     <string name="on_github">在GitHub上</string>
     <string name="group_updated">群组已更新</string>

@@ -63,7 +63,7 @@
     <string name="setBackImage">Hátlapi kép beállítása</string>
     <string name="no">Nem</string>
     <string name="passwordRequired">Kérem írja be a kódot</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="exportPasswordHint">Kód beírása</string>
     <string name="failedGeneratingShareURL">Nem lehetett megosztható címet generálni. Kérem jelentse ezt.</string>
     <string name="settings_theme_color">Téma színe</string>

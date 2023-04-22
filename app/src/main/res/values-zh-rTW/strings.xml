@@ -89,7 +89,7 @@
     <string name="noCardIdError">尚未輸入 ID</string>
     <string name="noCardsMessage">請先新增卡片</string>
     <string name="sort">排列</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_pink_theme">粉紅</string>
     <string name="settings_magenta_theme">品紅</string>
     <string name="settings_violet_theme">紫色</string>

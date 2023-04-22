@@ -178,7 +178,7 @@
     <string name="settings_sky_blue_theme">Himmelblå</string>
     <string name="settings_blue_theme">Blå</string>
     <string name="settings_pink_theme">Rosa</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_theme_color">Draktfarge</string>
     <string name="noGroupCards">Denne gruppen er tom</string>
     <string name="barcodeImageDescriptionWithType">Bilde av <xliff:g>%s</xliff:g>-strekkode</string>

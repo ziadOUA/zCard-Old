@@ -85,7 +85,7 @@ import protect.card_locker.databinding.LoyaltyCardEditActivityBinding;
 
 public class LoyaltyCardEditActivity extends CatimaAppCompatActivity {
     private LoyaltyCardEditActivityBinding binding;
-    private static final String TAG = "Catima";
+    private static final String TAG = "zCard";
 
     private final String STATE_TAB_INDEX = "savedTab";
     private final String STATE_TEMP_CARD = "tempLoyaltyCard";

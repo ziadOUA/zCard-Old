@@ -231,7 +231,7 @@
     <string name="setIcon">Set icon</string>
     <string name="setting_key_theme_color" translatable="false">pref_theme_color</string>
     <string name="settings_theme_color">Theme color</string>
-    <string name="settings_catima_theme" translatable="false">zCard</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_pink_theme">Pink</string>
     <string name="settings_magenta_theme">Magenta</string>
     <string name="settings_violet_theme">Violet</string>

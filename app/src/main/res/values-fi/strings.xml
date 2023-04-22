@@ -179,7 +179,7 @@
     <string name="settings_magenta_theme">Magenta</string>
     <string name="settings_pink_theme">Pinkki</string>
     <string name="settings_theme_color">Teeman väri</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_system_locale">Järjestelmä</string>
     <string name="settings_locale">Kieli</string>
     <string name="noGroupCards">Tämä ryhmä on tyhjä</string>

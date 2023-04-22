@@ -180,7 +180,7 @@
     <string name="settings_violet_theme">Violett</string>
     <string name="settings_magenta_theme">Magenta</string>
     <string name="settings_pink_theme">Rosa</string>
-    <string name="settings_catima_theme">Catima</string>
+    <string name="settings_catima_theme">zCard</string>
     <string name="settings_theme_color">Temafärg</string>
     <string name="noGroupCards">Denna grupp är tom</string>
     <string name="barcodeImageDescriptionWithType">Bild <xliff:g>%s</xliff:g> streckkod</string>
