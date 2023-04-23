@@ -60,8 +60,8 @@
 
                 <ImageView
                     android:id="@+id/star_background"
-                    android:layout_width="@dimen/cardThumbnailSize"
-                    android:layout_height="@dimen/cardThumbnailSize"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="end"
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="5dp"
@@ -72,23 +72,6 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/ic_starred_white"
-                    tools:ignore="ImageContrastCheck" />
-
-                <ImageView
-                    android:id="@+id/star_border"
-                    android:layout_width="@dimen/cardThumbnailSize"
-                    android:layout_height="@dimen/cardThumbnailSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="5dp"
-                    android:alpha="0.5"
-                    android:contentDescription="@string/starImage"
-                    android:elevation="4dp"
-                    android:importantForAccessibility="no"
-                    android:visibility="visible"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/ic_unstarred_black"
                     tools:ignore="ImageContrastCheck" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -105,11 +88,11 @@
 
                 <ImageView
                     android:id="@+id/archive_background"
-                    android:layout_width="41dp"
-                    android:layout_height="44dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:layout_gravity="end"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
                     android:alpha="0.5"
                     android:contentDescription="@string/archived"
                     android:elevation="4dp"
