@@ -103,7 +103,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
     ImageButton minimizeButton;
     View collapsingToolbarLayout;
     AppBarLayout appBarLayout;
-    ImageView iconImage;
     Toolbar portraitToolbar;
     Toolbar landscapeToolbar;
 
@@ -130,7 +129,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
     Bitmap backImageBitmap;
 
     boolean starred;
-    boolean backgroundNeedsDarkIcons;
     boolean isFullscreen = false;
     int mainImageIndex = 0;
     List<ImageType> imageTypes;
@@ -367,7 +365,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
         collapsingToolbarLayout = binding.collapsingToolbarLayout;
         appBarLayout = binding.appBarLayout;
         bottomAppBar = binding.bottomAppBar;
-        iconImage = binding.iconImage;
         portraitToolbar = binding.toolbar;
         landscapeToolbar = binding.toolbarLandscape;
 
@@ -456,16 +453,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
         mGestureDetector = new GestureDetector(this, this);
         View.OnTouchListener gestureTouchListener = (v, event) -> mGestureDetector.onTouchEvent(event);
         mainImage.setOnTouchListener(gestureTouchListener);
-
-        appBarLayout.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
-            @Override
-            public void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
-                iconImage.setLayoutParams(new CoordinatorLayout.LayoutParams(
-                        CoordinatorLayout.LayoutParams.MATCH_PARENT, appBarLayout.getHeight())
-                );
-                iconImage.setClipBounds(new Rect(left, top, right, bottom));
-            }
-        });
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
@@ -760,78 +747,7 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
                 1,
                 TypedValue.COMPLEX_UNIT_DIP);
 
-        int backgroundHeaderColor;
-        if (loyaltyCard.headerColor != null) {
-            backgroundHeaderColor = loyaltyCard.headerColor;
-        } else {
-            backgroundHeaderColor = LetterBitmap.getDefaultColor(this, loyaltyCard.store);
-        }
-
-        int textColor;
-        if (Utils.needsDarkForeground(backgroundHeaderColor)) {
-            textColor = Color.BLACK;
-        } else {
-            textColor = Color.WHITE;
-        }
-        storeName.setTextColor(textColor);
-        landscapeToolbar.setTitleTextColor(textColor);
-
-        // Also apply colours to UI elements
-        int darkenedColor = ColorUtils.blendARGB(backgroundHeaderColor, Color.BLACK, 0.1f);
-        barcodeScaler.setProgressTintList(ColorStateList.valueOf(darkenedColor));
-        barcodeScaler.setThumbTintList(ColorStateList.valueOf(darkenedColor));
-        maximizeButton.setBackgroundColor(darkenedColor);
-        minimizeButton.setBackgroundColor(darkenedColor);
-        bottomAppBar.setBackgroundColor(darkenedColor);
-        maximizeButton.setColorFilter(textColor);
-        minimizeButton.setColorFilter(textColor);
-        int complementaryColor = Utils.getComplementaryColor(darkenedColor);
-        editButton.setBackgroundTintList(ColorStateList.valueOf(complementaryColor));
-        Drawable editButtonIcon = editButton.getDrawable();
-        editButtonIcon.mutate();
-        editButtonIcon.setTint(Utils.needsDarkForeground(complementaryColor) ? Color.BLACK : Color.WHITE);
-        editButton.setImageDrawable(editButtonIcon);
-
-        Bitmap icon = Utils.retrieveCardImage(this, loyaltyCard.id, ImageLocationType.icon);
-        if (icon != null) {
-            int backgroundAlphaColor = Utils.needsDarkForeground(backgroundHeaderColor) ? Color.WHITE : Color.BLACK;
-            Log.d("onResume", "setting icon image");
-            iconImage.setImageBitmap(icon);
-            int backgroundWithAlpha = Color.argb(HEADER_FILTER_ALPHA, Color.red(backgroundAlphaColor), Color.green(backgroundAlphaColor), Color.blue(backgroundAlphaColor));
-            // for images that has alpha
-            appBarLayout.setBackgroundColor(backgroundWithAlpha);
-        } else {
-            Bitmap plain = Bitmap.createBitmap(new int[]{backgroundHeaderColor}, 1, 1, Bitmap.Config.ARGB_8888);
-            iconImage.setImageBitmap(plain);
-            appBarLayout.setBackgroundColor(Color.TRANSPARENT);
-        }
-
-        // If the background is very bright, we should use dark icons
-        backgroundNeedsDarkIcons = Utils.needsDarkForeground(backgroundHeaderColor);
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            actionBar.setHomeAsUpIndicator(getIcon(R.drawable.home_arrow_back_white, backgroundNeedsDarkIcons));
-        }
-
-        fixImageButtonColor(bottomAppBarInfoButton);
-        fixImageButtonColor(bottomAppBarPreviousButton);
-        fixImageButtonColor(bottomAppBarNextButton);
-        fixImageButtonColor(bottomAppBarUpdateBalanceButton);
         setBottomAppBarButtonState();
-
-        // Make notification area light if dark icons are needed
-        if (Build.VERSION.SDK_INT >= 23) {
-            View decorView = getWindow().getDecorView();
-            WindowInsetsControllerCompat wic = new WindowInsetsControllerCompat(getWindow(), decorView);
-            wic.setAppearanceLightStatusBars(backgroundNeedsDarkIcons);
-            window.setStatusBarColor(Color.TRANSPARENT);
-        } else {
-            // Darken statusbar if icons won't be visible otherwise
-            window.setStatusBarColor(backgroundNeedsDarkIcons ? ColorUtils.blendARGB(backgroundHeaderColor, Color.BLACK, 0.15f) : Color.TRANSPARENT);
-        }
-
-        // Set shadow colour of store text so even same color on same color would be readable
-        storeName.setShadowLayer(1, 1, 1, backgroundNeedsDarkIcons ? Color.BLACK : Color.WHITE);
 
         if (format != null && !format.isSupported()) {
             isBarcodeSupported = false;
@@ -870,10 +786,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
                 WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
     }
 
-    private void fixImageButtonColor(ImageButton imageButton) {
-        imageButton.setColorFilter(BlendModeColorFilterCompat.createBlendModeColorFilterCompat(backgroundNeedsDarkIcons ? Color.BLACK : Color.WHITE, BlendModeCompat.SRC_ATOP));
-    }
-
     @Override
     public void onBackPressed() {
         if (isFullscreen) {
@@ -897,8 +809,8 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
             menu.findItem(R.id.action_archive).setVisible(true);
         }
 
-        menu.findItem(R.id.action_overflow).setIcon(getIcon(R.drawable.ic_overflow_menu, backgroundNeedsDarkIcons));
-        menu.findItem(R.id.action_share).setIcon(getIcon(R.drawable.ic_share_white, backgroundNeedsDarkIcons));
+        menu.findItem(R.id.action_overflow).setIcon(R.drawable.ic_overflow_menu);
+        menu.findItem(R.id.action_share).setIcon(R.drawable.ic_share);
 
         return super.onCreateOptionsMenu(menu);
     }
@@ -908,10 +820,10 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
     public boolean onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
         if (starred) {
-            menu.findItem(R.id.action_star_unstar).setIcon(getIcon(R.drawable.ic_starred_white, backgroundNeedsDarkIcons));
+            menu.findItem(R.id.action_star_unstar).setIcon(R.drawable.ic_starred_white);
             menu.findItem(R.id.action_star_unstar).setTitle(R.string.unstar);
         } else {
-            menu.findItem(R.id.action_star_unstar).setIcon(getIcon(R.drawable.ic_unstarred_white, backgroundNeedsDarkIcons));
+            menu.findItem(R.id.action_star_unstar).setIcon(R.drawable.ic_unstarred_white);
             menu.findItem(R.id.action_star_unstar).setTitle(R.string.star);
         }
         return true;
@@ -1156,7 +1068,6 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
 
             // Hide toolbars
             appBarLayout.setVisibility(View.INVISIBLE);
-            iconImage.setVisibility(View.INVISIBLE);
             collapsingToolbarLayout.setVisibility(View.GONE);
             landscapeToolbar.setVisibility(View.GONE);
 
@@ -1197,7 +1108,8 @@ public class LoyaltyCardViewActivity extends CatimaAppCompatActivity implements 
             // Show appropriate toolbar
             appBarLayout.setVisibility(View.VISIBLE);
             setupOrientation();
-            iconImage.setVisibility(View.VISIBLE);
+
+
 
             // Show other UI elements
             cardIdFieldView.setVisibility(View.VISIBLE);
