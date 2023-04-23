@@ -80,7 +80,7 @@ android {
     lint {
         lintConfig file('lint.xml')
     }
-    namespace 'protect.card_locker'
+    namespace 'com.ziadoua.zcard'
 }
 
 dependencies {

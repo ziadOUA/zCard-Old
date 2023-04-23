@@ -25,12 +25,12 @@
             app:singleLineTitle="false" />
 
         <SwitchPreferenceCompat
-            android:defaultValue="false"
+            app:defaultValue="false"
             android:key="@string/settings_key_oled_dark"
             android:title="@string/settings_oled_dark"
             app:iconSpaceReserved="false"
             app:singleLineTitle="false"
-            app:widgetLayout="@drawable/material_switch"/>
+            app:widgetLayout="@drawable/material_switch" />
 
         <ListPreference
             android:defaultValue=""
@@ -53,7 +53,7 @@
             app:singleLineTitle="false" />
 
         <SwitchPreferenceCompat
-            android:defaultValue="true"
+            app:defaultValue="true"
             android:key="@string/settings_key_display_barcode_max_brightness"
             android:title="@string/settings_display_barcode_max_brightness"
             app:iconSpaceReserved="false"
@@ -70,7 +70,7 @@
             app:singleLineTitle="false" />
 
         <SwitchPreferenceCompat
-            android:defaultValue="true"
+            app:defaultValue="true"
             android:key="@string/settings_key_keep_screen_on"
             android:title="@string/settings_keep_screen_on"
             app:iconSpaceReserved="false"
@@ -78,7 +78,7 @@
             app:widgetLayout="@drawable/material_switch"/>
 
         <SwitchPreferenceCompat
-            android:defaultValue="true"
+            app:defaultValue="true"
             android:key="@string/settings_key_disable_lockscreen_while_viewing_card"
             android:title="@string/settings_disable_lockscreen_while_viewing_card"
             app:iconSpaceReserved="false"
