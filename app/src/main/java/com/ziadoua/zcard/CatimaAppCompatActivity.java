@@ -48,6 +48,7 @@ public class CatimaAppCompatActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setHomeAsUpIndicator(R.drawable.home_arrow_back_white);
         }
     }
 
