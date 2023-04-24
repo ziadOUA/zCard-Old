@@ -13,6 +13,24 @@ A simple and beautiful app that stores loyalty, membership and gift cards, inste
 
 # Screenshots
 
+## Light theme
+
+<div>
+  <img src="https://i.postimg.cc/pdw6NHsd/screenshot-light-1.png" width="200">
+  <img src="https://i.postimg.cc/7YwjYqwG/screenshot-light-2.png" width="200">
+  <img src="https://i.postimg.cc/bwvMkLGq/screenshot-light-3.png" width="200">
+  <img src="https://i.postimg.cc/C5HtHQHx/screenshot-light-4.png" width="200">
+</div>
+
+## Dark theme
+
+<div>
+  <img src="https://i.postimg.cc/VNrVH6BT/screenshot-dark-1.png" width="200">
+  <img src="https://i.postimg.cc/pVDgHmbM/screenshot-dark-2.png" width="200">
+  <img src="https://i.postimg.cc/Z5DQc33p/screenshot-dark-3.png" width="200">
+  <img src="https://i.postimg.cc/c4h2vPLD/screenshot-dark-4.png" width="200">
+</div>
+
 # More informations
 
 Supported barcodes :
