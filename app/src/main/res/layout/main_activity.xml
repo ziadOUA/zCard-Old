@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.ziadoua.zcard.MainActivity">
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAdd"
         android:layout_width="wrap_content"
@@ -16,28 +15,22 @@
         app:srcCompat="@drawable/ic_add_white_24dp"
         android:contentDescription="@string/action_add"
         android:layout_margin="16dp" />
-
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             style="?attr/toolbarStyle" />
-
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/groups"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:tabMode="scrollable"
             android:visibility="gone"/>
-
     </com.google.android.material.appbar.AppBarLayout>
-
     <include
         android:id="@+id/include"
         layout="@layout/content_main" />
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

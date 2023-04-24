@@ -6,19 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ScanActivity">
-
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             style="?attr/toolbarStyle" />
-
     </com.google.android.material.appbar.AppBarLayout>
-
     <com.journeyapps.barcodescanner.DecoratedBarcodeView
         android:id="@+id/zxing_barcode_scanner"
         android:layout_width="match_parent"

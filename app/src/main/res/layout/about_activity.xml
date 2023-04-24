@@ -7,30 +7,24 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.ziadoua.zcard.MainActivity">
-
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             style="?attr/toolbarStyle" />
-
     </com.google.android.material.appbar.AppBarLayout>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="?attr/actionBarSize"
         android:padding="10dp">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
             <LinearLayout
                 android:id="@+id/version_history"
                 android:layout_width="match_parent"
@@ -38,13 +32,10 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/version_history_main"
                         android:layout_width="wrap_content"
@@ -56,7 +47,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/version_history_sub"
                         android:layout_width="wrap_content"
@@ -71,7 +61,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -79,7 +68,6 @@
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/credits"
                 android:layout_width="match_parent"
@@ -87,12 +75,10 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/credits_main"
                         android:layout_width="wrap_content"
@@ -104,7 +90,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/credits_sub"
                         android:layout_width="wrap_content"
@@ -119,16 +104,13 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:importantForAccessibility="no"
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
-
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/translate"
                 android:layout_width="match_parent"
@@ -137,12 +119,10 @@
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer"
                 android:orientation="horizontal">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/translate_main"
                         android:layout_width="wrap_content"
@@ -154,7 +134,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/translate_sub"
                         android:layout_width="match_parent"
@@ -167,21 +146,17 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/translate_main" />
                 </LinearLayout>
-
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:importantForAccessibility="no"
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
-
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/license"
                 android:layout_width="match_parent"
@@ -190,12 +165,10 @@
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer"
                 android:orientation="horizontal">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/license_main"
                         android:layout_width="wrap_content"
@@ -207,7 +180,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/license_sub"
                         android:layout_width="match_parent"
@@ -220,12 +192,10 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/license_main" />
                 </LinearLayout>
-
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -233,7 +203,6 @@
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/repo"
                 android:layout_width="match_parent"
@@ -241,12 +210,10 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/repo_main"
                         android:layout_width="wrap_content"
@@ -258,7 +225,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/repo_sub"
                         android:layout_width="wrap_content"
@@ -270,12 +236,10 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/repo_main" />
                 </LinearLayout>
-
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -283,7 +247,6 @@
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/privacy"
                 android:layout_width="match_parent"
@@ -291,12 +254,10 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/privacy_main"
                         android:layout_width="wrap_content"
@@ -308,7 +269,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/privacy_sub"
                         android:layout_width="wrap_content"
@@ -320,12 +280,10 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/privacy_main" />
                 </LinearLayout>
-
                 <Space
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -333,7 +291,6 @@
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/rate"
                 android:layout_width="match_parent"
@@ -341,12 +298,10 @@
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/rate_main"
                         android:layout_width="wrap_content"
@@ -358,7 +313,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/rate_sub"
                         android:layout_width="wrap_content"
@@ -374,7 +328,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -382,19 +335,16 @@
                     app:tint="?attr/colorOnSecondaryContainer"
                     app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
             </LinearLayout>
-
             <LinearLayout
                 android:id="@+id/report_error"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/about_element"
                 android:backgroundTint="?attr/colorSecondaryContainer">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
                     <TextView
                         android:id="@+id/report_error_main"
                         android:layout_width="wrap_content"
@@ -406,7 +356,6 @@
                         android:textSize="18sp"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/report_error_sub"
                         android:layout_width="wrap_content"
@@ -422,7 +371,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"

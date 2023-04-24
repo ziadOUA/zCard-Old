@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.ziadoua.zcard.ManageGroupActivity">
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabSave"
         android:layout_width="wrap_content"
@@ -20,27 +19,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 style="?attr/toolbarStyle" />
-
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/groups"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
                 app:tabMode="scrollable" />
-
         </com.google.android.material.appbar.AppBarLayout>
-
-
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/storeNameField"
             style="?attr/textInputFilledStyle"
@@ -48,7 +41,6 @@
             android:layout_height="wrap_content"
             app:boxStrokeWidth="0dp"
             android:hint="@string/storeName">
-
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editTextGroupName"
                 android:layout_width="match_parent"
@@ -57,12 +49,8 @@
                 android:layout_marginEnd="10dp"
                 android:singleLine="true" />
         </com.google.android.material.textfield.TextInputLayout>
-
-
         <include
             android:id="@+id/include"
             layout="@layout/content_main" />
-
     </LinearLayout>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

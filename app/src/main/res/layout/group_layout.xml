@@ -8,12 +8,10 @@
     android:gravity="center_vertical"
     android:baselineAligned="false"
     android:padding="@dimen/activity_margin">
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <TextView
             android:layout_marginBottom="6dp"
             android:id="@+id/name"
@@ -23,7 +21,6 @@
             android:textColor="?attr/colorOnSurface"
             android:textSize="@dimen/storeNameTextSize"
             android:textStyle="bold" />
-
         <TextView
             android:id="@+id/cardCount"
             android:layout_width="match_parent"
@@ -34,13 +31,11 @@
             android:textColor="?attr/colorOnSurfaceVariant"
             android:textSize="@dimen/noteTextSize" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
-
         <ImageButton
             android:id="@+id/moveUp"
             android:layout_width="@dimen/cardThumbnailSize"
@@ -50,12 +45,10 @@
             android:contentDescription="@string/moveUp"
             app:srcCompat="@drawable/ic_baseline_arrow_drop_up_24"
             app:tint="?attr/colorOnPrimary" />
-
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2" />
-
         <ImageButton
             android:id="@+id/moveDown"
             android:layout_width="@dimen/cardThumbnailSize"
@@ -65,12 +58,10 @@
             android:contentDescription="@string/moveDown"
             app:srcCompat="@drawable/ic_baseline_arrow_drop_down_24"
             app:tint="?attr/colorOnPrimary" />
-
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2" />
-
         <ImageButton
             android:id="@+id/edit"
             android:layout_width="@dimen/cardThumbnailSize"
@@ -80,12 +71,10 @@
             android:contentDescription="@string/edit"
             app:srcCompat="@drawable/ic_mode_edit_white_24dp"
             app:tint="?attr/colorOnPrimaryContainer" />
-
         <Space
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.2" />
-
         <ImageButton
             android:id="@+id/delete"
             android:layout_width="@dimen/cardThumbnailSize"
@@ -95,7 +84,5 @@
             android:contentDescription="@string/delete"
             app:srcCompat="@drawable/ic_delete_white_24dp"
             app:tint="?attr/colorOnPrimaryContainer" />
-
     </LinearLayout>
-
 </LinearLayout>
