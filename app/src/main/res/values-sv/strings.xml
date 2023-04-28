@@ -251,7 +251,7 @@
         <item quantity="one">Visa arkiv (<xliff:g>%1$d</xliff:g> card)</item>
         <item quantity="other">Visa arkiv (<xliff:g>%1$d</xliff:g> cards)</item>
     </plurals>
-    <string name="welcome">Välkommen till Catima</string>
+    <string name="welcome">Välkommen till zCard</string>
     <string name="importCards">Importera kort</string>
     <string name="cameraPermissionDeniedTitle">Kunde inte komma åt kamera</string>
     <string name="noCameraPermissionDirectToSystemSetting">För att skanna streckkoder kommer Catima att behöva åtkomst till din kamera. Tryck här för att ändra dina tillståndsinställningar.</string>

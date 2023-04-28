@@ -255,5 +255,5 @@
         <item quantity="other"><xliff:g>%1$d</xliff:g> cards (<xliff:g id="archivedCount">%2$d</xliff:g> arhivētas)</item>
     </plurals>
     <string name="failedToOpenUrl">Vispirms nepieciešams uzstādīt interneta pārlūku</string>
-    <string name="welcome">Laipni lūgti Catima</string>
+    <string name="welcome">Laipni lūgti zCard</string>
 </resources>

@@ -261,7 +261,7 @@
     <string name="failedToRetrieveImageFile">Nie udało się pobrać pliku obrazu</string>
     <string name="barcodeLongPressMessage">W galerii możesz otworzyć tylko obrazy</string>
     <string name="failedToOpenUrl">Najpierw zainstaluj przeglądarkę</string>
-    <string name="welcome">Witaj w Catima</string>
+    <string name="welcome">Witaj w zCard</string>
     <plurals name="viewArchivedCardsWithCount">
         <item quantity="one">Wyświetl zarchiwizowaną (<xliff:g>%1$d</xliff:g> kartę)</item>
         <item quantity="few">Wyświetl zarchiwizowane (<xliff:g>%1$d</xliff:g> karty)</item>

@@ -255,7 +255,7 @@
     <string name="failedToRetrieveImageFile">Nem sikerült lekérni a képfájlt</string>
     <string name="barcodeLongPressMessage">Csak képek nyithatók meg a galéria alkalmazásban</string>
     <string name="unarchived">Archiválatlan kártya</string>
-    <string name="welcome">Üdvözöljük Catimában</string>
+    <string name="welcome">Üdvözöljük zCardban</string>
     <plurals name="viewArchivedCardsWithCount">
         <item quantity="one">Archívum megtekintése (<xliff:g>%1$d</xliff:g> kártya)</item>
         <item quantity="other">Archívum megtekintése (<xliff:g>%1$d</xliff:g> kártyák)</item>

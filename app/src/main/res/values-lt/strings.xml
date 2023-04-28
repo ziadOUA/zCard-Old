@@ -254,7 +254,7 @@
     <string name="currentBalanceSentence">Dabartinis likutis: <xliff:g>%s</xliff:g></string>
     <string name="newBalanceSentence">Naujas balansas: <xliff:g>%s</xliff:g></string>
     <string name="failedToOpenUrl">Pirmiausia įdiekite žiniatinklio naršyklę</string>
-    <string name="welcome">Sveiki užėję į Catima</string>
+    <string name="welcome">Sveiki užėję į zCard</string>
     <string name="showMoreInfo">Rodyti informaciją</string>
     <string name="settings_oled_dark">Visiškai juodas fonas tamsiajai temai</string>
     <string name="settings_follow_system_orientation">Sekti sistemą</string>

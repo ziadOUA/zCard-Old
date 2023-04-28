@@ -251,7 +251,7 @@
         <item quantity="one">Arşivi görüntüle (<xliff:g>%1$d</xliff:g> kart)</item>
         <item quantity="other">Arşivi görüntüle (<xliff:g>%1$d</xliff:g> kart)</item>
     </plurals>
-    <string name="welcome">Catima\'ya Hoş Geldiniz</string>
+    <string name="welcome">zCard\'a Hoş Geldiniz</string>
     <string name="failedToRetrieveImageFile">Resim dosyası alınamadı</string>
     <string name="barcodeLongPressMessage">Galeri uygulamasında yalnızca resimler açılabilir</string>
     <string name="noCameraPermissionDirectToSystemSetting">Barkodları taramak için Catima\'nın kameranıza erişmesi gerekecektir. İzin ayarlarınızı değiştirmek için buraya dokunun.</string>

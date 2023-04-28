@@ -258,7 +258,7 @@
     </plurals>
     <string name="nextCard">Следующая</string>
     <string name="previousCard">Предыдущая</string>
-    <string name="welcome">Добро пожаловать в Catima</string>
+    <string name="welcome">Добро пожаловать в zCard</string>
     <string name="failedToOpenUrl">Сначала необходимо установить браузер</string>
     <plurals name="viewArchivedCardsWithCount">
         <item quantity="one">Просмотр архива (<xliff:g>%1$d</xliff:g> карта)</item>
