@@ -29,6 +29,7 @@
         <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
 
         <item name="windowActionModeOverlay">true</item>
+        <item name="popupMenuBackground">@drawable/rounded</item>
     </style>
 
     <style name="AppTheme.NoActionBar" parent="AppTheme">
