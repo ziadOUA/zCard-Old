@@ -90,7 +90,8 @@
     <string name="app_license">Copyleft (käyttäjänoikeus) - vapaa ohjelmisto, lisenssi GPLv3+</string>
     <string name="app_copyright_old">Perustuu Loyalty Card Keychain -sovellukseen
 \ntekijänoikeus © 2016–2020 Branden Archer</string>
-    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Tekijänoikeus © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Tekijänoikeus © 2023–<xliff:g>%d</xliff:g> ziadOUA</string>
+    <string name="old_app_copyright_fmt" tools:ignore="PluralsCandidate">Tekijänoikeus © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
     <string name="about">Tietoja</string>
     <string name="importOptionApplicationButton">Käytä toista sovellusta</string>
     <string name="importOptionApplicationExplanation">Käytä mitä tahansa sovellusta tai suosikkitiedostonhallintaasi tiedoston avaamiseen.</string>

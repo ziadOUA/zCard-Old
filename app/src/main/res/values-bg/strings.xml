@@ -130,7 +130,8 @@
     <string name="app_revision_fmt">Компилация: <xliff:g id="app_revision_url">%s</xliff:g></string>
     <string name="debug_version_fmt">Издание: <xliff:g id="version">%s</xliff:g></string>
     <string name="about_title_fmt">Относно <xliff:g id="app_name">%s</xliff:g></string>
-    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Всички права запазени © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Всички права запазени © 2023–<xliff:g>%d</xliff:g> ziadOUA</string>
+    <string name="old_app_copyright_fmt" tools:ignore="PluralsCandidate">Всички права запазени © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
     <string name="app_copyright_old">На основата на Loyalty Card Keychain
 \nвсички права запазени © 2016–2020 Branden Archer</string>
     <string name="about">Относно</string>

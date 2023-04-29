@@ -19,8 +19,8 @@ android {
         applicationId "com.ziadoua.zcard"
         minSdk 24
         targetSdk 33
-        versionCode 119
-        versionName "2.22.1"
+        versionCode 1
+        versionName "1.0.0"
 
         vectorDrawables.useSupportLibrary true
         multiDexEnabled true

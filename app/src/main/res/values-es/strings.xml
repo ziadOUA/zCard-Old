@@ -98,7 +98,8 @@
     <string name="card">Tarjeta</string>
     <string name="expiryStateSentenceExpired">Expirado: <xliff:g>%s</xliff:g></string>
     <string name="expiryStateSentence">Expira: <xliff:g>%s</xliff:g></string>
-    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Derechos de autor © 2019-<xliff:g>%d</xliff:g> de Sylvia van Os</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Derechos de autor © 2023-<xliff:g>%d</xliff:g> de ziadOUA</string>
+    <string name="old_app_copyright_fmt" tools:ignore="PluralsCandidate">Derechos de autor © 2019-<xliff:g>%d</xliff:g> de Sylvia van Os</string>
     <string name="app_resources">Recursos de terceros libres: <xliff:g id="app_resources_list">%s</xliff:g></string>
     <string name="app_libraries">Bibliotecas de terceros libres: <xliff:g id="app_libraries_list">%s</xliff:g></string>
     <string name="settings_max_font_size_scale">Tam. de fuente máximo</string>

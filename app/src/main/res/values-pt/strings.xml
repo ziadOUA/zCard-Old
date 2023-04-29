@@ -119,7 +119,8 @@
         <item quantity="other"><xliff:g>%d</xliff:g> cartões</item>
     </plurals>
     <string name="importOptionFilesystemTitle">Importar do sistema de ficheiros</string>
-    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Direitos de autor © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
+    <string name="app_copyright_fmt" tools:ignore="PluralsCandidate">Direitos de autor © 2023–<xliff:g>%d</xliff:g> ziadOUA</string>
+    <string name="old_app_copyright_fmt" tools:ignore="PluralsCandidate">Direitos de autor © 2019–<xliff:g>%d</xliff:g> Sylvia van Os</string>
     <string name="app_copyright_old">Baseado no Loyalty Card Keychain
 \ndireitos de autor © 2016–2020 Branden Archer</string>
     <string name="about_title_fmt">Sobre o <xliff:g id="app_name">%s</xliff:g></string>
