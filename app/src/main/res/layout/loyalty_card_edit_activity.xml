@@ -64,7 +64,6 @@
                         android:layout_gravity="center_vertical"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="0dp"
-                        android:layout_marginTop="2dp"
                         style="?attr/materialCardViewFilledStyle">
                         <ImageView
                             android:id="@+id/thumbnail"
@@ -85,7 +84,7 @@
                     </com.google.android.material.card.MaterialCardView>
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/storeNameField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/storeName">
@@ -105,7 +104,7 @@
                     android:orientation="horizontal">
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/cardIdField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/cardId">
@@ -126,7 +125,7 @@
                     <!-- Barcode ID -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/barcodeIdView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -149,7 +148,7 @@
                     <!-- Barcode type -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/barcodeTypeView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -205,7 +204,7 @@
                     android:orientation="horizontal">
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/noteField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/note">
@@ -235,12 +234,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingHorizontal="@dimen/inputPadding"
-                    android:paddingTop="@dimen/inputPadding"
                     android:orientation="horizontal">
                     <!-- Balance -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/balanceView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -257,7 +255,7 @@
                     <!-- Currency -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/balanceCurrencyView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -281,7 +279,7 @@
                     <!-- Valid from -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/validFromView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -304,7 +302,7 @@
                     <!-- Expiry date -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/expiryView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
