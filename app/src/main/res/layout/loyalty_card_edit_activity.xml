@@ -326,19 +326,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:paddingHorizontal="@dimen/inputPadding"
-                    android:paddingTop="@dimen/inputPadding">
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp">
                     <!-- Front image -->
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        style="?attr/materialCardViewFilledStyle"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="@dimen/activity_margin"
-                        android:layout_marginTop="@dimen/activity_margin"
-                        android:layout_marginEnd="@dimen/activity_margin"
-                        android:layout_marginBottom="@dimen/activity_margin"
-                        android:paddingHorizontal="@dimen/inputPadding"
-                        app:cardCornerRadius="4dp"
                         app:cardElevation="0dp">
                         <ImageView
                             android:id="@+id/frontImage"
@@ -358,19 +354,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:paddingHorizontal="@dimen/inputPadding"
-                    android:paddingTop="@dimen/inputPadding">
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="20dp">
                     <!-- Back image -->
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        style="?attr/materialCardViewFilledStyle"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginStart="@dimen/activity_margin"
-                        android:layout_marginTop="@dimen/activity_margin"
-                        android:layout_marginEnd="@dimen/activity_margin"
-                        android:layout_marginBottom="@dimen/activity_margin"
-                        android:paddingHorizontal="@dimen/inputPadding"
-                        app:cardCornerRadius="4dp"
                         app:cardElevation="0dp">
                         <ImageView
                             android:id="@+id/backImage"
