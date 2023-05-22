@@ -1,15 +1,12 @@
-# zCard
-
 <img src="https://i.postimg.cc/mgp1dZ80/ZCARD.png">
 
-<p align="center">
+<h1 align="center">zCard</h1>
 
+<div align="center">
+  <p>A simple and beautiful app that stores loyalty, membership and gift cards, instead of carrying them around.</p>
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android2.svg">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Java/java2.svg">
-
-</p>
-
-A simple and beautiful app that stores loyalty, membership and gift cards, instead of carrying them around.
+</div>
 
 # Screenshots
 
