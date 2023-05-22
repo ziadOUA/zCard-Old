@@ -62,13 +62,13 @@
                         android:layout_height="@dimen/cardThumbnailSize"
                         android:layout_marginEnd="@dimen/activity_margin"
                         android:layout_gravity="center_vertical"
-                        app:cardCornerRadius="4dp"
+                        app:cardCornerRadius="12dp"
                         app:cardElevation="0dp"
                         style="?attr/materialCardViewFilledStyle">
                         <ImageView
                             android:id="@+id/thumbnail"
-                            android:layout_width="56dp"
-                            android:layout_height="56dp"
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
                             android:contentDescription="@string/thumbnailDescription"
                             android:src="@mipmap/ic_launcher"/>
                         <com.google.android.material.imageview.ShapeableImageView
@@ -77,16 +77,18 @@
                             android:layout_width="@dimen/cardThumbnailEditOverlaySize"
                             android:layout_height="@dimen/cardThumbnailEditOverlaySize"
                             android:layout_gravity="bottom|end"
-                            android:layout_margin="4dp"
+                            android:layout_margin="6dp"
                             app:contentPadding="4dp"
                             android:alpha="0.8"
                             android:src="@drawable/ic_mode_edit_white_24dp"/>
                     </com.google.android.material.card.MaterialCardView>
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/storeNameField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                        style="@style/ModifiedTextField"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp"
                         android:hint="@string/storeName">
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/storeNameEdit"
@@ -104,7 +106,7 @@
                     android:orientation="horizontal">
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/cardIdField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                        style="@style/ModifiedTextField"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/cardId">
@@ -125,7 +127,7 @@
                     <!-- Barcode ID -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/barcodeIdView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        style="@style/ModifiedTextField.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -148,7 +150,7 @@
                     <!-- Barcode type -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/barcodeTypeView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        style="@style/ModifiedTextField.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -180,7 +182,7 @@
                 </LinearLayout>
                 <!-- Buttons -->
                 <LinearLayout android:orientation="horizontal"
-                    android:padding="10.0dip"
+                    android:padding="@dimen/inputPadding"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/barcodeCaptureLayout">
@@ -204,7 +206,7 @@
                     android:orientation="horizontal">
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/noteField"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                        style="@style/ModifiedTextField"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/note">
@@ -238,7 +240,7 @@
                     <!-- Balance -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/balanceView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                        style="@style/ModifiedTextField"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -255,7 +257,7 @@
                     <!-- Currency -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/balanceCurrencyView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        style="@style/ModifiedTextField.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -279,7 +281,7 @@
                     <!-- Valid from -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/validFromView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        style="@style/ModifiedTextField.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
@@ -302,7 +304,7 @@
                     <!-- Expiry date -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/expiryView"
-                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        style="@style/ModifiedTextField.ExposedDropdownMenu"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1.0"
